@@ -1,0 +1,6 @@
+{
+  "tool": "built-in ImageGen",
+  "asset": "assets/hero-thinking-poses.png",
+  "reference": "assets/hero-directional-poses.png",
+  "prompt": "Use case: precise-object-edit. Edit target: the attached 8-frame transparent sprite sheet. Change ONLY top row fourth cell (frame index3): replace the happy fists-near-chest pose with a calm thoughtful pose, one hand gently at chin, other arm comfortably folded, eyes open looking slightly upward, small thoughtful smile. Same woman, hair, bag-free white V-neck T-shirt, blue wide-leg jeans and white sneakers. No fists, jumping, bag, straps or sunglasses. Keep ALL other seven cells pixel composition, scale, facial identity, outfits, positions, directions and walking poses unchanged. Preserve the existing 4-column x2-row grid, canvas dimensions and genuine transparent background, clean sticker outlines. Frame3 full body on same bottom baseline as front idle. No text, no grid lines, no extra objects."
+}

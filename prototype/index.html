@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f3ec">
+  <meta name="description" content="A local interactive concept for Ying Jin's personal portfolio.">
+  <title>Ying Jin — A little of both</title>
+  <link rel="stylesheet" href="style.css?v=4.2">
+  <link rel="stylesheet" href="character-motion.css?v=4.2">
+  <link rel="stylesheet" href="professional-story.css?v=4.2">
+  <link rel="stylesheet" href="home-stage.css?v=4.2">
+  <script src="character-motion.js?v=4.2" defer></script>
+  <script src="professional-story.js?v=4.2" defer></script>
+  <script src="home-stage.js?v=4.2" defer></script>
+  <script src="app.js?v=4.2" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header">
+    <button class="wordmark" data-route="home" aria-label="Ying Jin home">ying<span>.</span></button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <button data-route="home" class="active">Hello</button>
+      <button data-route="professional">Professional</button>
+      <button data-route="personal">Personal</button>
+    </nav>
+    <div class="header-actions"><button class="motion-toggle" id="motion-toggle" aria-label="Pause character animation" aria-pressed="false">Pause</button><button class="concept-tag" id="about-trigger">Concept 01 <span class="info-dot">i</span></button></div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="home" class="view home-view" aria-label="Welcome">
+      <div class="home-eyebrow"><span class="little-dot"></span> TWO SIDES. ONE YING.</div>
+      <div class="hero-title"><p>Hi, I'm</p><h1 aria-label="Ying Jin."><span class="name-word" aria-hidden="true"><span>Y</span><span>i</span><span>n</span><span>g</span></span> <span class="name-word" aria-hidden="true"><span>J</span><span>i</span><span>n</span><span class="orange-period">.</span></span></h1><span class="name-stroke" aria-hidden="true"></span></div>
+      <button class="hero-character" id="greet-trigger" aria-label="Say hello to Ying" title="Click to say hello"><span class="avatar casual" data-hero role="img" aria-label="Ying's animated cartoon character"></span></button>
+      <div class="hero-caption"><span class="handwritten">A little of both.</span><p>Data, decisions, and the places in between.</p></div>
+      <button class="path-choice work-choice" data-route="professional">
+        <span class="path-kicker">THE PROFESSIONAL SIDE</span>
+        <span class="path-name"><span class="direction-arrow" aria-hidden="true">↖</span> What I do</span>
+        <span class="path-description">My work, projects & education</span>
+        <span class="path-action">Explore my work <span aria-hidden="true">←</span></span>
+      </button>
+      <button class="path-choice life-choice" data-route="personal">
+        <span class="path-kicker">THE PERSONAL SIDE</span>
+        <span class="path-name">Who I am <span class="direction-arrow" aria-hidden="true">↗</span></span>
+        <span class="path-description">Places I've been. Stories I've kept.</span>
+        <span class="path-action">Come on in <span aria-hidden="true">→</span></span>
+      </button>
+      <div class="home-bottom"><span>Choose a side. You can always wander back.</span><span>MADE OF CURIOSITY</span></div>
+    </section>
+
+    <section id="professional" class="view professional-view" hidden aria-label="Professional portfolio">
+      <div class="chapter-nav" aria-label="Professional chapters">
+        <button data-chapter="work" class="active"><span>01</span> Work</button>
+        <button data-chapter="projects"><span>02</span> Projects</button>
+        <button data-chapter="education"><span>03</span> Education</button>
+        <a href="https://www.linkedin.com/in/yingjin08/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+      </div>
+      <div id="chapter-scroll" class="chapter-scroll" tabindex="0" aria-label="Scroll between Work, Projects, and Education">
+        <section id="work" class="chapter" data-outfit="professional">
+          <div class="chapter-heading"><div><p class="eyebrow">01 / THE PROFESSIONAL SIDE</p><h2>From data<br>to <em>decisions.</em></h2></div><p class="chapter-intro">A look at the work behind the way I think.<br><span class="source-note">LinkedIn 摘要 · 职责与成果待确认</span></p></div>
+          <div class="cards work-cards">
+            <button class="experience-card" data-detail="sunlight">
+              <div class="card-cover cover-work"><span class="cover-top">WORK / NEW YORK</span><span class="cover-title">Making sense<br>of what’s next.</span><span class="cover-bottom">SUNLIGHT DEVELOPMENT</span></div>
+              <div class="card-caption"><div class="card-meta"><span>Sunlight Development</span><span class="pill">EXPERIENCE</span></div><h3>Data into perspective<span class="card-arrow">↗</span></h3><p>Explore the experience</p></div>
+            </button>
+            <aside class="work-note"><p class="eyebrow">A NOTE ON THIS CHAPTER</p><h3>The story<br>behind the <em>résumé.</em></h3><p>这里将放置工作与实习经历。每张卡片说明你解决了什么问题、如何解决，以及带来了什么结果。</p><div class="note-rule"></div><p class="small-copy">这一版先展示卡片交互。具体职位、任职日期与成果会在你核实后补齐。</p><a href="https://www.linkedin.com/in/yingjin08/" target="_blank" rel="noopener noreferrer" class="text-link">View LinkedIn <span aria-hidden="true">↗</span></a></aside>
+          </div>
+          <button class="next-chapter" data-chapter="projects">Next chapter: Projects <span aria-hidden="true">↓</span></button>
+        </section>
+        <section id="projects" class="chapter" data-outfit="creative">
+          <div class="chapter-heading"><div><p class="eyebrow">02 / IDEAS INTO PRACTICE</p><h2>Curiosity,<br><em>applied.</em></h2></div><p class="chapter-intro">Questions worth asking.<br>Problems worth working through.<br><span class="source-note">项目来自 LinkedIn 索引，待核实和精简</span></p></div>
+          <div class="cards project-cards">
+            <button class="experience-card" data-detail="household"><div class="card-cover cover-econometrics"><span class="cover-top">ECONOMETRICS / R</span><span class="cover-title">Behind the<br>household.</span><span class="cover-bottom">INCOME · CAUSAL INFERENCE</span></div><div class="card-caption"><div class="card-meta"><span>Econometric modeling</span><span class="pill">RESEARCH</span></div><h3>Household income<span class="card-arrow">↗</span></h3><p>Exploring the relationship behind the numbers</p></div></button>
+            <button class="experience-card" data-detail="vision"><div class="card-cover cover-vision"><span class="cover-top">MACHINE LEARNING / PYTHON</span><span class="cover-title">A fresh<br>perspective.</span><span class="cover-bottom">COMPUTER VISION · CLASSIFICATION</span></div><div class="card-caption"><div class="card-meta"><span>Vegetable recognition</span><span class="pill">MACHINE LEARNING</span></div><h3>Teaching machines to see<span class="card-arrow">↗</span></h3><p>Comparing models for image classification</p></div></button>
+            <button class="experience-card" data-detail="horses"><div class="card-cover cover-horses"><span class="cover-top">DATA SCIENCE / R + TABLEAU</span><span class="cover-title">Better data.<br>Better care.</span><span class="cover-bottom">HEALTH · PREDICTION · DECISIONS</span></div><div class="card-caption"><div class="card-meta"><span>Horse health analysis</span><span class="pill">DATA SCIENCE</span></div><h3>Decisions that matter<span class="card-arrow">↗</span></h3><p>Turning analysis into treatment strategies</p></div></button>
+          </div>
+          <button class="next-chapter" data-chapter="education">Next chapter: Education <span aria-hidden="true">↓</span></button>
+        </section>
+        <section id="education" class="chapter" data-outfit="graduate">
+          <div class="chapter-heading"><div><p class="eyebrow">03 / WHERE IT BEGAN</p><h2>Always a<br><em>student.</em></h2></div><p class="chapter-intro">The foundations.<br>And an appetite to keep learning.</p></div>
+          <div class="cards work-cards"><button class="experience-card" data-detail="duke"><div class="card-cover cover-duke"><span class="cover-top">DUKE UNIVERSITY / 2023–2024</span><span class="cover-title">Connecting<br>the dots.</span><span class="cover-bottom">THE FUQUA SCHOOL OF BUSINESS</span></div><div class="card-caption"><div class="card-meta"><span>Duke University</span><span class="pill">EDUCATION</span></div><h3>Master of Quantitative Management<span class="card-arrow">↗</span></h3><p>The Fuqua School of Business · 待确认</p></div></button><aside class="work-note"><p class="eyebrow">KEEPING THE STORY OPEN</p><h3>There’s more<br>to <em>Ying.</em></h3><p>学士服已经准备好了。下一步补齐本科院校、专业、课程与想展示的校园经历。</p><button class="inline-action" data-route="personal">Meet the other side <span aria-hidden="true">→</span></button></aside></div>
+          <button class="next-chapter" data-route="personal">Next stop: the personal side <span aria-hidden="true">→</span></button>
+        </section>
+      </div>
+    </section>
+
+    <section id="personal" class="view personal-view" hidden aria-label="Personal magnet collection">
+      <div class="personal-heading"><div><p class="eyebrow">THE PERSONAL SIDE / A COLLECTION OF LITTLE THINGS</p><h2>Places I've been.<br><em>Pieces I've kept.</em></h2></div><p>Every little magnet has a story.<br>Pick one. I'll show you around.<br><span class="source-note">点击照片上的标签，打开旅行手记草图</span></p></div>
+      <div class="personal-layout">
+        <div class="magnet-board" id="magnet-board">
+          <img src="assets/magnet-board.jpeg" alt="Ying's wooden framed collection of travel magnets, including Seattle, Boston, New York, Shenzhen, Chicago, and Florida" width="2752" height="3669">
+          <button class="magnet-hit seattle" data-place="seattle"><span>Seattle</span><span class="hotspot-dot" aria-hidden="true"></span></button>
+          <button class="magnet-hit boston" data-place="boston"><span>Boston</span><span class="hotspot-dot" aria-hidden="true"></span></button>
+          <button class="magnet-hit newyork" data-place="newyork"><span>New York</span><span class="hotspot-dot" aria-hidden="true"></span></button>
+          <button class="magnet-hit shenzhen" data-place="shenzhen"><span>Shenzhen</span><span class="hotspot-dot" aria-hidden="true"></span></button>
+          <button class="magnet-hit chicago" data-place="chicago"><span>Chicago</span><span class="hotspot-dot" aria-hidden="true"></span></button>
+          <button class="magnet-hit florida" data-place="florida"><span>Florida</span><span class="hotspot-dot" aria-hidden="true"></span></button>
+        </div>
+        <aside class="collection-note"><p class="eyebrow">THE LITTLE SOUVENIR CLUB</p><h3>A place.<br>A moment.<br><em>A magnet.</em></h3><p>有些回忆，刚好可以放在冰箱上。</p><p class="small-copy">这面展示框来自你的真实照片。先点开其中一个地点，看看照片与故事将如何展开。</p><div class="place-index" aria-label="Browse places"><button data-place="seattle">01 <span>Seattle</span> ↗</button><button data-place="boston">02 <span>Boston</span> ↗</button><button data-place="newyork">03 <span>New York</span> ↗</button><button data-place="shenzhen">04 <span>Shenzhen</span> ↗</button><button data-place="chicago">05 <span>Chicago</span> ↗</button><button data-place="florida">06 <span>Florida</span> ↗</button></div><p class="small-copy">标签仅对应照片中可识别的冰箱贴；旅行日期和故事等你来补充。</p></aside>
+      </div>
+      <footer class="personal-footer"><span>Small souvenirs, big memories.</span><button data-route="home">Back to the beginning <span aria-hidden="true">↗</span></button></footer>
+    </section>
+  </main>
+
+  <div class="guide-dock" aria-hidden="true"></div>
+  <div id="guide" class="guide" hidden aria-hidden="true"><div class="guide-speech" id="guide-speech">Follow me.</div><div class="avatar professional waving"></div></div>
+  <div id="portal" class="portal" aria-hidden="true"><span class="eyebrow">A LITTLE SHIFT IN PERSPECTIVE</span><p id="portal-copy">Into my work.</p><div class="avatar professional waving"></div></div>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-top"><span id="detail-kicker" class="eyebrow"></span><button id="close-detail" class="close-button" aria-label="Close detail">Close <span aria-hidden="true">×</span></button></div><div class="detail-body" id="detail-body"></div><div class="dialog-bottom"><span>YING JIN / A LITTLE OF BOTH</span><button id="close-bottom">Back to exploring <span aria-hidden="true">↗</span></button></div></dialog>
+  <div id="status" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>

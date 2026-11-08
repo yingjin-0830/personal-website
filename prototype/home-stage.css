@@ -1,0 +1,24 @@
+.home-view{min-height:560px;animation:none}
+.hero-title{top:67px;z-index:3}
+.hero-title h1{font-size:clamp(112px,13.6vw,184px);letter-spacing:-6px;line-height:1.05;white-space:nowrap}
+.hero-title p{font-size:30px;margin-bottom:4px}
+.name-word{display:inline-block;white-space:nowrap}
+.name-word>span{display:inline-block;transform-origin:50% 90%}
+.hero-title h1>.name-word+ .name-word{margin-left:.04em}
+.name-stroke{display:block;width:72px;height:3px;background:var(--orange);margin:8px auto 0;transform-origin:left;opacity:.75;border-radius:50%}
+.hero-character{width:min(290px,34vh);height:min(290px,34vh);bottom:99px;top:auto;isolation:isolate}
+.hero-character .avatar{--character-sheet:url('assets/hero-thinking-poses.png')}
+.hero-character[data-facing=right] .avatar{transform:scaleX(-1)}
+.hero-character .avatar[data-action=turn] .avatar-frames,.hero-character .avatar[data-action=profile] .avatar-frames{animation:character-breathe 3.6s ease-in-out infinite}
+.hero-character .avatar[data-action=sidewalk] .avatar-frames{animation:hero-side-step .47s linear infinite}
+.home-view[data-departing=true] .hero-character{pointer-events:none;z-index:8}
+.path-choice{top:46%}
+.path-choice[data-looking=true]{border-color:var(--orange)}
+.hero-caption{bottom:47px}
+body[data-characters-paused=true] .hero-title span{animation-play-state:paused!important}
+@keyframes hero-side-step{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@media(min-height:850px) and (min-width:801px){.hero-title{top:88px}.hero-character{width:min(330px,34vh);height:min(330px,34vh);bottom:109px}.hero-caption{bottom:50px}}
+@media(max-width:1000px) and (min-width:701px){.hero-title h1{font-size:clamp(112px,15vw,148px)}.path-name{font-size:38px}.path-choice{width:28%}}
+@media(max-width:700px){.home-view{min-height:0;height:calc(100svh - var(--header))}.home-eyebrow{top:25px}.hero-title{top:65px}.hero-title p{font-size:25px}.hero-title h1{font-size:clamp(86px,24vw,122px);letter-spacing:-4px}.name-stroke{width:47px;height:2px;margin-top:8px}.hero-character{top:220px;bottom:auto;width:230px;height:230px}.hero-caption{top:448px;bottom:auto}.handwritten{font-size:23px}.hero-caption p{font-size:9px}.path-choice{top:auto;bottom:57px}.home-bottom{bottom:18px}}
+@media(max-width:700px) and (max-height:760px){.hero-title{top:55px}.home-eyebrow{top:21px}.hero-title h1{font-size:84px}.hero-character{top:193px;width:190px;height:190px}.hero-caption{top:380px}.path-choice{bottom:42px;padding:12px 0}.path-name{font-size:26px;margin-top:9px}.path-description{font-size:7px}.path-action{margin-top:9px}.home-bottom{bottom:10px}}
+@media(prefers-reduced-motion:reduce){.hero-character .avatar{transition:none}.name-word>span{transform:none!important;opacity:1!important}}

@@ -1,0 +1,8 @@
+.DS_Store
+.superpowers/
+__pycache__/
+prototype/qa/
+.worktrees/
+worktrees/
+*.log
+/*.jpeg

@@ -1,0 +1,27 @@
+{
+  "tool": "Built-in ImageGen",
+  "transparent_background": true,
+  "common": "Use case: identity-preserve. The attached sheet is the user's established cartoon character, outfit and art-style reference. Create a NEW eight-pose sprite sheet for this same young woman interacting with the edge of a portfolio card. Preserve the recognizable face, long wavy chestnut hair, warm brown eyes, 2D chibi anime sticker illustration, thin brown lines and clean narrow white contour. NO sunglasses or other eyewear in any frame. Preserve the specific clothing from the attached reference.\nOutput ONE transparent wide sheet, EXACTLY 4 EQUAL COLUMNS x 2 EQUAL ROWS, eight equal SQUARE cells, one complete full-body pose per cell, same head scale and registration. Transparent alpha outside the characters, no cloud, paper, gray/checkered backing, scenery, floor, furniture, chair, bench, card, labels or grid lines. All hair, hands, knees and shoes must remain INSIDE each cell, with safety margin.\nThe website will supply the actual card edge under the character; do not draw a sitting surface. For SEATED poses the imaginary horizontal edge is at 66 percent of cell height: hips/upper thighs rest at that height, lower legs and shoes dangle below it down to 93 percent. The character's head starts around 8 percent of cell height, centered near 50 percent width. Keep this exact seat registration across seated poses. View three-quarter front, shoulders facing viewer, both legs hanging forward visibly over an invisible edge.\nExact frame order, top row left to right then bottom row:\n0: relaxed SEATED on the invisible card edge, hands resting on lap / beside hips, both eyes open, friendly small smile, legs dangling.\n1: identical seated body and head position, eyelids closed for a blink, ankles gently swung a little; preserve hips at exact same seat height.\n2: seated at identical seat anchor, waving with right hand, cheerful expression, legs dangling.\n3: compact anticipatory CROUCH on the invisible edge before jumping, knees bent, arms preparing, alert playful face.\n4: clearly AIRBORNE LEAP, knees tucked, feet off the imaginary edge, arms open for balance, joyful expression, all limbs inside cell. Do not draw movement lines.\n5: LANDING softly with bent knees and hands out, a small delighted smile.\n6: leaning forward while perched at the same edge, one hand reaching down and pinching / pulling an invisible card flap below, the other hand braced beside the hip, curious determined face. Do NOT draw the flap, actual card or curtain.\n7: seated at the exact same anchor as frame 0, smiling and pointing downward toward the card contents below, legs dangling.\nAll eight poses are one consistent character, same facial proportions, hair density and outfit; no varying head scale. No accessories besides those already part of the outfit.",
+  "chapters": [
+    {
+      "id": "work",
+      "source": "character-professional.png",
+      "outfit": "Outfit: existing navy business blazer, white blouse, taupe wide-leg trousers and brown loafers."
+    },
+    {
+      "id": "projects",
+      "source": "character-creative.png",
+      "outfit": "Outfit: existing terracotta cardigan, white top, long blue WIDE-LEG jeans and white sneakers. Keep loose wide hems, no ankle cuffs."
+    },
+    {
+      "id": "education",
+      "source": "character-graduate.png",
+      "outfit": "Outfit: existing navy graduation gown with gold trim, mortarboard and gold tassel, white sneakers. Gown folds naturally over bent seated knees, lower legs and shoes visible."
+    }
+  ],
+  "outputs": [
+    "assets/professional-work-poses.png",
+    "assets/professional-projects-poses.png",
+    "assets/professional-education-poses.png"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source": "assets/ying-avatar-reference.png",
+  "outputs": {
+    "casual": "assets/character-casual.png",
+    "professional": "assets/character-professional.png",
+    "creative": "assets/character-creative.png",
+    "graduate": "assets/character-graduate.png"
+  },
+  "tool": "Built-in ImageGen",
+  "transparent_background": true,
+  "common_prompt": "Use case: identity-preserve. The supplied image is the user's established cartoon avatar and is the identity/style reference. Create ONE animation sprite sheet of THIS SAME woman. Preserve her recognizable long wavy chestnut brown hair, brown eyes, face proportions, warm 2D chibi anime sticker rendering, fine brown outlines, and clean thin white sticker border. Change expressions as specified; do NOT keep one eye perpetually winking. REMOVE ALL SUNGLASSES in EVERY frame: none on head, face, clothes, hands or bag. No other eyewear. Do not change to a 3D rendering. Output EXACTLY 4 EQUAL COLUMNS x 2 EQUAL ROWS, 8 EQUAL SQUARE CELLS, wide landscape 2:1 canvas. One full-body character per cell, identical scale, same centered registration and common shoe baseline, front / slight three-quarter view. Keep entire long hair, head, hands, shoes, clothing and outline INSIDE each cell with generous transparent safety margin. No cell borders, labels, numbers, scenery, background, cast shadow or props except the stated outfit. True transparent alpha background.\nREADING ORDER left to right, top row then bottom row is fixed:\nFrame 0 top-left: relaxed standing, BOTH eyes open, gentle closed-mouth smile, arms relaxed.\nFrame 1 top-second: EXACT same body and head position as frame 0, both eyelids closed for a natural blink; only eyelids change.\nFrame 2 top-third: friendly waving, right upper arm raised, palm open near cheek, elbow bent, eyes open and smiling.\nFrame 3 top-fourth: IDENTICAL body/head/upper arm to frame 2, right forearm and wrist turned outward for a second wave position, joyful wink.\nFrame 4 bottom-left: walking in place step A, left leg forward and right leg back, opposite arms naturally swinging, pleasant open-eyed expression, torso stable.\nFrame 5 bottom-second: walking in place step B, right leg forward and left leg back, arms swing opposite frame 4, same torso/head registration.\nFrame 6 bottom-third: thoughtful expression, right index finger at chin, eyes looking slightly upward, small curious smile.\nFrame 7 bottom-fourth: delighted celebrating, both hands raised near shoulders, joyful eyes and big smile, knees lightly flexed.\nAll 8 frames must look like deliberate animation key poses of one identical character, not different people. Keep head size, face and hair rendering consistent.",
+  "outfits": [
+    {
+      "id": "casual",
+      "outfit": "OUTFIT IN ALL 8 CELLS: white V-neck T-shirt tucked into long blue WIDE-LEG denim jeans, high waist, pronounced loose wide legs from hips through the hems, wide open hems overlapping the sneakers slightly, white sneakers and small brown cross-body bag. Jeans MUST NOT be skinny, tapered, cuffed, joggers, cropped or fitted at the ankles. The wide-leg silhouette must be unmistakable. No sunglasses."
+    },
+    {
+      "id": "professional",
+      "outfit": "OUTFIT IN ALL 8 CELLS: tailored navy blazer over a white blouse, loose taupe wide-leg business trousers and brown loafers. Polished professional appearance, same long wavy brown hair worn down, no bag and no sunglasses. No need to hold work props so both arms can animate."
+    },
+    {
+      "id": "creative",
+      "outfit": "OUTFIT IN ALL 8 CELLS: warm terracotta cardigan, white top, long loose blue WIDE-LEG denim jeans with uncuffed wide hems and white sneakers. Expressive thoughtful creative-work look. Same long wavy hair, no bag, no sunglasses, no notebook in hands so gestures remain unblocked."
+    },
+    {
+      "id": "graduate",
+      "outfit": "OUTFIT IN ALL 8 CELLS: navy graduation gown with restrained gold neckline trim, navy mortarboard with gold tassel and white sneakers. Same long wavy chestnut hair spilling out naturally. No glasses or sunglasses and no diploma in hands, so both hands can wave and celebrate."
+    }
+  ],
+  "creative_background_fix": "Remove only all smoky/gray background pixels outside character sticker silhouettes, preserving all eight characters, their scale, poses, and exact four-by-two cell registration. Keep the narrow white sticker contour and make all surrounding pixels truly transparent."
+}
