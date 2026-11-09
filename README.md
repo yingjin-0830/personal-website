@@ -1,19 +1,35 @@
-# Ying Jin — Editorial flat edition
+# Ying Jin — Editorial edition
 
-This is the independent `editorial-flat` design experiment. The warm illustrated version is preserved on `main`.
+A bilingual personal portfolio with Professional stories, six Personal interest chapters, an interactive travel magnet collection, résumé download and contact details. The `editorial-flat` branch contains the magazine edition; `main` preserves the earlier illustrated edition.
 
-The edition keeps the Home / Professional / Personal paths and the same draft work, projects, education and travel content. It introduces adult-proportion flat fashion illustration, magazine-scale Bodoni Moda headings, fine rules, ivory paper, oxblood and olive tones, and restrained standing/leaning/laptop poses. There is no jumping.
+Website: https://yingjin-0830.github.io/personal-website/
 
-Run this checkout alongside `main`:
+## Preview locally
 
 ```sh
 python3 -m http.server 4174 --bind 127.0.0.1 --directory prototype
 ```
 
-Open http://127.0.0.1:4174/ . Run `main` on port 4173 for comparison.
+Open http://127.0.0.1:4174/ . The site uses plain HTML, CSS and JavaScript; no package installation or build is required.
 
-The active entry is `prototype/index.html`; `editorial.css`, `editorial.js` and `editorial-content.js` implement this edition. The older illustrated source remains in the branch for reference but is not loaded by the editorial entry.
+## Update and publish
 
-`prototype/assets/editorial-hero.png`, `editorial-work.png`, `editorial-projects.png` and `editorial-education.png` are the selected eight-pose sprite sheets. Exact built-in ImageGen prompts are in `prototype/editorial-art-prompts.json`. The illustration identity is derived from Ying's approved avatar. Personal uses the original user-supplied magnet board.
+Edit files on `editorial-flat`, preview locally, then commit and push to that branch. The [Pages workflow](.github/workflows/deploy-pages.yml) runs the content/navigation tests and deploys `prototype/` automatically. Follow deployment progress in the repository’s Actions tab. A failed check stops publication.
 
-All résumé fields remain explicitly labeled drafts, pending verification. The repository upload does not enable GitHub Pages hosting.
+GitHub repository Settings → Pages must use **GitHub Actions** as its source. The workflow only publishes `editorial-flat`; it does not merge or deploy `main`.
+
+## Maintain content
+
+- `prototype/editorial-content.js`: Professional experiences, projects, education and Personal topics/places.
+- `prototype/i18n.js`: English and Simplified Chinese UI/content translations.
+- `prototype/editorial.css`, `editorial-refinements.css`, `personal.css`: layout and visual styling.
+- `prototype/assets/`: character artwork, photographs, logos and the downloadable résumé.
+- `prototype/content-sources.md`: résumé/LinkedIn source mapping and asset credits.
+
+Run the existing checks with Node.js 24:
+
+```sh
+node --test prototype/tests/*.test.cjs
+```
+
+See [prototype/README.md](prototype/README.md) for interaction and asset details. Personal photographs, stories and social links can be added as Ying supplies them.
