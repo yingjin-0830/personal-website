@@ -1,0 +1,192 @@
+{
+  "tool": "built-in ImageGen",
+  "purpose": "HD restoration of the approved complete editorial character set, without redesign",
+  "inputLayout": "4 columns by 2 rows, eight poses",
+  "outputLayout": "2 columns by 1 row, two square poses",
+  "jobs": [
+    {
+      "outfit": "hero",
+      "pair": 0,
+      "frames": [
+        0,
+        1
+      ],
+      "asset": "assets/editorial-hd/source/hero-0.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame0; output RIGHT cell = original frame1. The sheet belongs to the hero outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/hero-0.webp"
+    },
+    {
+      "outfit": "hero",
+      "pair": 1,
+      "frames": [
+        2,
+        3
+      ],
+      "asset": "assets/editorial-hd/source/hero-1.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame2; output RIGHT cell = original frame3. The sheet belongs to the hero outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/hero-1.webp"
+    },
+    {
+      "outfit": "hero",
+      "pair": 2,
+      "frames": [
+        4,
+        5
+      ],
+      "asset": "assets/editorial-hd/source/hero-2.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame4; output RIGHT cell = original frame5. The sheet belongs to the hero outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/hero-2.webp"
+    },
+    {
+      "outfit": "hero",
+      "pair": 3,
+      "frames": [
+        6,
+        7
+      ],
+      "asset": "assets/editorial-hd/source/hero-3.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame6; output RIGHT cell = original frame7. The sheet belongs to the hero outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/hero-3.webp"
+    },
+    {
+      "outfit": "work",
+      "pair": 0,
+      "frames": [
+        0,
+        1
+      ],
+      "asset": "assets/editorial-hd/source/work-0.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame0; output RIGHT cell = original frame1. The sheet belongs to the work outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/work-0.webp"
+    },
+    {
+      "outfit": "work",
+      "pair": 1,
+      "frames": [
+        2,
+        3
+      ],
+      "asset": "assets/editorial-hd/source/work-1.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame2; output RIGHT cell = original frame3. The sheet belongs to the work outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/work-1.webp"
+    },
+    {
+      "outfit": "work",
+      "pair": 2,
+      "frames": [
+        4,
+        5
+      ],
+      "asset": "assets/editorial-hd/source/work-2.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame4; output RIGHT cell = original frame5. The sheet belongs to the work outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/work-2.webp"
+    },
+    {
+      "outfit": "work",
+      "pair": 3,
+      "frames": [
+        6,
+        7
+      ],
+      "asset": "assets/editorial-hd/source/work-3.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame6; output RIGHT cell = original frame7. The sheet belongs to the work outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/work-3.webp"
+    },
+    {
+      "outfit": "projects",
+      "pair": 0,
+      "frames": [
+        0,
+        1
+      ],
+      "asset": "assets/editorial-hd/source/projects-0.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame0; output RIGHT cell = original frame1. The sheet belongs to the projects outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/projects-0.webp"
+    },
+    {
+      "outfit": "projects",
+      "pair": 1,
+      "frames": [
+        2,
+        3
+      ],
+      "asset": "assets/editorial-hd/source/projects-1.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame2; output RIGHT cell = original frame3. The sheet belongs to the projects outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/projects-1.webp"
+    },
+    {
+      "outfit": "projects",
+      "pair": 2,
+      "frames": [
+        4,
+        5
+      ],
+      "asset": "assets/editorial-hd/source/projects-2.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame4; output RIGHT cell = original frame5. The sheet belongs to the projects outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/projects-2.webp"
+    },
+    {
+      "outfit": "projects",
+      "pair": 3,
+      "frames": [
+        6,
+        7
+      ],
+      "asset": "assets/editorial-hd/source/projects-3.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame6; output RIGHT cell = original frame7. The sheet belongs to the projects outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/projects-3.webp"
+    },
+    {
+      "outfit": "education",
+      "pair": 0,
+      "frames": [
+        0,
+        1
+      ],
+      "asset": "assets/editorial-hd/source/education-0.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame0; output RIGHT cell = original frame1. The sheet belongs to the education outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/education-0.webp"
+    },
+    {
+      "outfit": "education",
+      "pair": 1,
+      "frames": [
+        2,
+        3
+      ],
+      "asset": "assets/editorial-hd/source/education-1.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame2; output RIGHT cell = original frame3. The sheet belongs to the education outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/education-1.webp"
+    },
+    {
+      "outfit": "education",
+      "pair": 2,
+      "frames": [
+        4,
+        5
+      ],
+      "asset": "assets/editorial-hd/source/education-2.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame4; output RIGHT cell = original frame5. The sheet belongs to the education outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/education-2.webp"
+    },
+    {
+      "outfit": "education",
+      "pair": 3,
+      "frames": [
+        6,
+        7
+      ],
+      "asset": "assets/editorial-hd/source/education-3.png",
+      "prompt": "Use case: identity-preserve / super-resolution restoration.\nImage 1 is the EXACT approved eight-pose character sprite sheet. This is a fidelity-preserving HD restoration job, NOT a redesign, not a new illustration direction. Preserve precisely her same face, hair shape and color, body proportions and height, outfit, colors, shoes, pose, expression, linework and flat fashion-illustration style from the specified input cells. Do not beautify, change age, change silhouette, add props, alter makeup or invent features.\n\nThe input grid has 4 columns x2 rows, cells numbered0..7 in reading order. Extract ONLY the TWO specified existing cells and re-render those exact two existing figures at substantially higher native detail. Output a 2-column x1-row sheet, wide 2:1 canvas, target3840x1920 if supported, with two equal SQUARE cells. Do not include any other input poses. Each figure centered identically at x50% of its cell, top around3%, feet baseline96%, fully visible with wide transparent margins. Same scale and baseline in both cells. Hair, fingers, clothes and shoes must not clip cell boundaries.\n\nImprove clean precise edges and native fine detail in eyes, brows, lips, hair waves, lapels, seams, folds, laptop keys if already present, and shoes, while faithfully following the existing image. No painted blur, no oversharpening halos, no white sticker outline, no ground/cast shadow, no new graphics. Genuine transparent background, alpha0 at every empty corner and gap, without fog or semi-transparent haze. No text, no grid lines or watermark.\nOutput LEFT cell = original frame6; output RIGHT cell = original frame7. The sheet belongs to the education outfit. Match both figures to those exact input poses.",
+      "runtimeAsset": "assets/editorial-hd/education-3.webp"
+    }
+  ],
+  "actualOutputPixels": [
+    1774,
+    887
+  ],
+  "actualFramePixels": [
+    887,
+    887
+  ]
+}

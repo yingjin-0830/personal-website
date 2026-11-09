@@ -1,0 +1,26 @@
+{
+  "checked": "2026-11-08",
+  "assets": {
+    "sunlight.png": {
+      "company": "Sunlight Development",
+      "page": "https://www.sunlightgroupny.com/about-us",
+      "asset": "https://static.wixstatic.com/media/ac2bd4_1bc927d0b38743d1b0e88336092a5364~mv2.png"
+    },
+    "kuaishou.png": {
+      "company": "Kuaishou Technology",
+      "page": "https://www.kuaishou.com/official/material-lib",
+      "asset": "https://static.yximgs.com/udata/pkg/frontend-explore/material-lib-www/word-logo-1-min.png"
+    },
+    "deloitte.svg": {
+      "company": "Deloitte",
+      "page": "https://www.deloitte.com/global/en.html",
+      "asset": "https://www.deloitte.com/content/dam/assets-shared/logos/svg/a-d/deloitte.svg"
+    },
+    "accenture.svg": {
+      "company": "Accenture",
+      "page": "https://commons.wikimedia.org/wiki/File:Accenture.svg",
+      "asset": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Accenture.svg",
+      "note": "Original vector provided by Accenture, distributed via Wikimedia Commons."
+    }
+  }
+}

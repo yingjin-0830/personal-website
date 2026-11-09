@@ -1,0 +1,166 @@
+{
+  "purpose": "Trial photo covers. Stock images illustrate a topic and are not project deliverables. Duke is an actual campus photograph.",
+  "photos": {
+    "sunlight": {
+      "src": "assets/covers/sunlight.jpg",
+      "alt": "Illustrative New York skyline",
+      "position": "50% 50%",
+      "credit": "Pexels",
+      "source": "https://www.pexels.com/photo/stunning-new-york-city-skyline-from-hudson-river-35990797/",
+      "assetURL": "https://images.pexels.com/photos/35990797/pexels-photo-35990797.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "license": "Pexels License",
+      "licenseURL": "https://www.pexels.com/license/",
+      "illustrative": true,
+      "dimensions": [
+        1600,
+        1067
+      ],
+      "bytes": 239223
+    },
+    "kuaishou": {
+      "src": "assets/covers/kuaishou.jpg",
+      "alt": "Illustrative automotive showroom",
+      "position": "50% 55%",
+      "credit": "Pexels",
+      "source": "https://www.pexels.com/photo/a-white-car-in-a-showroom-10358213/",
+      "assetURL": "https://images.pexels.com/photos/10358213/pexels-photo-10358213.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "license": "Pexels License",
+      "licenseURL": "https://www.pexels.com/license/",
+      "illustrative": true,
+      "dimensions": [
+        1600,
+        1067
+      ],
+      "bytes": 234160
+    },
+    "deloitte": {
+      "src": "assets/covers/deloitte.jpg",
+      "alt": "Illustrative workspace and laptop",
+      "position": "50% 50%",
+      "credit": "Pexels",
+      "source": "https://www.pexels.com/photo/modern-workspace-with-laptop-and-books-on-desk-36123565/",
+      "assetURL": "https://images.pexels.com/photos/36123565/pexels-photo-36123565.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "license": "Pexels License",
+      "licenseURL": "https://www.pexels.com/license/",
+      "illustrative": true,
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "bytes": 78686
+    },
+    "accenture": {
+      "src": "assets/covers/accenture.jpg",
+      "alt": "Illustrative desk and laptop",
+      "position": "50% 55%",
+      "credit": "Pexels",
+      "source": "https://www.pexels.com/photo/laptop-lying-on-a-desk-standing-in-front-of-windows-6372950/",
+      "assetURL": "https://images.pexels.com/photos/6372950/pexels-photo-6372950.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "license": "Pexels License",
+      "licenseURL": "https://www.pexels.com/license/",
+      "illustrative": true,
+      "dimensions": [
+        1600,
+        2400
+      ],
+      "bytes": 268812
+    },
+    "household": {
+      "src": "assets/covers/household.jpg",
+      "alt": "Illustrative family in a kitchen",
+      "position": "50% 45%",
+      "credit": "Pexels",
+      "source": "https://www.pexels.com/photo/a-low-angle-shot-of-a-family-preparing-food-in-the-kitchen-8507649/",
+      "assetURL": "https://images.pexels.com/photos/8507649/pexels-photo-8507649.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "license": "Pexels License",
+      "licenseURL": "https://www.pexels.com/license/",
+      "illustrative": true,
+      "dimensions": [
+        1600,
+        1068
+      ],
+      "bytes": 195621
+    },
+    "vision": {
+      "src": "assets/covers/vision.jpg",
+      "alt": "Illustrative fresh vegetables at a market",
+      "position": "50% 50%",
+      "credit": "Pexels",
+      "source": "https://www.pexels.com/photo/assorted-fresh-ripe-vegetables-in-market-stall-3873912/",
+      "assetURL": "https://images.pexels.com/photos/3873912/pexels-photo-3873912.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "license": "Pexels License",
+      "licenseURL": "https://www.pexels.com/license/",
+      "illustrative": true,
+      "dimensions": [
+        1600,
+        1069
+      ],
+      "bytes": 334963
+    },
+    "horses": {
+      "src": "assets/covers/horses.jpg",
+      "alt": "Illustrative horse in a pasture",
+      "position": "50% 40%",
+      "credit": "Pexels",
+      "source": "https://www.pexels.com/photo/horse-on-pasture-15815286/",
+      "assetURL": "https://images.pexels.com/photos/15815286/pexels-photo-15815286.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "license": "Pexels License",
+      "licenseURL": "https://www.pexels.com/license/",
+      "illustrative": true,
+      "dimensions": [
+        1600,
+        2400
+      ],
+      "bytes": 435251
+    },
+    "walmart": {
+      "src": "assets/covers/walmart.jpg",
+      "alt": "Illustrative supermarket shelves",
+      "position": "50% 50%",
+      "credit": "Pexels",
+      "source": "https://www.pexels.com/photo/products-displayed-inside-a-supermarket-12081286/",
+      "assetURL": "https://images.pexels.com/photos/12081286/pexels-photo-12081286.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "license": "Pexels License",
+      "licenseURL": "https://www.pexels.com/license/",
+      "illustrative": true,
+      "dimensions": [
+        1600,
+        2134
+      ],
+      "bytes": 735719
+    },
+    "uibe": {
+      "src": "assets/covers/uibe.jpg",
+      "alt": "Illustrative library books, not the UIBE campus",
+      "position": "50% 50%",
+      "credit": "Pexels",
+      "source": "https://www.pexels.com/photo/books-in-library-3747531/",
+      "assetURL": "https://images.pexels.com/photos/3747531/pexels-photo-3747531.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "license": "Pexels License",
+      "licenseURL": "https://www.pexels.com/license/",
+      "illustrative": true,
+      "dimensions": [
+        1600,
+        2400
+      ],
+      "bytes": 202808
+    },
+    "duke": {
+      "src": "assets/covers/duke.jpg",
+      "alt": "Duke Chapel near sunset at Duke University",
+      "position": "50% 43%",
+      "credit": "Brian Carlson",
+      "source": "https://commons.wikimedia.org/wiki/File:Duke_Chapel_near_sunset_(351114700).jpg",
+      "assetURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Duke_Chapel_near_sunset_%28351114700%29.jpg/1920px-Duke_Chapel_near_sunset_%28351114700%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "license": "CC BY-SA 2.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "illustrative": false,
+      "dimensions": [
+        1920,
+        1277
+      ],
+      "bytes": 313014,
+      "changes": "Unmodified thumbnail file; displayed with an object-fit crop."
+    }
+  }
+}

@@ -2,6 +2,7 @@
 .superpowers/
 __pycache__/
 prototype/qa/
+prototype/concepts/
 .worktrees/
 worktrees/
 *.log

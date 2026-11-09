@@ -1,0 +1,195 @@
+{
+  "sourceFramePixels": 443.5,
+  "rendering": "two square frames per sheet",
+  "format": "lossless WebP, RGBA pixel equality verified",
+  "assets": [
+    {
+      "asset": "assets/editorial-hd/hero-0.webp",
+      "source": "assets/editorial-hd/source/hero-0.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.792,
+      "bytes": 369080
+    },
+    {
+      "asset": "assets/editorial-hd/hero-1.webp",
+      "source": "assets/editorial-hd/source/hero-1.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.795,
+      "bytes": 359970
+    },
+    {
+      "asset": "assets/editorial-hd/hero-2.webp",
+      "source": "assets/editorial-hd/source/hero-2.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.813,
+      "bytes": 332554
+    },
+    {
+      "asset": "assets/editorial-hd/hero-3.webp",
+      "source": "assets/editorial-hd/source/hero-3.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.767,
+      "bytes": 405330
+    },
+    {
+      "asset": "assets/editorial-hd/work-0.webp",
+      "source": "assets/editorial-hd/source/work-0.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.815,
+      "bytes": 318192
+    },
+    {
+      "asset": "assets/editorial-hd/work-1.webp",
+      "source": "assets/editorial-hd/source/work-1.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.796,
+      "bytes": 337302
+    },
+    {
+      "asset": "assets/editorial-hd/work-2.webp",
+      "source": "assets/editorial-hd/source/work-2.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.783,
+      "bytes": 379468
+    },
+    {
+      "asset": "assets/editorial-hd/work-3.webp",
+      "source": "assets/editorial-hd/source/work-3.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.827,
+      "bytes": 273058
+    },
+    {
+      "asset": "assets/editorial-hd/projects-0.webp",
+      "source": "assets/editorial-hd/source/projects-0.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.787,
+      "bytes": 385208
+    },
+    {
+      "asset": "assets/editorial-hd/projects-1.webp",
+      "source": "assets/editorial-hd/source/projects-1.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.777,
+      "bytes": 410702
+    },
+    {
+      "asset": "assets/editorial-hd/projects-2.webp",
+      "source": "assets/editorial-hd/source/projects-2.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.759,
+      "bytes": 459124
+    },
+    {
+      "asset": "assets/editorial-hd/projects-3.webp",
+      "source": "assets/editorial-hd/source/projects-3.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.812,
+      "bytes": 325354
+    },
+    {
+      "asset": "assets/editorial-hd/education-0.webp",
+      "source": "assets/editorial-hd/source/education-0.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.792,
+      "bytes": 370502
+    },
+    {
+      "asset": "assets/editorial-hd/education-1.webp",
+      "source": "assets/editorial-hd/source/education-1.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.795,
+      "bytes": 372528
+    },
+    {
+      "asset": "assets/editorial-hd/education-2.webp",
+      "source": "assets/editorial-hd/source/education-2.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.783,
+      "bytes": 412618
+    },
+    {
+      "asset": "assets/editorial-hd/education-3.webp",
+      "source": "assets/editorial-hd/source/education-3.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.819,
+      "bytes": 337856
+    },
+    {
+      "asset": "assets/editorial-hd/education-4.webp",
+      "source": "assets/editorial-hd/source/education-4.png",
+      "size": [
+        1774,
+        887
+      ],
+      "framePixels": 887,
+      "transparentFraction": 0.817,
+      "bytes": 364484,
+      "purpose": "additional education book poses"
+    }
+  ]
+}
