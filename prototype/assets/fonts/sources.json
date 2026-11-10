@@ -1,0 +1,22 @@
+{
+  "downloaded": "2026-11-09",
+  "license": "SIL Open Font License 1.1; accompanying license files retained",
+  "processing": "Subset and WOFF2 conversion via scripts/prepare-editorial-fonts.py; internal font families renamed to Ying Editorial Serif and Ying Editorial Han to respect reserved names. Chinese subset includes GB2312 plus all current source characters. Microsoft YaHei is requested from installed system fonts, not redistributed.",
+  "sources": [
+    {
+      "file": "source-han-sans-sc-bold.otf",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/OTF/SimplifiedChinese/SourceHanSansSC-Bold.otf",
+      "sha256": "df2b90f5bcc6d01dfc964cec5f6d535d6b6aebd26ed7fd79a9c1b3f2112fcb6b"
+    },
+    {
+      "file": "merriweather.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/Merriweather%5Bopsz%2Cwdth%2Cwght%5D.ttf",
+      "sha256": "d0ed0e359e396af7ad05e73dffd11a3a4c326ea0d0283c56bd9361cb2cc86a96"
+    },
+    {
+      "file": "merriweather-italic.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/Merriweather-Italic%5Bopsz%2Cwdth%2Cwght%5D.ttf",
+      "sha256": "f68a8f4989258679e4fbaf50aa42400132b5373c2d9d2514ba82ef6e85947a0b"
+    }
+  ]
+}

@@ -424,87 +424,96 @@ const topics={
   "coffee": {
     "title": "Coffee",
     "label": "SMALL RITUALS",
-    "caption": "Making a good cup, one detail at a time.",
-    "lead": "Making coffee is one of the little things I enjoy.",
+    "caption": "A good cup, and a little curiosity.",
+    "lead": "I like making coffee, experimenting with it, and taking time to taste it.",
     "sections": [
       {
-        "title": "The little ritual",
-        "text": "A space for coffee-making, experiments and small discoveries."
+        "title": "Made slowly",
+        "text": "From trying a different brew to noticing the flavors in a cup, I enjoy the small discoveries along the way."
       },
       {
-        "title": "What belongs here",
-        "text": "Coffee photographs, favorite tools and notes from the process."
+        "title": "Maybe, one day",
+        "text": "A neighborhood coffee shop of my own, where good coffee brings people together. Becoming a coffee shop owner sounds like a lovely possibility."
+      }
+    ]
+  },
+  "fitness": {
+    "title": "Wellness",
+    "label": "BODY & MIND",
+    "caption": "A brighter mind. A stronger body.",
+    "lead": "I care about nutrition, movement, and the way I look after myself.",
+    "sections": [
+      {
+        "title": "Growing together",
+        "text": "I believe an aspiring mind deserves a strong, energetic body to match. Taking care of my health is one of the most worthwhile investments I can make."
+      },
+      {
+        "title": "Still learning",
+        "text": "Exercise, everyday food choices, and learning more about nutrition. A little more understanding, one step at a time."
       }
     ]
   },
   "cooking": {
     "title": "Cooking",
     "label": "EVERYDAY CREATIVITY",
-    "caption": "Something good, made by hand.",
-    "lead": "Cooking is another way I like to create.",
+    "caption": "A little kitchen therapy.",
+    "lead": "Sometimes, experimenting in the kitchen is how I unwind.",
     "sections": [
       {
-        "title": "In the kitchen",
-        "text": "A space for recipes, cooking experiments and everyday meals."
+        "title": "Room to experiment",
+        "text": "I enjoy figuring out a dish, working with ingredients, and making something with my own hands."
       },
       {
-        "title": "What belongs here",
-        "text": "Dishes, ingredients and the little stories around the table."
+        "title": "On the table",
+        "text": "Chinese food and lighter, balanced meals are both welcome here. There is room for comfort and a little everyday creativity."
       }
     ]
   },
-  "fitness": {
-    "title": "Movement",
-    "label": "BODY & MIND",
-    "caption": "Room to move, and a reason to begin.",
-    "lead": "Fitness and movement are another part of my life.",
+  "music": {
+    "title": "Music",
+    "label": "A LITTLE DIFFERENT RHYTHM",
+    "caption": "A song, and a little room to feel.",
+    "lead": "Music is another little world I like to step into.",
     "sections": [
       {
-        "title": "In motion",
-        "text": "A space for workouts, progress and the process of building a routine."
+        "title": "Press play",
+        "text": "A melody can change the feeling of an ordinary moment. Sometimes, listening is enough."
       },
       {
-        "title": "What belongs here",
-        "text": "Training notes, movement photographs and small milestones."
-      }
-    ]
-  },
-  "photography": {
-    "title": "Photography",
-    "label": "A WAY OF SEEING",
-    "caption": "Paying attention to the ordinary.",
-    "lead": "I like photography, and the different ways it lets me see.",
-    "sections": [
-      {
-        "title": "Through the lens",
-        "text": "A space for photographs, observations and visual stories."
-      },
-      {
-        "title": "What belongs here",
-        "text": "Selected images, photo essays and the ideas behind the frame."
+        "title": "Notes to keep",
+        "text": "A place for the songs, thoughts, and small moments I want to keep. More of my listening world will find its way here."
       }
     ]
   },
   "travel": {
     "title": "Travel",
     "label": "OUT IN THE WORLD",
-    "caption": "Places, souvenirs and an unwritten chapter.",
-    "lead": "A collection of places, held in little keepsakes.",
-    "sections": []
-  },
-  "creating": {
-    "title": "Social media",
-    "label": "BEHIND THE POSTS",
-    "caption": "Ideas, made and put into the world.",
-    "lead": "Creating content and running social media are also part of who I am.",
+    "caption": "One more corner of the map.",
+    "lead": "There is an old Chinese saying: “read ten thousand books and travel ten thousand miles.” I want to keep unlocking the world map.",
     "sections": [
       {
-        "title": "From idea to post",
-        "text": "A space for content ideas, images, edits and the choices behind what I share."
+        "title": "Out into the world",
+        "text": "New places bring new perspectives. I want to see more, experience more, and keep my curiosity with me."
       },
       {
-        "title": "What belongs here",
-        "text": "Social accounts, selected posts and notes from making them."
+        "title": "Little things, kept",
+        "text": "I bring a little piece of a place back in a magnet. My collection is a small map of memories, with more still to discover."
+      }
+    ]
+  },
+  "photography": {
+    "title": "Photography",
+    "label": "A WAY OF SEEING",
+    "caption": "A little more attention to the ordinary.",
+    "lead": "Photography is a way to pause and look a little closer.",
+    "sections": [
+      {
+        "title": "Through the lens",
+        "text": "Light, details, and the small things that catch my eye. I like the different ways a photograph lets me see."
+      },
+      {
+        "title": "A frame to return to",
+        "text": "This is where I will keep selected images and the thoughts behind them. A little collection of ways of seeing."
       }
     ]
   }

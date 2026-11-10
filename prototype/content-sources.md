@@ -56,3 +56,10 @@ The recruiting resource cluster is right-aligned alongside Work / Projects / Edu
 Verified: all five non-travel topic details; all five new destination details and the exploration state; language changes within topic and contact dialogs; topic focus return; Travel retaining its area across language switches, refresh and browser back/forward; small-phone resource layout and pinned scrolling. Layouts at 1470×837, 790×765, 390×844 and 360×740 have no horizontal overflow. The full suite includes eleven passing locale, content-coverage and journey checks.
 
 Home annotation update: removed both upper straplines and their rule, moved the supporting three-line biography beside the main statement on wide desktop screens, and loaded a true 700-weight Bodoni Moda face for the name. Verified English / Chinese at 1322×834 and compact layouts at 790×765 and 390×844, with no horizontal overflow.
+
+
+## Living editorial update — 2026-11-09
+
+Ying’s supplied redesign references guide the checked-blazer cover outfit, translucent dimensional name, Merriweather English type, Chinese Source Han Sans Bold and the opening Personal book. Personal themes are now coffee, wellness, cooking, music, travel and photography; the user explicitly replaced social media with music. Coffee, wellness, cooking and travel statements are editorial translations of Ying’s message. Music/photography copy describes interests without inventing specific events, works or listening records. The nutrition wording is a learning aspiration, not a credential claim. Photo spaces remain clearly labeled until actual photographs are supplied.
+
+New generated artwork: `assets/living-edition/README.md` and `assets.json`. Open font upstream sources, licenses, processing and hashes: `assets/fonts/sources.json`. Chinese body requests Microsoft YaHei when installed and otherwise uses a system Chinese sans fallback. The user’s outfit reference photograph is not published as a website asset.

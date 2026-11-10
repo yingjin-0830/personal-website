@@ -1,6 +1,6 @@
 # Ying Jin — Editorial edition
 
-A bilingual personal portfolio with Professional stories, six Personal interest chapters, an interactive travel magnet collection, résumé download and contact details. The `editorial-flat` branch contains the magazine edition; `main` preserves the earlier illustrated edition.
+A bilingual personal portfolio with Professional stories, six Personal interest chapters in an interactive dimensional book, an interactive travel magnet collection, résumé download and contact details. The `editorial-flat` branch contains the magazine edition; `main` preserves the earlier illustrated edition.
 
 Website: https://yingjin-0830.github.io/personal-website/
 
@@ -22,7 +22,8 @@ GitHub repository Settings → Pages must use **GitHub Actions** as its source. 
 
 - `prototype/editorial-content.js`: Professional experiences, projects, education and Personal topics/places.
 - `prototype/i18n.js`: English and Simplified Chinese UI/content translations.
-- `prototype/editorial.css`, `editorial-refinements.css`, `personal.css`: layout and visual styling.
+- `prototype/editorial.css`, `editorial-refinements.css`, `personal.css`, `living-edition.css`: layout and visual styling.
+- `prototype/journey.js`, `motion.js`, `personal-book.js`: scroll mapping, transition ownership and the interactive book.
 - `prototype/assets/`: character artwork, photographs, logos and the downloadable résumé.
 - `prototype/content-sources.md`: résumé/LinkedIn source mapping and asset credits.
 

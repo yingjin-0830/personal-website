@@ -1,0 +1,51 @@
+{
+  "created": "2026-11-09",
+  "generator": "Built-in ImageGen",
+  "identity_reference": "../editorial-hd/hero-0.webp",
+  "assets": [
+    {
+      "asset": "hero-fashion.webp",
+      "native_source": "source/hero-fashion.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "has_alpha": true,
+      "sha256": "589b75224cad27ce1e4371021fda93f626bd08a62cae64d3cc707bb88d953a2a",
+      "bytes": 574418
+    },
+    {
+      "asset": "personal-a.webp",
+      "native_source": "source/personal-a.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "has_alpha": true,
+      "sha256": "4666c768c346dcb01d0d1ae9af3b23c0206f7286c27fe9a709b64cc33f8a61d7",
+      "bytes": 455396
+    },
+    {
+      "asset": "personal-b.webp",
+      "native_source": "source/personal-b.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "has_alpha": true,
+      "sha256": "d3281da1ba944342eaa201a9562cd90bcbe0d64cfb5dad17d409bc48657d537e",
+      "bytes": 503394
+    },
+    {
+      "asset": "objects.webp",
+      "native_source": "source/objects.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "has_alpha": true,
+      "sha256": "4ff05a8455883685a68db282bfdd56cb0a92c50768fe2ae597f2b7b962e5954c",
+      "bytes": 1101410
+    }
+  ]
+}

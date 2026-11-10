@@ -532,6 +532,110 @@
   "An Art Deco keepsake, with a museum arch and a watchful lion.": "以装饰艺术风格，收藏博物馆的拱门与守望的狮子。",
   "A sun-washed souvenir, with palms, sea and a little coral pink.": "棕榈、海浪与一抹珊瑚粉，组成阳光下的纪念。"
 };
+ Object.assign(words,{
+  "Coffee": "咖啡",
+  "SMALL RITUALS": "日常的小仪式",
+  "A good cup, and a little curiosity.": "一杯好咖啡，与一点好奇心。",
+  "I like making coffee, experimenting with it, and taking time to taste it.": "我喜欢自己研究咖啡，也喜欢慢慢品鉴一杯咖啡。",
+  "Made slowly": "慢慢做，慢慢发现",
+  "From trying a different brew to noticing the flavors in a cup, I enjoy the small discoveries along the way.": "尝试不同的冲煮方式，感受一杯咖啡里的风味。那些小小的发现，也是日常的乐趣。",
+  "Maybe, one day": "或许有一天",
+  "A neighborhood coffee shop of my own, where good coffee brings people together. Becoming a coffee shop owner sounds like a lovely possibility.": "有一家自己的社区咖啡店，让好咖啡把邻里连接起来。成为一个咖啡主理人，或许也不错。",
+  "Wellness": "身心健康",
+  "BODY & MIND": "身体与心情",
+  "A brighter mind. A stronger body.": "向上的心，也有向上的力量。",
+  "I care about nutrition, movement, and the way I look after myself.": "我关注营养、健康与锻炼，也认真对待照顾自己的这件小事。",
+  "Growing together": "一起向上",
+  "I believe an aspiring mind deserves a strong, energetic body to match. Taking care of my health is one of the most worthwhile investments I can make.": "我觉得，一颗向上的心，也应该匹配一个积极向上的身躯。投资自己的健康，是最值得的投资之一。",
+  "Still learning": "持续修炼中",
+  "Exercise, everyday food choices, and learning more about nutrition. A little more understanding, one step at a time.": "锻炼、日常饮食，以及对营养的持续学习。营养师修炼中……一步一步，慢慢积累。",
+  "Cooking": "做饭",
+  "EVERYDAY CREATIVITY": "日常的创造力",
+  "A little kitchen therapy.": "一点厨房里的治愈。",
+  "Sometimes, experimenting in the kitchen is how I unwind.": "有的时候，在厨房里研究食物，也是我的解压方式之一。",
+  "Room to experiment": "留一点尝试的空间",
+  "I enjoy figuring out a dish, working with ingredients, and making something with my own hands.": "琢磨一道菜，研究食材，亲手把想法变成一餐好吃的。这个过程本身，也很有趣。",
+  "On the table": "今天吃什么",
+  "Chinese food and lighter, balanced meals are both welcome here. There is room for comfort and a little everyday creativity.": "中餐、减脂餐，都不错。让熟悉的味道带来安慰，也给日常留一点创造力。",
+  "Music": "音乐",
+  "A LITTLE DIFFERENT RHYTHM": "日常的另一种节奏",
+  "A song, and a little room to feel.": "一首歌，一点感受的空间。",
+  "Music is another little world I like to step into.": "音乐，是我喜欢走进去的另一个小世界。",
+  "Press play": "按下播放键",
+  "A melody can change the feeling of an ordinary moment. Sometimes, listening is enough.": "一段旋律，可以改变一个普通瞬间的心情。有时候，静静听着就很好。",
+  "Notes to keep": "想留下的音符",
+  "A place for the songs, thoughts, and small moments I want to keep. More of my listening world will find its way here.": "这里留给喜欢的歌曲、想法，以及想收藏的小小瞬间。我的音乐世界，会慢慢补上。",
+  "Travel": "旅行",
+  "OUT IN THE WORLD": "去世界看看",
+  "One more corner of the map.": "再解锁地图上的一个角落。",
+  "There is an old Chinese saying: “read ten thousand books and travel ten thousand miles.” I want to keep unlocking the world map.": "读万卷书，行万里路。我想继续去解锁世界地图。",
+  "Out into the world": "走出去，去看看",
+  "New places bring new perspectives. I want to see more, experience more, and keep my curiosity with me.": "新的地方，会带来新的视角。想多看一点、多体验一点，也一直带着对世界的好奇。",
+  "Little things, kept": "把记忆带回来",
+  "I bring a little piece of a place back in a magnet. My collection is a small map of memories, with more still to discover.": "用一枚冰箱贴，留住一个地方的一小片记忆。这是我的纪念收藏，还有更多地方等待解锁。",
+  "Photography": "摄影",
+  "A WAY OF SEEING": "观看的方式",
+  "A little more attention to the ordinary.": "把目光，留给日常。",
+  "Photography is a way to pause and look a little closer.": "摄影，让我停一停，也再靠近一点去看。",
+  "Through the lens": "透过镜头",
+  "Light, details, and the small things that catch my eye. I like the different ways a photograph lets me see.": "光线、细节，以及那些让目光停留的小事。我喜欢照片带来的不同观看方式。",
+  "A frame to return to": "想再次打开的画面",
+  "This is where I will keep selected images and the thoughts behind them. A little collection of ways of seeing.": "这里会收下精选的影像，以及画面背后的想法。一点一点，收藏自己的观看方式。"
+});
+ Object.assign(ui,{
+  "bookReplay": [
+    "Open my world again",
+    "再次打开我的小世界"
+  ],
+  "bookLabel": [
+    "THE THINGS I LOVE",
+    "我喜欢的那些事"
+  ],
+  "bookLine": [
+    "A collection of<br>little things.",
+    "把喜欢的事，<br>收进生活里。"
+  ],
+  "bookRight": [
+    "Still curious.<br>Still becoming.",
+    "保持好奇，<br>慢慢成为自己。"
+  ],
+  "bookHint": [
+    "HOVER TO DISCOVER · CLICK TO STEP INSIDE",
+    "移近看看，点击走进我的世界"
+  ],
+  "bookFoot": [
+    "SIX LITTLE WORLDS, ONE OPEN BOOK.",
+    "六个小世界，一本打开的书。"
+  ],
+  "topicPortrait": [
+    "Ying, in her {topic} world",
+    "在{topic}世界里的 Ying"
+  ],
+  "photoSoon": [
+    "A few moments, coming soon.",
+    "一些生活片段，慢慢补上。"
+  ],
+  "personalTitle": [
+    "A little world, <em>unfolding.</em>",
+    "把我的小世界，<em>打开。</em>"
+  ],
+  "personalIntro": [
+    "A few of the things that make me, me.<br>Choose one and step a little closer.",
+    "喜欢的事物，拼成我的不同面。<br>选一样，走近一点看看。"
+  ],
+  "scrollNext": [
+    "SCROLL DOWN TO SLIDE THROUGH THE STORIES",
+    "向下滚动，横向翻阅本章经历"
+  ],
+  "keepScrolling": [
+    "KEEP SCROLLING",
+    "继续向下滚动"
+  ],
+  "topicContentNote": [
+    "Personal photographs and notes will be added here.",
+    "这里会慢慢补上我的真实照片与生活笔记。"
+  ]
+});
  const normalizeLocale=value=>value==='zh'?'zh':'en';
  function translate(key,locale='en',variables={}){
   const lang=normalizeLocale(locale);

@@ -53,6 +53,7 @@ test('all six personal interests have complete Chinese narrative content',()=>{
  const topics=window.YingContent.topics;
  assert.ok(topics,'personal chapters exist');
  assert.equal(Object.keys(topics).length,6);
+ assert.deepEqual(Object.keys(topics).sort(),['coffee','cooking','fitness','music','photography','travel']);
  for(const [id,topic] of Object.entries(topics)){
   const zh=localize(topic,'zh');
   assert.match(zh.title,/[\u3400-\u9fff]/u,id+' title');
