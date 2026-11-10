@@ -1,5 +1,6 @@
 (()=>{
  const ui={
+"companyWebsite":["Company website", "公司官网"],
 "unwritten":["A little mystery", "一枚小小的未知"],
 "documentTravel":["The Travel Collection", "旅行收藏"],
 "chooseSecret":["Discover the unwritten chapter", "发现尚未写下的篇章"],

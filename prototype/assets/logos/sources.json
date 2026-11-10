@@ -21,6 +21,10 @@
       "page": "https://commons.wikimedia.org/wiki/File:Accenture.svg",
       "asset": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Accenture.svg",
       "note": "Original vector provided by Accenture, distributed via Wikimedia Commons."
+    },
+    "linkedin.svg": {
+      "company": "LinkedIn",
+      "note": "Code-native vector rendering of the recognizable in social link mark, using LinkedIn blue. Links to Ying’s existing profile; no external image dependency."
     }
   }
 }

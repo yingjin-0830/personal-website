@@ -40,6 +40,11 @@ html:lang(zh-CN) .cover-title h1,html:lang(zh-CN) .contact-email{font-family:'Yi
 .chapter-nav>[data-chapter].active{color:var(--wine)}
 .professional-links{position:absolute;top:25px;right:var(--edge);height:auto;z-index:10;gap:23px;display:flex;margin:0}
 .professional-links a,.professional-links button{font:400 10px/1.5 var(--sans);height:auto;padding:0;border:0;letter-spacing:0}
+.linkedin-link{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;min-width:28px;min-height:28px;text-decoration:none}
+.linkedin-link img{display:block;width:20px;height:20px;transition:opacity .2s}
+.linkedin-link:hover img{opacity:.72}
+.company-website{display:inline-block;font:400 11px/1.6 var(--sans);margin-top:7px;text-decoration-thickness:1px;text-underline-offset:4px;color:var(--wine)}
+.source-note .linkedin-link{margin-left:4px}
 .stage-copy{left:var(--edge);top:32px;width:210px;z-index:2;opacity:var(--chapter-opacity);translate:0 var(--chapter-rise);transition:none}
 .stage-copy>.micro{font-size:9px;letter-spacing:1.4px}
 .stage-copy h2{position:absolute;width:1px;height:1px;margin:0;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}

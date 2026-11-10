@@ -1,6 +1,7 @@
 (()=>{
 const experiences = {
   "sunlight": {
+    "website": "https://www.sunlightgroupny.com/",
     "kind": "work",
     "title": "Marketing Analyst",
     "organization": "Sunlight Development",
