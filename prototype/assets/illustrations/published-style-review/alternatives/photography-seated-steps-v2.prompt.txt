@@ -1,0 +1,18 @@
+Use case: precise-object-edit.
+Asset: correct ONE physical camera-orientation error in this existing seated Photography illustration.
+Image1 is the exact edit target. Preserve the woman, her recognizable face/hair/expression, seated crossed-leg pose, coat/trousers/boots/jewelry, body proportions, stairs, street, lighting, rendering style and exact framing. Do NOT mirror the picture or redesign her.
+
+THE ERROR TO FIX:
+The current large rectangular camera LCD faces OUT toward the illustration viewer while the woman is behind it, so she cannot naturally be reading it. Correct the orientation of the camera in her hands.
+
+CORRECT PHYSICAL ARRANGEMENT:
+Rotate/tilt ONLY the camera in three-dimensional space, with minimal natural finger/wrist adjustments:
+- The camera BACK, with its rear LCD, faces INWARD AND SLIGHTLY UPWARD TOWARD THE WOMAN'S FACE.
+- The FRONT LENS points OUTWARD away from her body and a little downward, toward the foreground/viewer's left.
+- From the existing illustration viewpoint, we should mainly see the camera FRONT/LENS and a bit of its top/side, NOT a large rear screen facing us. The LCD can be completely hidden on the far side or only its thin foreshortened edge visible. It is okay that the photo on the LCD is NOT visible to us; the woman is the one viewing it.
+- A compact silver-and-black camera with a real circular lens on its front. Do NOT replace that lens with a display; no photo screen on the camera front, no second screen, no mirrored camera or impossible see-through body.
+- Her eyes follow the rear LCD facing her. Keep her head/neck and smile essentially as now; adjust the camera angle to the existing gaze. Hold it comfortably just above her lap, right hand around its grip, thumb at rear controls, left hand supporting the lower body/lens; hands anatomically plausible, strap hanging naturally.
+
+ONLY camera orientation and the few fingers needed to support it should change. Everything else stays visually consistent with Image1, particularly the seated pose Ying liked. No new props or major pose/head changes.
+Portrait2:3 at least1024×1536, same generous full-body framing and both entire boots visible. Same refined adult fashion illustration, precise clean contours, gentle shading and subtle paper grain. No heavy black outlines, chibi, photorealism or glossy3D.
+No text, numbers, labels, logos, branding, watermark, borders or panels. Output ONE corrected illustration.

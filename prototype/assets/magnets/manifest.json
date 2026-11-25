@@ -1,0 +1,79 @@
+{
+  "source": "prototype/magnet-art.js",
+  "source_sha256": "a1146aa0c3a842596b682170c0e5a8201c7171aaded2287d695391fcae7e534f",
+  "note": "Exact existing keepsake SVG output, extracted into external image files. No artwork or typography was redrawn.",
+  "assets": [
+    {
+      "id": "seattle",
+      "file": "seattle.svg",
+      "viewBox": "0 0 240 310",
+      "sha256": "ee60a28f9014e4b6efcebb3d765e4dbdc99ceb54d67302d986172ba9f469aa18"
+    },
+    {
+      "id": "boston",
+      "file": "boston.svg",
+      "viewBox": "0 0 310 240",
+      "sha256": "a2a31113d7e542eff1e0fcd3f326dd3763a3b1313c71c387f5d602fbd7e9fce5"
+    },
+    {
+      "id": "newyork",
+      "file": "newyork.svg",
+      "viewBox": "0 0 240 300",
+      "sha256": "ef8fd42e28a62bc75563db86e76f50f1754350fd548516aa6b1bee880918635c"
+    },
+    {
+      "id": "shenzhen",
+      "file": "shenzhen.svg",
+      "viewBox": "0 0 330 205",
+      "sha256": "e919e99f2473bfa411f58ab930adb8c87dd8d7898b5510d8f06866724194fbf6"
+    },
+    {
+      "id": "chicago",
+      "file": "chicago.svg",
+      "viewBox": "0 0 220 310",
+      "sha256": "9bbd7d344bd90c7898470403f13281667d1fa78b0cd1622c103a9be04a6fcf30"
+    },
+    {
+      "id": "florida",
+      "file": "florida.svg",
+      "viewBox": "0 0 350 205",
+      "sha256": "97af12c8a4189cec675162620bc0cdd4d5d884b28ea1661265030cdc57c60be1"
+    },
+    {
+      "id": "beijing",
+      "file": "beijing.svg",
+      "viewBox": "0 0 290 245",
+      "sha256": "0e7d6855e59eef9363682d54e7ed511ff4ba2c3558226390fe9eb495e5581b2c"
+    },
+    {
+      "id": "northcarolina",
+      "file": "northcarolina.svg",
+      "viewBox": "0 0 310 230",
+      "sha256": "5c2250f88e54bf91192d6228cf349aee957c5908110697fedae614d4634c0ef8"
+    },
+    {
+      "id": "sandiego",
+      "file": "sandiego.svg",
+      "viewBox": "0 0 260 285",
+      "sha256": "12cd346515378399f9c2796fd5b2012a2abd91be9464d4aa6b72d9eae01ecb0f"
+    },
+    {
+      "id": "sanfrancisco",
+      "file": "sanfrancisco.svg",
+      "viewBox": "0 0 310 240",
+      "sha256": "bd4094b5057ccbfba61084ef9be1d39d0b70aaa018b5d0991ff11eaadc6610b3"
+    },
+    {
+      "id": "losangeles",
+      "file": "losangeles.svg",
+      "viewBox": "0 0 290 250",
+      "sha256": "659177c35ffa4c150a88a64912daf5c904ffe68980de223917b5eb11f3217e4d"
+    },
+    {
+      "id": "exploring",
+      "file": "exploring.svg",
+      "viewBox": "0 0 260 260",
+      "sha256": "6710cb5e3a9ad220887989093250dcfb4fb62750d2f2b80f5e6b61c56eafa66e"
+    }
+  ]
+}

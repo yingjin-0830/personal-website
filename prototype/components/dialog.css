@@ -1,0 +1,32 @@
+#detail { width: min(var(--dialog-width), calc(100% - var(--gutter) * 2)); max-height: calc(100svh - var(--space-7)); margin: auto; padding: 0; border: 1px solid var(--control-line); color: var(--ink); background: var(--bg); font: inherit; }
+#detail::backdrop { background: var(--backdrop); }
+.dialog-toolbar { display: flex; justify-content: space-between; align-items: center; gap: var(--space-5); padding: var(--space-4) var(--space-6); border-bottom: 1px solid var(--line); }
+.dialog-toolbar .kicker { margin: 0; }
+.dialog-actions { display: flex; align-items: center; gap: var(--space-5); }
+.dialog-actions a, .dialog-actions button { display: inline-flex; align-items: center; min-height: var(--touch-target); font-size: var(--text-sm); text-decoration: none; white-space: nowrap; }
+.dialog-actions a:hover, .dialog-actions button:hover { color: var(--accent); }
+.dialog-content { padding: var(--space-7); }
+.dialog-content h2 { font-size: var(--title-md); text-transform: uppercase; }
+.dialog-content h3 { font-size: var(--text-lg); margin-block: var(--space-6) var(--space-4); }
+.dialog-content p, .dialog-content li { max-width: var(--measure); color: var(--muted); }
+.detail-meta { font-size: var(--text-sm); }
+.detail-chips { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-block: var(--space-6); }
+.detail-chips span { border: 1px solid var(--line); border-radius: var(--pill-radius); padding: var(--space-2) var(--space-4); font-size: var(--text-sm); }
+.detail-stats { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); border-block: 1px solid var(--line); margin-block: var(--space-7); padding-block: var(--space-5); gap: var(--space-5); }
+.detail-stats strong { display: block; font-weight: var(--weight-heading); font-size: var(--title-sm); color: var(--accent); }
+.detail-stats span { color: var(--muted); font-size: var(--text-xs); }
+.place-detail { display: grid; grid-template-columns: minmax(0,.55fr) minmax(0,1fr); gap: var(--space-7); align-items: start; }
+.place-detail-art svg { width: 100%; height: auto; }
+.resume-document { display: block; }
+.resume-document img { display: block; width: 100%; height: auto; }
+#detail[data-kind='resume'] .dialog-content { padding: var(--space-5); }
+@media (max-width: 700px) {
+  #detail { width: calc(100% - var(--space-6)); max-height: calc(100svh - var(--space-6)); }
+  .dialog-toolbar { padding: var(--space-3) var(--space-4); gap: var(--space-3); }
+  .dialog-toolbar .kicker { letter-spacing: var(--tracking-heading); }
+  .dialog-content { padding: var(--space-5); }
+  .dialog-actions { gap: var(--space-4); }
+  .detail-stats { grid-template-columns: 1fr; }
+  .place-detail { grid-template-columns: 1fr; gap: var(--space-5); }
+  .place-detail-art { max-width: 160px; }
+}

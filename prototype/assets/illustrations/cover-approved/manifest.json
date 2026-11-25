@@ -1,0 +1,323 @@
+{
+  "purpose": "Homepage-only approved artwork replacement",
+  "source_set": "../published-style-review/approved/manifest.json",
+  "alternative_source_set": "../published-style-review/alternatives/manifest.json",
+  "selected_alternatives": {
+    "sales-marketing": "sales-marketing-side-presentation-v1",
+    "photography": "photography-seated-steps-v2"
+  },
+  "canvas_dimensions": [
+    1024,
+    1536
+  ],
+  "aspect_ratio": "2:3",
+  "full_and_cut_share_svg_transform": true,
+  "seated_alternatives_selected": true,
+  "publication_authorized": false,
+  "tiles": [
+    {
+      "name": "real-estate",
+      "asset_name": "real-estate",
+      "title": "Marketing Analyst",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "full": {
+        "file": "real-estate_full.webp",
+        "bytes": 414798,
+        "sha256": "6312585f79227636d298efdbb6ea3fa10b69938585f18095041c44bf321f42f4",
+        "approved_source": "../published-style-review/approved/real-estate.png",
+        "source_manifest": "../published-style-review/approved/manifest.json",
+        "source_revision": "../revisions/real-estate-v3.png",
+        "source_sha256": "b7227220d961c75460d7006701836cd9538a461baec406bef380952291ba6658",
+        "processing": "WebP quality 92; original resolution; no crop or resampling"
+      },
+      "cut": {
+        "file": "real-estate_cut.webp",
+        "source_png": "real-estate_cut.png",
+        "source_sha256": "ee70e437b95de9f1697059c02f4be8bce5187e2258540fd39a2b30d6545bda2a",
+        "sha256": "f60b87e78e875f1b1dde05bdbb898c92f1330e8600aececd7acc95423320f750",
+        "bytes": 304406,
+        "alpha_bbox": [
+          372,
+          289,
+          651,
+          1350
+        ],
+        "alpha_bbox_threshold": 20,
+        "alpha_range": [
+          0,
+          254
+        ],
+        "processing": "Lossless WebP; exact alpha and RGB where alpha>0 verified; hidden alpha=0 RGB discarded; no resizing/repositioning"
+      }
+    },
+    {
+      "name": "sales-marketing",
+      "asset_name": "sales-marketing-presentation",
+      "title": "Sales & Marketing",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "full": {
+        "file": "sales-marketing-presentation_full.webp",
+        "bytes": 239472,
+        "sha256": "951e94a146897e3724f37144c464a4f557e6d3f7d9566813d0d653dca576061e",
+        "approved_source": "../published-style-review/alternatives/sales-marketing-side-presentation-v1.png",
+        "source_manifest": "../published-style-review/alternatives/manifest.json",
+        "source_revision": "sales-marketing-side-presentation-v1.png",
+        "source_sha256": "603c5282af8cdfedcaa12ac2956a7d3b65bbd21b2d944949ccf943f1a43c139e",
+        "processing": "WebP quality 92; original resolution; no crop or resampling"
+      },
+      "cut": {
+        "file": "sales-marketing-presentation_cut.webp",
+        "source_png": "sales-marketing-presentation_cut.png",
+        "source_sha256": "4f42f5d6368b6d5e59a9a822bd3e23af966cfc3806a345b31b6f269167814e6d",
+        "sha256": "a2ac4436df4645667f499102a7ae25dc2e51f00b278b6b2353405e29e98c2dc5",
+        "bytes": 330186,
+        "alpha_bbox": [
+          171,
+          187,
+          747,
+          1424
+        ],
+        "alpha_bbox_threshold": 20,
+        "alpha_range": [
+          0,
+          254
+        ],
+        "processing": "Lossless WebP; exact alpha and RGB where alpha>0 verified; hidden alpha=0 RGB discarded; no resizing/repositioning"
+      }
+    },
+    {
+      "name": "data-analytics",
+      "asset_name": "data-analytics",
+      "title": "Data & Analytics",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "full": {
+        "file": "data-analytics_full.webp",
+        "bytes": 215924,
+        "sha256": "a1c158aaa48b186ba046df650d009402c8be414b1d3e234cde517e292f03e26d",
+        "approved_source": "../published-style-review/approved/data-analytics.png",
+        "source_manifest": "../published-style-review/approved/manifest.json",
+        "source_revision": "../revisions/data-analytics-v3.png",
+        "source_sha256": "52e0cabc0127d405e73f7a42b3c63d1bb00d2ca339d9c0ddc270c0701fed12f5",
+        "processing": "WebP quality 92; original resolution; no crop or resampling"
+      },
+      "cut": {
+        "file": "data-analytics_cut.webp",
+        "source_png": "data-analytics_cut.png",
+        "source_sha256": "30df529727345a143f08c706a709a55e4577f725094bb41acd1d2f34d1375ca1",
+        "sha256": "c40912667788cb78b6a572724c97c32443065c0550066a28cd437cb680a5b019",
+        "bytes": 306352,
+        "alpha_bbox": [
+          362,
+          262,
+          636,
+          1361
+        ],
+        "alpha_bbox_threshold": 20,
+        "alpha_range": [
+          0,
+          254
+        ],
+        "processing": "Lossless WebP; exact alpha and RGB where alpha>0 verified; hidden alpha=0 RGB discarded; no resizing/repositioning"
+      }
+    },
+    {
+      "name": "education",
+      "asset_name": "education",
+      "title": "Education",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "full": {
+        "file": "education_full.webp",
+        "bytes": 443358,
+        "sha256": "382e76f2f50744caefa18d9e6466226a8a69a2538dd61fb7c70a4a616c69acab",
+        "approved_source": "../published-style-review/approved/education.png",
+        "source_manifest": "../published-style-review/approved/manifest.json",
+        "source_revision": "../revisions/education-v2.png",
+        "source_sha256": "01c6955487f6331d29e02abe25a5487c034d28cf9bdb0e402c3ea3473d930ec4",
+        "processing": "WebP quality 92; original resolution; no crop or resampling"
+      },
+      "cut": {
+        "file": "education_cut.webp",
+        "source_png": "education_cut.png",
+        "source_sha256": "1129cc82d3b6a39f6f6b81a16791e74764994995997c39551ed5baba6cac1248",
+        "sha256": "d4bc63fb4636abf9ede936ee1993ab513cd49dbdfb6db7239129f9a84a3cc0d0",
+        "bytes": 491706,
+        "alpha_bbox": [
+          134,
+          307,
+          815,
+          1427
+        ],
+        "alpha_bbox_threshold": 20,
+        "alpha_range": [
+          0,
+          254
+        ],
+        "processing": "Lossless WebP; exact alpha and RGB where alpha>0 verified; hidden alpha=0 RGB discarded; no resizing/repositioning"
+      }
+    },
+    {
+      "name": "coffee",
+      "asset_name": "coffee",
+      "title": "Coffee",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "full": {
+        "file": "coffee_full.webp",
+        "bytes": 256068,
+        "sha256": "2eaea067791665352258aacebab1492848607f8e26c471f9e3c2cb0b5fa7a235",
+        "approved_source": "../published-style-review/approved/coffee.png",
+        "source_manifest": "../published-style-review/approved/manifest.json",
+        "source_revision": "../revisions/coffee-v5.png",
+        "source_sha256": "fefe32b8e4df0330e1d9ed7086e132354554974b5ab7c3664c7b7523bd4bf374",
+        "processing": "WebP quality 92; original resolution; no crop or resampling"
+      },
+      "cut": {
+        "file": "coffee_cut.webp",
+        "source_png": "coffee_cut.png",
+        "source_sha256": "9c43558fe5d4b57280aa5d60c8a6dc41984228887c60500d09492aec3b43f8c4",
+        "sha256": "d4677b8003464739307ebf2be178b891771a8c959ce860453154fc794138f0ff",
+        "bytes": 346864,
+        "alpha_bbox": [
+          251,
+          212,
+          622,
+          1463
+        ],
+        "alpha_bbox_threshold": 20,
+        "alpha_range": [
+          0,
+          254
+        ],
+        "processing": "Lossless WebP; exact alpha and RGB where alpha>0 verified; hidden alpha=0 RGB discarded; no resizing/repositioning"
+      }
+    },
+    {
+      "name": "cooking",
+      "asset_name": "cooking",
+      "title": "Cooking",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "full": {
+        "file": "cooking_full.webp",
+        "bytes": 291570,
+        "sha256": "2124bd658064e56a46b58bee22260df9206a94756ea8490a38f32649fd6c24ad",
+        "approved_source": "../published-style-review/approved/cooking.png",
+        "source_manifest": "../published-style-review/approved/manifest.json",
+        "source_revision": "../revisions/cooking-v2.png",
+        "source_sha256": "8ba7d8959cb7eb41c23cf34e76c512444d1b5b69b0dadabb252c0a9e144205a2",
+        "processing": "WebP quality 92; original resolution; no crop or resampling"
+      },
+      "cut": {
+        "file": "cooking_cut.webp",
+        "source_png": "cooking_cut.png",
+        "source_sha256": "7f8293771328679d8149ff1ec2ee50bf63c12e79a37812c052ca1f95b1aff5e8",
+        "sha256": "01139c2931623c1df29f2d68a93efb7b8e96071e6eb886bbd871399ff001e7cf",
+        "bytes": 332136,
+        "alpha_bbox": [
+          369,
+          195,
+          667,
+          1370
+        ],
+        "alpha_bbox_threshold": 20,
+        "alpha_range": [
+          0,
+          254
+        ],
+        "processing": "Lossless WebP; exact alpha and RGB where alpha>0 verified; hidden alpha=0 RGB discarded; no resizing/repositioning"
+      }
+    },
+    {
+      "name": "photography",
+      "asset_name": "photography-seated",
+      "title": "Photography（无帽版）",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "full": {
+        "file": "photography-seated_full.webp",
+        "bytes": 329770,
+        "sha256": "77ffdd8d793cc4982dc2c14ffa153e9c6ef00a8de46946bb643354e804d4b589",
+        "approved_source": "../published-style-review/alternatives/photography-seated-steps-v2.png",
+        "source_manifest": "../published-style-review/alternatives/manifest.json",
+        "source_revision": "photography-seated-steps-v2.png",
+        "source_sha256": "56837f8134294d53a833d4e47a2e15b25fbde7a0c27779670a16ec3d13840997",
+        "processing": "WebP quality 92; original resolution; no crop or resampling"
+      },
+      "cut": {
+        "file": "photography-seated_cut.webp",
+        "source_png": "photography-seated_cut.png",
+        "source_sha256": "e141d1fbaeb2729eecc41af43df3c922997d9949a425fd6da27051194b959519",
+        "sha256": "ce849fccf533b14be628890e7385b78a3fe8558946cc5d03ea62340565d185ae",
+        "bytes": 483444,
+        "alpha_bbox": [
+          134,
+          252,
+          881,
+          1434
+        ],
+        "alpha_bbox_threshold": 20,
+        "alpha_range": [
+          0,
+          254
+        ],
+        "processing": "Lossless WebP; exact alpha and RGB where alpha>0 verified; hidden alpha=0 RGB discarded; no resizing/repositioning"
+      }
+    },
+    {
+      "name": "travel",
+      "asset_name": "travel",
+      "title": "Travel",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "full": {
+        "file": "travel_full.webp",
+        "bytes": 186672,
+        "sha256": "8d30110fd3048c5dc03e50f2cfd2692c4bc581642f150cdf47127e5f932a13a4",
+        "approved_source": "../published-style-review/approved/travel.png",
+        "source_manifest": "../published-style-review/approved/manifest.json",
+        "source_revision": "../revisions/travel-v4.png",
+        "source_sha256": "54790fb3a11f096453c05e1fd3cff69d9a772f7fb973417c610fa22eb42c340b",
+        "processing": "WebP quality 92; original resolution; no crop or resampling"
+      },
+      "cut": {
+        "file": "travel_cut.webp",
+        "source_png": "travel_cut.png",
+        "source_sha256": "155a961d149c6c3ec87645409780eb56ca6c316881988e9b7c0de6d032bd75d0",
+        "sha256": "339a44ae359349e07dfea0c73782321d958f0dbe324c4bf1a07c09bdb47d7345",
+        "bytes": 547032,
+        "alpha_bbox": [
+          108,
+          222,
+          901,
+          1366
+        ],
+        "alpha_bbox_threshold": 20,
+        "alpha_range": [
+          0,
+          254
+        ],
+        "processing": "Lossless WebP; exact alpha and RGB where alpha>0 verified; hidden alpha=0 RGB discarded; no resizing/repositioning"
+      }
+    }
+  ]
+}

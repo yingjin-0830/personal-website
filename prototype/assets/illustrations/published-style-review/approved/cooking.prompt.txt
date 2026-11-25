@@ -1,0 +1,19 @@
+Use case: identity-preserve.
+Asset: ONE refined full-body Cooking illustration for Ying's same portfolio character series.
+Image1 is the original Cooking illustration and precise identity/style reference. Keep the SAME recognizable young East Asian adult woman, soft natural face, expressive brown eyes, warm skin tone, chestnut-brown hair, natural elongated adult fashion proportions and refined warm illustrated rendering.
+
+SCENE CORE: she has made a plate of homemade Chinese dumplings and is standing in her home kitchen holding it. A steaming pot on the hob and actual cooking ingredients on the back counter tell the food story.
+
+REFINE CHARACTER/OUTFIT:
+Gather her chestnut-brown wavy hair into a soft practical LOW PONYTAIL, with a few light face-framing strands and natural crown volume. Same color, same recognizable face, no hat or headband. Not the low chignon of the Coffee image.
+A simple soft ivory short-sleeve fine-knit top, muted SAGE LINEN APRON neatly tied at the waist, comfortable WARM-GREY COTTON WIDE-LEG TROUSERS (no denim or blue jeans), and simple ivory closed-toe flat leather house mules, both complete shoes visible. Comfortable quietly refined home clothing, natural fabric drape. Tiny gold stud earrings and one fine simple necklace, no dangling bracelets or large accessories.
+
+NATURAL POSE:
+Relaxed upright stance, shoulders open and level, comfortable feet slightly apart. Torso gently three-quarter toward the viewer, head following the body without sideways neck tilt, small warm satisfied smile. Hold a ceramic plate with eight to ten crescent-shaped Chinese dumplings with pleated edges at lower-chest/waist height, supported naturally by both hands underneath. Elbows relaxed close to the body, plate close enough to hold comfortably, not dramatically thrust toward the viewer. Natural hands, wrists and anatomy. Face clear, full silhouette and both legs/shoes visible, no furniture or plate blocking the lower body.
+
+DISTINCT WORKING KITCHEN:
+Remove the original decorative trees, hanging plants, flower vase, garden/skyline window and leafy shadows. Instead show a bright, thoughtfully arranged actual cooking space with some architectural depth: pale oak base cabinets, a light stone counter receding diagonally toward the hob, warm-white small ceramic backsplash, a muted terracotta side wall and simple brushed-metal range hood. A high ribbed/frosted-glass window gives diffuse daylight without exterior scenery. On the rear prep counter: a wooden board with scallions, carrots and napa cabbage, a small bowl, rolling pin and a few unfilled dumpling wrappers. On the side hob a plain stainless pot releases a little gentle steam. A folded linen towel and a restrained utensil rail make it lived-in. Vegetables are food ingredients, not decorative plants. Clear uncluttered floor in front of her. Warm natural light, contrast between pale oak, soft sage, warm grey and terracotta; room feels distinct from the dark-walnut Coffee nook and Travel hallway. Counter and stove stay behind/beside her, never across her legs.
+
+STYLE/FRAME: same precise clean contours, gentle soft face/hair/fabric shading, subtle paper grain and muted warm fashion illustration. No heavy black outlines, chibi, photorealistic person or glossy3D. ONE woman, ONE scene.
+Portrait2:3, at least1024×1536. Full body from hair top through BOTH shoe soles, complete hands and plate. Person about70%canvasheight, with at least8%clear headroom and at least8%clear floor below soles. Do not zoom in or crop.
+No text, letters, numbers, signs, logos, branding, watermarks, borders, split panels, extra people, trees, houseplants, flowers or skyline. Output ONE finished illustration.

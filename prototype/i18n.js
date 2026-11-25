@@ -1,5 +1,10 @@
 (()=>{
  const ui={
+"experienceNav":["Experience","工作经历"],
+"resumePreview":["Ying Jin · Resume","Ying Jin · 个人简历"],
+"downloadResume":["Download","下载"],
+"resumeFallback":["PDF preview is not available in this browser.","当前浏览器无法内嵌预览 PDF。"],
+"resumeOpen":["Open resume","打开简历"],
 "companyWebsite":["Company website", "公司官网"],
 "unwritten":["A little mystery", "一枚小小的未知"],
 "documentTravel":["The Travel Collection", "旅行收藏"],
@@ -16,19 +21,10 @@
 "personalDetailsBack":["Back to my personal chapters", "返回生活篇章"],
 "topicKicker":["PERSONAL CHAPTER", "生活篇章"],
 "personalOverview":["BACK TO ALL MY SIDES", "返回我的不同面"],
-"contactBack":["Back to the page", "返回页面"],
-"contactFooter":["YING JIN / LET’S CONNECT", "YING JIN / 保持联系"],
-"emailCopyFailed":["Please select the email address to copy it.", "请选择上面的邮箱地址进行复制。"],
-"emailCopied":["Email address copied.", "邮箱地址已复制。"],
-"copyEmail":["Copy address", "复制邮箱"],
-"sendEmail":["Write an email", "写邮件"],
-"contactEmailLabel":["EMAIL", "电子邮箱"],
-"contactLead":["For opportunities, collaborations, or a simple hello.", "无论是工作机会、合作，还是简单打个招呼。"],
-"contactTitle":["Let’s talk.", "聊聊吧。"],
-"contactKicker":["SAY HELLO", "打个招呼"],
-"contactAction":["Contact", "联系我"],
-"professionalResources":["Professional links and contact", "简历与职业联系入口"],
-"resumeDownload":["Résumé · PDF", "简历 · PDF"],
+"footerLinksLabel":["Contact links", "联系方式"],
+"emailLinkLabel":["Email Ying Jin", "发送邮件给 Ying Jin"],
+"githubLinkLabel":["View on GitHub", "查看 GitHub"],
+"resumeDownload":["Resume", "简历"],
  "description":["Ying Jin — work, perspective, and a life beyond the résumé.","Ying Jin — 工作、视角，以及简历之外的生活。"],
   "navCover": [
     "Cover",
@@ -87,8 +83,8 @@
     "于纷繁处，<br>找到<em>清晰。</em>"
   ],
   "heroBio": [
-    "Marketing analytics.<br>AI workflows.<br>A curious mind.",
-    "市场分析。<br>AI 工作流。<br>与一颗好奇的心。"
+    "Marketing analytics · AI workflows<br>A curious mind.",
+    "市场分析 · AI 工作流<br>与一颗好奇的心。"
   ],
   "entryWorkIndex": [
     "01 / THE PROFESSIONAL SIDE",

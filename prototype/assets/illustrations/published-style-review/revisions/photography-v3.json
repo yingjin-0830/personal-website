@@ -1,0 +1,33 @@
+{
+  "scene": 6,
+  "revision": 3,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "photography-v3.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-5c7b65af-d93b-4345-b04d-cb05e78db071.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "1e0ff3ec1e2dbccb21ac51c98a8203b43c09009e6d65206aaa65ed56f7f673e6",
+  "references": [
+    "photography-v2.png"
+  ],
+  "prompt_file": "photography-v3.prompt.txt",
+  "review_recorded_on": "2026-11-23",
+  "user_selection": [
+    "炭灰色贝雷帽",
+    "停步观察街景"
+  ],
+  "changes": [
+    "Added charcoal wool beret with loose chestnut waves visible",
+    "Camera held naturally at waist in one hand, other hand in trench pocket",
+    "Relaxed three-quarter paused stance looking along street",
+    "Preserved same face, sand trench, dark trousers, ankle boots and SoHo setting"
+  ],
+  "status": "not_selected",
+  "approved": false,
+  "website_integrated": false,
+  "visual_qa": "Selected beret and observation pose clearly visible. One same adult character, unobstructed face, complete full body including hat and both boots, generous top/bottom margins; no text/logos/trees observed.",
+  "chosen_revision": "photography-v2.png",
+  "selection_quote": "还是你上一张好，就上一个没有帽子的版本"
+}

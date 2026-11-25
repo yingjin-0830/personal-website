@@ -1,0 +1,221 @@
+{
+  "generator": "Built-in image_gen.imagegen",
+  "identity_reference": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/living-edition/source/hero-fashion.png",
+  "series_reference": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/real-estate.png",
+  "artworks": [
+    {
+      "scene": 1,
+      "filename": "real-estate.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2793815,
+      "sha256": "dd110e331ee947f058e1dcc6de2f9f7f12cbb6e38d360f2df00df56b919567a9",
+      "prompt_file": "real-estate.prompt.txt",
+      "metadata_file": "real-estate.json",
+      "status": "review_only",
+      "approved": false,
+      "website_integrated": false,
+      "approved_revision": {
+        "filename": "revisions/real-estate-v3.png",
+        "metadata_file": "revisions/real-estate-v3.json",
+        "approved": true,
+        "website_integrated": false,
+        "sha256": "b7227220d961c75460d7006701836cd9538a461baec406bef380952291ba6658",
+        "size": [
+          1024,
+          1536
+        ]
+      }
+    },
+    {
+      "scene": 2,
+      "filename": "sales-marketing.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2663717,
+      "sha256": "2b1f9fd97dd5a10ddd70df0aca9d721f53b520c02a0a85e6325a7b63ceb02647",
+      "prompt_file": "sales-marketing.png.prompt.txt",
+      "metadata_file": "sales-marketing.png.json",
+      "status": "review_only",
+      "approved": false,
+      "website_integrated": false,
+      "approved_revision": {
+        "filename": "revisions/sales-marketing-v2.png",
+        "metadata_file": "revisions/sales-marketing-v2.json",
+        "approved": true,
+        "website_integrated": false,
+        "sha256": "2e2b644ed66cc58551d7840ae0ab721b3faa2dbad8894ad189db3ea21d22aff1",
+        "size": [
+          1024,
+          1536
+        ]
+      }
+    },
+    {
+      "scene": 3,
+      "filename": "data-analytics.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2724794,
+      "sha256": "7cdbdbc7e8e66bc1c7db63042c6db0c04a498109aacf2919f66c53edcfe3281c",
+      "prompt_file": "data-analytics.png.prompt.txt",
+      "metadata_file": "data-analytics.png.json",
+      "status": "review_only",
+      "approved": false,
+      "website_integrated": false,
+      "approved_revision": {
+        "filename": "revisions/data-analytics-v3.png",
+        "metadata_file": "revisions/data-analytics-v3.json",
+        "approved": true,
+        "website_integrated": false,
+        "sha256": "52e0cabc0127d405e73f7a42b3c63d1bb00d2ca339d9c0ddc270c0701fed12f5",
+        "size": [
+          1024,
+          1536
+        ]
+      }
+    },
+    {
+      "scene": 4,
+      "filename": "education.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2927072,
+      "sha256": "e7528f7c3f90c1a5d9fd8b0b043f1d92ce80b3b5d6c6cf03cb50bc5f5ff14e29",
+      "prompt_file": "education.png.prompt.txt",
+      "metadata_file": "education.png.json",
+      "status": "review_only",
+      "approved": false,
+      "website_integrated": false,
+      "approved_revision": {
+        "filename": "revisions/education-v2.png",
+        "metadata_file": "revisions/education-v2.json",
+        "approved": true,
+        "website_integrated": false,
+        "sha256": "01c6955487f6331d29e02abe25a5487c034d28cf9bdb0e402c3ea3473d930ec4",
+        "size": [
+          1024,
+          1536
+        ]
+      }
+    },
+    {
+      "scene": 5,
+      "filename": "coffee.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2690366,
+      "sha256": "b233c62a147625cf759ff9166f352949e3bc56ca2934aed8432ad4d50da816f5",
+      "prompt_file": "coffee.png.prompt.txt",
+      "metadata_file": "coffee.png.json",
+      "status": "review_only",
+      "approved": false,
+      "website_integrated": false,
+      "approved_revision": {
+        "filename": "revisions/coffee-v5.png",
+        "metadata_file": "revisions/coffee-v5.json",
+        "approved": true,
+        "website_integrated": false,
+        "sha256": "fefe32b8e4df0330e1d9ed7086e132354554974b5ab7c3664c7b7523bd4bf374",
+        "size": [
+          1024,
+          1536
+        ]
+      }
+    },
+    {
+      "scene": 6,
+      "filename": "photography.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 3093238,
+      "sha256": "d60be1ff9b387c40f4a0be37e41caf249dca63a227d51020a04cf3a2901c562b",
+      "prompt_file": "photography.png.prompt.txt",
+      "metadata_file": "photography.png.json",
+      "status": "review_only",
+      "approved": false,
+      "website_integrated": false,
+      "selected_revision": "revisions/photography-v2.png",
+      "approved_revision": {
+        "filename": "revisions/photography-v2.png",
+        "metadata_file": "revisions/photography-v2.json",
+        "approved": true,
+        "website_integrated": false,
+        "sha256": "584e8e362ebee8231f0eddad98c4f8e6e47e9db8f9576f2bbbc7ee4dca5dac90",
+        "size": [
+          1024,
+          1536
+        ]
+      }
+    },
+    {
+      "scene": 7,
+      "filename": "travel.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2694341,
+      "sha256": "9f35337272286f7028bb6e2a7baab43ea6fec95cffbb5edf9dffd294e96d3529",
+      "prompt_file": "travel.png.prompt.txt",
+      "metadata_file": "travel.png.json",
+      "status": "review_only",
+      "approved": false,
+      "website_integrated": false,
+      "approved_revision": {
+        "filename": "revisions/travel-v4.png",
+        "metadata_file": "revisions/travel-v4.json",
+        "approved": true,
+        "website_integrated": false,
+        "sha256": "54790fb3a11f096453c05e1fd3cff69d9a772f7fb973417c610fa22eb42c340b",
+        "size": [
+          1024,
+          1536
+        ]
+      }
+    },
+    {
+      "scene": 8,
+      "filename": "cooking.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2614409,
+      "sha256": "3fa22c890c6d7c158adf61cc5fc266a777178f91e7f4908843b7999c68e30c33",
+      "prompt_file": "cooking.prompt.txt",
+      "metadata_file": "cooking.json",
+      "status": "review_only",
+      "approved": false,
+      "website_integrated": false,
+      "approved_revision": {
+        "filename": "revisions/cooking-v2.png",
+        "metadata_file": "revisions/cooking-v2.json",
+        "approved": true,
+        "website_integrated": false,
+        "sha256": "8ba7d8959cb7eb41c23cf34e76c512444d1b5b69b0dadabb252c0a9e144205a2",
+        "size": [
+          1024,
+          1536
+        ]
+      }
+    }
+  ],
+  "website_integrated": false,
+  "publication_authorized": false,
+  "review_complete": true,
+  "approved_selection_count": 8,
+  "awaiting_integration": true
+}

@@ -1,0 +1,35 @@
+{
+  "scene": 7,
+  "revision": 2,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "travel-v2.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-a4aaca9e-662a-4a40-b111-4beae9f53ab3.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "b7c725b36c9a4bbb52e2e298ea604e941f3302bfa55694b3a6677759539eabd5",
+  "references": [
+    "../travel.png"
+  ],
+  "prompt_file": "travel-v2.prompt.txt",
+  "review_recorded_on": "2026-11-23",
+  "changes": [
+    "Dusty-blue cotton overshirt, white tee, pale-khaki cotton wide-leg trousers and ivory sneakers",
+    "Placing a separate souvenir magnet, other hand resting on suitcase handle",
+    "Airy apartment hallway, console, oak floor and runner replace trees/plants/landmark window",
+    "Core cream fridge, colorful separate magnets and carry-on suitcase retained"
+  ],
+  "status": "revision requested by Ying — vacation dress and hat, not approved or integrated",
+  "approved": false,
+  "website_integrated": false,
+  "visual_qa": "One matching adult woman, identifiable three-quarter face; full body and both complete sneakers plus suitcase wheels, generous margins. Separate fridge magnets, placing hand and suitcase interaction visible. No tree/skyline/text/logos/branding observed.",
+  "revision_request_quote": "这套衣服有点不好看，我需要有点度假感的那种，裙子+帽子",
+  "revision_request": {
+    "user_quote": "这套衣服有点不好看，我需要有点度假感的那种，裙子+帽子",
+    "selected_direction": "Vacation feeling with a dress and hat.",
+    "planned_wardrobe": "Cream linen vacation dress, slim brown waist belt, woven straw hat and simple sandals.",
+    "invariants": "Preserve the same recognizable face, placing-fridge-magnet action, suitcase and hallway setting.",
+    "review_state": "Travel v2 is not approved and requires a wardrobe revision. Scene 7 remains active; keep pending_revision on v2 until the next candidate is saved."
+  }
+}

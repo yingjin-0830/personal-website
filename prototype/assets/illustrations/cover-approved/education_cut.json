@@ -1,0 +1,89 @@
+{
+  "asset": "prototype/assets/illustrations/cover-approved/education_cut.png",
+  "use_case": "background-extraction",
+  "tool": "built-in image_gen.imagegen",
+  "transparent_background": true,
+  "source_approved_artwork": "prototype/assets/illustrations/published-style-review/approved/education.png",
+  "source_approved_sha256": "01c6955487f6331d29e02abe25a5487c034d28cf9bdb0e402c3ea3473d930ec4",
+  "generated_source_path": "/Users/jinying/.codex/generated_images/01a20b7a-a035-7660-a292-c2d2c517164b/exec-d8acafa4-21af-46d3-bdbd-571f3a3d8314.png",
+  "generated_sha256": "1129cc82d3b6a39f6f6b81a16791e74764994995997c39551ed5baba6cac1248",
+  "output_sha256": "1129cc82d3b6a39f6f6b81a16791e74764994995997c39551ed5baba6cac1248",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_range": [
+    0,
+    254
+  ],
+  "alpha_bbox": [
+    130,
+    247,
+    817,
+    1464
+  ],
+  "alpha_bbox_by_threshold": {
+    "1": [
+      130,
+      247,
+      817,
+      1464
+    ],
+    "10": [
+      134,
+      307,
+      815,
+      1428
+    ],
+    "128": [
+      135,
+      308,
+      814,
+      1427
+    ],
+    "200": [
+      135,
+      308,
+      814,
+      1426
+    ],
+    "250": [
+      140,
+      309,
+      812,
+      1425
+    ]
+  },
+  "corner_alpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "transparent_pixel_count": 1136888,
+  "registration_requirement": "Same 1024 x 1536 source canvas and subject placement, scale, pose. No crop/reframe.",
+  "prompt": "Use case: background-extraction.\nAsset type: pixel-registered transparent foreground layer for an illustrated homepage.\nInput image 1 is the approved edit target. REMOVE ONLY THE BACKGROUND. Keep the exact same seated illustrated woman: her face, brown wavy hair, jewelry, navy graduation cap and tassel, navy graduation gown and cream/gold hood, white dress, hands, diploma with ribbon, crossed bare legs, cream heels and exact seated pose must remain unchanged.\nCanvas registration is critical: output a 1024 × 1536 portrait PNG with the exact same 2:3 canvas, transparent padding, subject scale and subject location as the input. Do not crop to the subject, center, enlarge, shift, rotate, reframe, stand her up or redraw her. Preserve the graduation cap at y≈309, gown extending to x≈139 and x≈810, and full heels ending near y≈1425 on the original canvas. All four image corners must be fully transparent.\nErase ALL steps, seating surface and stone pavement, all campus architecture, trees, foliage, sky, every background object, and all floor and contact shadows. Keep the complete woman with cap, gown, diploma and heels alone, floating at the unchanged canvas position. The transparent area behind/under her seated dress must contain no step or chair. Preserve delicate hair edges and full gown contour. No white border, glow, drop shadow, checkerboard or colored backdrop. Output actual RGBA alpha transparency. This is exact background removal, not a new illustration.",
+  "created_utc": "2026-11-24T03:17:37.700349+00:00",
+  "pixel_processing": "Unmodified copy of built-in image_gen PNG. No Python image editing.",
+  "qa_status": "Accepted after canvas/alpha, white-composite visual, and measured integer translation registration QA.",
+  "registration_qa": {
+    "method": "Compare approved RGB source to generated subject RGB at subsampled alpha>250 interior points, eroded by two pixels horizontally and vertically; mean absolute RGB difference search over integer dx/dy in [-5,+5].",
+    "best_source_sample_offset_px": [
+      0,
+      0
+    ],
+    "best_mean_absolute_rgb_difference_0_255": 5.317624092102051,
+    "sample_count": 99240,
+    "interpretation": "Best source match is at unchanged placement. This checks translation, not pixel identity. Visual review found original pose, subject scale, canvas position and full props retained."
+  },
+  "visual_qa": {
+    "inspection": "White-background alpha composite and comparison with approved source.",
+    "complete_figure_and_shoes": true,
+    "required_props_retained": true,
+    "background_objects_removed": true,
+    "visible_halo": false,
+    "visible_scale_or_position_shift": false,
+    "note": "Generated extraction has minor pixel/texture differences from source. Very low alpha residuals (<10/255) extend beyond silhouette, invisible in white composite; original generated PNG preserved without postprocessing."
+  }
+}

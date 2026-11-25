@@ -1,0 +1,150 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "All files in this frozen archive except manifest.sha256.json itself",
+  "archive_date": "2026-11-24",
+  "timezone": "America/New_York",
+  "file_count": 28,
+  "total_bytes": 2541820,
+  "files": [
+    {
+      "path": "00-home-typewriter.jpg",
+      "bytes": 114332,
+      "sha256": "ebe4707bab931ec798753340f0dc9a3aa9da61f4df0cd783667e42165a6eeb75"
+    },
+    {
+      "path": "01-home-desktop.jpg",
+      "bytes": 114648,
+      "sha256": "25887e823ab86e4c0adea8d19e8b60359adbf67bb53397b0bd638a5ce9a978a4"
+    },
+    {
+      "path": "02-home-phone.jpg",
+      "bytes": 24409,
+      "sha256": "4b3360053e02f6790aae13be49cbb9b50ed78c7d18864713ef0c9e22afd85a3c"
+    },
+    {
+      "path": "02b-home-label-tap.jpg",
+      "bytes": 21695,
+      "sha256": "d340e6e09820fab65ff104e1dd4e68f78e730c074665c45986095f23b8df4622"
+    },
+    {
+      "path": "03-work-desktop-full.jpg",
+      "bytes": 358518,
+      "sha256": "e45b2bef118bd344db43fbf5fa469d8847a3bbeab02f678501990393969ada5f"
+    },
+    {
+      "path": "03a-work-overview.jpg",
+      "bytes": 137190,
+      "sha256": "7ac2808b863eab301b4bf644c5742eba6413d04c023482193c99edbee9833bcc"
+    },
+    {
+      "path": "03b-work-projects.jpg",
+      "bytes": 145865,
+      "sha256": "1dab63851470e16ce880b0f50858446833bc943aa8b62d45f7db79a677bf0146"
+    },
+    {
+      "path": "04-project-detail.jpg",
+      "bytes": 49246,
+      "sha256": "a8fa144ab510451174564349c46d513201b03717625ebe9c792dda643ffb0111"
+    },
+    {
+      "path": "05-coffee.jpg",
+      "bytes": 148539,
+      "sha256": "ee3c4c66de5fa6faabbaeb8ef0483ff916457f06956ea6b11b4ac8a5a9bce066"
+    },
+    {
+      "path": "05-life-desktop-full.jpg",
+      "bytes": 401421,
+      "sha256": "f55bce01c9c5541731031987a0d2b4b6ee7a6494a7a57e5b875f6c77c1f88039"
+    },
+    {
+      "path": "05-music.jpg",
+      "bytes": 148602,
+      "sha256": "42e1fbac8eec8a0e1cc374ba6a351f96d2d46f0cbe9f3f462963cc974412fbeb"
+    },
+    {
+      "path": "05-photography.jpg",
+      "bytes": 171263,
+      "sha256": "7067a06d47b8b17fc0e2e42a35056e5bc556994bcae6f4b4425bd4850c28450c"
+    },
+    {
+      "path": "05-wellness.jpg",
+      "bytes": 71990,
+      "sha256": "fdca84285034c6ec4db4b037ea63c4d8d819217e2077250610158062ba47e7bd"
+    },
+    {
+      "path": "06-travel-desktop.jpg",
+      "bytes": 122594,
+      "sha256": "306b20784895d48b115eadae57c6b83391834e5267396bae00ec043a0feeb981"
+    },
+    {
+      "path": "06b-travel-detail.jpg",
+      "bytes": 49864,
+      "sha256": "07f7107e76fd4ea2950ef6949b4052623c70111d2b86edaf2578b8b3380f27b6"
+    },
+    {
+      "path": "06c-travel-phone.jpg",
+      "bytes": 66730,
+      "sha256": "0a1e282afc579d110223e9a453c03a3f16c8e40c480a115a0a35eca42c5bdef9"
+    },
+    {
+      "path": "07-resume-phone.jpg",
+      "bytes": 36721,
+      "sha256": "1839d70ee13f79fb42e25e9a1726c4363f3ef161ab8a5f08b707bc7ff671e022"
+    },
+    {
+      "path": "08-home-light-chinese.jpg",
+      "bytes": 81122,
+      "sha256": "2423cdb16ddfeb88f1a4c09b476f64d0cd8418929e1d18e46a01f2310c1945b4"
+    },
+    {
+      "path": "09-report-preview.jpg",
+      "bytes": 65541,
+      "sha256": "bb3e872390b7647790850f5eecbc243662cf6acd2f1f2cbb4a4b4d63618de5a3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3533,
+      "sha256": "88a8dd56f68bb581e26aba0ffc27bd11d1643a5a7c926c8e273c526e945e8814"
+    },
+    {
+      "path": "assets/fonts/Montserrat-OFL.txt",
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "assets/fonts/montserrat-latin-variable.woff2",
+      "bytes": 35508,
+      "sha256": "6438d7b8ea9c7c3992d5e2fd2afdb1ff948570a3ef0bedae76247b51632960ba"
+    },
+    {
+      "path": "audit-home-comparison.jpg",
+      "bytes": 131230,
+      "sha256": "2d4ac6b2df6a62e94b71ad84e65d05b7b0e8f080766a0ac79ab8f8b6029cb09d"
+    },
+    {
+      "path": "audit.json",
+      "bytes": 12526,
+      "sha256": "503f5b499313d1ee1b8f853cb1e9cc385e0066c802471bdb13486acaaf4a6a62"
+    },
+    {
+      "path": "life-bounds.json",
+      "bytes": 419,
+      "sha256": "d2405cecb75385beba57a9026c5ca5a49869e43b2bb98a169acf52446daad1f8"
+    },
+    {
+      "path": "report.html",
+      "bytes": 19517,
+      "sha256": "7e8fe2caf727c47c8a07bb09c9fe18a48c8047e7bfb9539280dd74ee6e06479c"
+    },
+    {
+      "path": "tokens.css",
+      "bytes": 4123,
+      "sha256": "4131fa78976333b50745cbad35173c4633cee61d7a476b26235a1343ffe2c3fa"
+    },
+    {
+      "path": "work-bounds.json",
+      "bytes": 274,
+      "sha256": "d8d337cc15f63ff809f4fab9d7d4b677de29983bd9a9f87546887fba037c8b57"
+    }
+  ]
+}

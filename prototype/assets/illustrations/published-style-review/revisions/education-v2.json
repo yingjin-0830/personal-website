@@ -1,0 +1,29 @@
+{
+  "scene": 4,
+  "revision": 2,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "education-v2.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-38f3a57e-d820-47a7-bcfd-a2f3af091d51.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "01c6955487f6331d29e02abe25a5487c034d28cf9bdb0e402c3ea3473d930ec4",
+  "references": [
+    "../education.png",
+    "../../../living-edition/source/hero-fashion.png"
+  ],
+  "prompt_file": "education-v2.prompt.txt",
+  "changes": [
+    "Masters graduation regalia and hood",
+    "White midi dress instead of jeans",
+    "Pointed-toe high heels",
+    "Seated stone-step pose",
+    "Pearl earrings, fine necklace and bracelet"
+  ],
+  "status": "approved by Ying — not integrated",
+  "approved": true,
+  "website_integrated": false,
+  "approval_quote": "这一张可以！",
+  "approval_recorded_on": "2026-11-22"
+}

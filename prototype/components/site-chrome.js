@@ -1,0 +1,11 @@
+const choose = (language, en, zh) => language === 'zh' ? zh : en;
+export function renderHeader(language, home = false) {
+  return `<header class="site-header${home ? ' is-home' : ''}"><a class="wordmark" href="#home" aria-label="${choose(language,'Ying Jin — Home','Ying Jin — 首页')}">YING JIN<span class="accent-period">.</span></a><div class="header-actions"><button class="language-toggle" type="button" data-language-toggle aria-label="${choose(language,'切换到中文','Switch to English')}" lang="${language === 'en' ? 'zh-CN' : 'en'}">${language === 'en' ? '中文' : 'EN'}</button><button class="mode-toggle" type="button" data-mode-toggle aria-label="${choose(language,'Switch to light mode','切换到浅色模式')}"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button></div></header>`;
+}
+export function renderFooter(language) {
+  return `<footer class="site-footer content-frame"><a class="footer-email" href="mailto:ying.jin0830@gmail.com">ying.jin0830@gmail.com</a><nav aria-label="${choose(language,'Contact links','联系方式')}" class="footer-links"><a href="assets/docs/Ying-Jin-Resume.pdf" data-resume>${choose(language,'Resume','简历')}</a><a href="https://github.com/yingjin-0830" target="_blank" rel="noopener noreferrer" aria-label="${choose(language,'View on GitHub','查看 GitHub')}"><span class="social-mark github-mark" aria-hidden="true"></span></a><a href="https://www.linkedin.com/in/yingjin08/" target="_blank" rel="noopener noreferrer" aria-label="${choose(language,'View on LinkedIn','在 LinkedIn 上查看')}"><span class="social-mark linkedin-mark" aria-hidden="true"></span></a></nav></footer>`;
+}
+export function syncModeLabel(language) {
+  const light = document.documentElement.dataset.mode === 'light';
+  document.querySelectorAll('[data-mode-toggle]').forEach(button => button.setAttribute('aria-label', choose(language, light ? 'Switch to dark mode' : 'Switch to light mode', light ? '切换到深色模式' : '切换到浅色模式')));
+}

@@ -1,0 +1,34 @@
+{
+  "id": "data-analytics-seated-computer-v3",
+  "scene_id": 3,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "data-analytics-seated-computer-v3.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-00a80356-a9bc-48d1-965f-06e2372276d8.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "fc8430d9eb3b655696da54e0d08a6a751d03b7958a28532c285d7f69ac4d2211",
+  "base_approved_revision": "../revisions/data-analytics-v3.png",
+  "revises_alternative": "data-analytics-seated-computer-v2.png",
+  "references": [
+    "data-analytics-seated-computer-v2.png",
+    "data-analytics-seated-computer-v1.png"
+  ],
+  "prompt_file": "data-analytics-seated-computer-v3.prompt.txt",
+  "requested_on": "2026-11-23",
+  "latest_user_clarification": "看电脑办公，不用看观众",
+  "changes": [
+    "Working gaze/head/torso directed toward computer instead of audience",
+    "Active hands on keyboard and mouse",
+    "Monitor rear casing visible, dashboard appears only on wall",
+    "Same character/outfit/room and complete seated body retained"
+  ],
+  "status": "approved_for_consideration",
+  "approved": true,
+  "selected_for_site": false,
+  "replaces_approved": false,
+  "website_integrated": false,
+  "visual_qa": "Gaze/head/torso directed toward workstation rather than viewer; hands naturally at mouse/keyboard; monitor rear casing visible and wall is the sole visible dashboard. Complete figure and both shoes visible, no text/logos/trees. Independent visual review found no clear orientation/anatomy blocker; monitor yaw is somewhat ambiguous but plausibly faces inward toward her.",
+  "approval_quote": "这张可以"
+}

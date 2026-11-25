@@ -1,36 +1,44 @@
-# Ying Jin — Editorial edition
+# Ying Jin — Work & Life, arc edition
 
-A bilingual personal portfolio with Professional stories, six Personal interest chapters in an interactive dimensional book, an interactive travel magnet collection, résumé download and contact details. The `editorial-flat` branch contains the magazine edition; `main` preserves the earlier illustrated edition.
+A buildless bilingual personal portfolio with one illustrated arc homepage, matching Work/Life pages, dark/light modes, résumé resources and the retained Travel magnet collection. `home-reference.html`, supplied by Ying, is the visual and interaction source. The initial arc edition is preserved on `codex/baseline-v1-2026-11-24` with tag `v1-baseline-2026-11-24`; `main` preserves the earlier illustrated edition. See [BASELINE.md](BASELINE.md) before starting the next optimization.
 
-Website: https://yingjin-0830.github.io/personal-website/
+[Existing public website](https://yingjin-0830.github.io/personal-website/) — it may not match this archived baseline; saving the checkpoint does not deploy it.
 
-## Preview locally
+The [frozen diagnosis and screenshots](docs/audits/2026-11-24/README.md) are part of the repository. The archive includes a self-contained HTML report, structured findings and a SHA-256 file inventory.
+
+## Local preview
 
 ```sh
 python3 -m http.server 4174 --bind 127.0.0.1 --directory prototype
 ```
 
-Open http://127.0.0.1:4174/ . The site uses plain HTML, CSS and JavaScript; no package installation or build is required.
+Open [the local homepage](http://127.0.0.1:4174/). No package installation, framework or build step is required. Work and Life use GitHub Pages-safe fragments such as `#work/education`, `#life/wellness` and `#life/travel/collection`.
 
-## Update and publish
+## Maintain the site
 
-Edit files on `editorial-flat`, preview locally, then commit and push to that branch. The [Pages workflow](.github/workflows/deploy-pages.yml) runs the content/navigation tests and deploys `prototype/` automatically. Follow deployment progress in the repository’s Actions tab. A failed check stops publication.
+Read [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) and [AGENTS.md](AGENTS.md) first.
 
-GitHub repository Settings → Pages must use **GitHub Actions** as its source. The workflow only publishes `editorial-flat`; it does not merge or deploy `main`.
+- `prototype/tokens.css`: all interface colors, typography, spacing and motion tokens, including dark/light mode.
+- `prototype/base.css` and `prototype/components/*.css`: shared presentation and small page components, consuming those tokens.
+- `prototype/editorial.css`: the single stylesheet entry.
+- `prototype/editorial.js`: ES-module application shell, route lifecycle, language and dialogs.
+- `prototype/home.js`: arc rendering and interaction; pure geometry/routing helpers and page components are in `prototype/components/`.
+- `prototype/editorial-content.js`, `i18n.js`: sourced résumé/project data and English/Chinese content.
+- `prototype/assets/illustrations/cover-approved/`: eight selected 1024 × 1536 homepage scenes with registered transparent figures and provenance metadata, including the approved side-facing Sales & Marketing and seated Photography alternatives. Matching Work/Life sections reuse these pairs; additional reviewed Life scenes are in `inner-approved/`. Historical reference artwork, the original eight-scene gallery and other pose options remain available.
+- `prototype/assets/fonts/`: self-hosted official Google Fonts Montserrat variable WOFF2 and OFL license.
+- `prototype/magnet-art.js`: approved independent Travel artwork; retain it.
+- `prototype/assets/docs/`: exact supplied résumé PDF and its rendered preview.
 
-## Maintain content
+See [prototype/README.md](prototype/README.md) for runtime and verification details. Existing asset credits remain in the source manifests. `prototype/qa/archives/editorial-before-arc/` preserves the pre-redesign state locally and is not part of the runtime.
 
-- `prototype/editorial-content.js`: Professional experiences, projects, education and Personal topics/places.
-- `prototype/i18n.js`: English and Simplified Chinese UI/content translations.
-- `prototype/editorial.css`, `editorial-refinements.css`, `personal.css`, `living-edition.css`: layout and visual styling.
-- `prototype/journey.js`, `motion.js`, `personal-book.js`: scroll mapping, transition ownership and the interactive book.
-- `prototype/assets/`: character artwork, photographs, logos and the downloadable résumé.
-- `prototype/content-sources.md`: résumé/LinkedIn source mapping and asset credits.
-
-Run the existing checks with Node.js 24:
+## Checks
 
 ```sh
 node --test prototype/tests/*.test.cjs
 ```
 
-See [prototype/README.md](prototype/README.md) for interaction and asset details. Personal photographs, stories and social links can be added as Ying supplies them.
+Review 1440, 1024 and 390 px viewport widths in both modes, keyboard/touch routes, reduced motion, bilingual copy, pop-out image alignment and Travel. Lighthouse accessibility ≥95 is the requested target; report only an actual measured audit result. Passing tests or viewport checks alone does not establish Lighthouse, Safari or real-device results.
+
+## Publication
+
+The baseline branch is a versioned backup and does not trigger deployment. Publishing remains subject to Ying’s explicit approval. After that approval, the [Pages workflow](.github/workflows/deploy-pages.yml) tests and deploys `prototype/` from `editorial-flat`; it does not merge or deploy `main`. GitHub Pages must use GitHub Actions as its source.

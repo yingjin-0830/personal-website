@@ -1,0 +1,33 @@
+{
+  "scene": 5,
+  "revision": 2,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "coffee-v2.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-33f13227-532d-44d0-b61e-ef93a6915c0a.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "14b3b7949fbab9f84a304420b4b6613d03e9962980f1b6aca904eb722ad4f7a8",
+  "references": [
+    "../coffee.png",
+    "data-analytics-v3.png"
+  ],
+  "prompt_file": "coffee-v2.prompt.txt",
+  "changes": [
+    "Distinct warm indoor coffee corner: plain plaster/tile wall and ceramic shelves",
+    "Removed all trees, garden window, flowers, vines, plants and leafy shadows",
+    "Milk-pouring latte-art action retained",
+    "Sand linen apron and caramel leather ballet flats; understated gold studs/pendant"
+  ],
+  "status": "revision requested by Ying — not approved or integrated",
+  "approved": false,
+  "website_integrated": false,
+  "visual_qa": "One matching adult woman, full body and both shoes visible; generous margins; milk stream connects pitcher to cup; kitchen equipment remains behind figure; no foliage or skyline; no text, branding or watermark.",
+  "revision_request": {
+    "wardrobe": "No jeans; replace them with cream linen wide-leg trousers. Retain the coffee-making outfit context and same character identity.",
+    "head_pose": "Slight three-quarter head turn, with her gaze directed down toward the latte art rather than repeating the previous head pose.",
+    "backdrop": "Richer warm indoor coffee corner with an arched coffee alcove, warm lamp and layered warm materials. No trees or skyline.",
+    "review_state": "Coffee v2 needs revision; Scene 5 remains active. Wait for the parent to save the new candidate before updating pending_revision."
+  }
+}

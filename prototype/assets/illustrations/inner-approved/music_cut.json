@@ -1,0 +1,146 @@
+{
+  "asset": "music",
+  "operation": "background-extraction",
+  "mode": "built-in image_gen",
+  "approved_source": {
+    "path": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/additional/music-v2.png",
+    "sha256": "946435cd6e264a8e010ba6256bc05cf92001197643b57e3b0aa7c48942cbc97c",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  "generated_source_path": "/Users/jinying/.codex/generated_images/01a20b7a-e609-7201-97de-371be1705f99/exec-6eeb633d-7bb7-43a5-99e0-4bbdbd7a6800.png",
+  "generated_source_sha256": "0dd880163910f1a5f2ed2ae07187187fe4e0e58e5e3894be49fc73b86571e7a5",
+  "output_path": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/inner-approved/music_cut.png",
+  "output_sha256": "0dd880163910f1a5f2ed2ae07187187fe4e0e58e5e3894be49fc73b86571e7a5",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "alpha_bbox": [
+    19,
+    73,
+    1004,
+    1479
+  ],
+  "alpha_bbox_by_threshold": {
+    "1": [
+      19,
+      73,
+      1004,
+      1479
+    ],
+    "20": [
+      93,
+      254,
+      915,
+      1396
+    ],
+    "100": [
+      93,
+      254,
+      914,
+      1395
+    ],
+    "200": [
+      94,
+      255,
+      914,
+      1395
+    ],
+    "240": [
+      95,
+      255,
+      913,
+      1394
+    ],
+    "250": [
+      95,
+      256,
+      913,
+      1394
+    ]
+  },
+  "prompt": "Use case: background-extraction.\nAsset type: registered transparent character overlay for an existing website illustration.\nInput image: this single supplied 1024 \u00d7 1536 portrait illustration is the ONLY APPROVED EDIT TARGET.\nPrimary request: REMOVE ONLY THE BACKGROUND. Output genuine transparent-alpha PNG on EXACT SAME 1024 \u00d7 1536 (2:3) canvas.\n\nRetain the complete approved woman in her exact cross-legged seated pose, original scale and original x/y coordinates. She has eyes gently closed, long loose wavy chestnut hair, cream over-ear headphones with cream/gold headband, left hand touching the left earcup, other hand relaxed on her crossed knee. Preserve exact identity, face, expression, every visible fingertip/finger, both hands, headphones, all hair strands, gold earrings and necklaces, wristwatch, rust-red knitted sweater with all folds/texture, cream wide trousers, crossed legs, exposed ankles, and BOTH complete cream sock-covered feet. Preserve the complete body, including all clothing and the full crossed-leg silhouette. Approximate subject extent is x94\u2013914, y251\u20131397, on the unchanged source canvas.\n\nErase ALL rug/carpet and its fibers, wooden floor, sideboard/cabinet, vinyl records, turntable, lamp, walls, window light/shadows, all room props, cast/contact shadows and background. Erase the background in every hole/gap around her fingers, headphones, hair, arms and body. No rug patch beneath her, no floor/base, no seat, stool, cushion, platform or sitting support is kept or invented. The exact seated figure simply remains on transparency.\n\nCRITICAL REGISTRATION: This cutout will overlay the original approved source at identical SVG x/y and dimensions. Do not crop, trim margins, reframe, recenter, enlarge, shrink, shift, rotate, re-pose, redraw, restyle or beautify the subject. Do not change the crossed legs, hand positions, headphones, identity, hair, clothing, fingers or feet. Keep original source pixel positions and proportions. Preserve source illustration rendering, warm light, colors and textures. Only former background becomes alpha=0; retained subject stays solid opaque with a tight antialiased contour. No visible aura/halo/glow/bloom/broad feathering, no shadows, no opaque black/white/color fill or checkerboard artwork, no text, watermark or new decoration. Actual alpha transparency.",
+  "verification": {
+    "canvas_matches_source": true,
+    "corners_fully_transparent": true,
+    "visual_review": "Complete approved cross-legged seated pose, loose hair/face/headphones, both hands and fingers, watch/jewelry, rust knit, cream trousers and both sock-covered feet retained. Entire rug/floor/cabinet/turntable/lamp/walls/shadows/background removed. No support retained or added. Inspected real alpha composites on dark/light backgrounds.",
+    "registration_method": "Normalized cross-correlation of Gaussian high-pass grayscale landmark templates searching \u00b124 pixels in approved source.",
+    "landmark_checks": [
+      {
+        "landmark": "face",
+        "source_minus_cut_displacement_px": [
+          0,
+          0
+        ],
+        "normalized_edge_correlation": 0.902
+      },
+      {
+        "landmark": "headphone",
+        "source_minus_cut_displacement_px": [
+          0,
+          0
+        ],
+        "normalized_edge_correlation": 0.913
+      },
+      {
+        "landmark": "raised_fingers",
+        "source_minus_cut_displacement_px": [
+          0,
+          0
+        ],
+        "normalized_edge_correlation": 0.88
+      },
+      {
+        "landmark": "pendant",
+        "source_minus_cut_displacement_px": [
+          0,
+          0
+        ],
+        "normalized_edge_correlation": 0.921
+      },
+      {
+        "landmark": "watch",
+        "source_minus_cut_displacement_px": [
+          0,
+          0
+        ],
+        "normalized_edge_correlation": 0.829
+      },
+      {
+        "landmark": "resting_fingers",
+        "source_minus_cut_displacement_px": [
+          0,
+          0
+        ],
+        "normalized_edge_correlation": 0.896
+      },
+      {
+        "landmark": "left_sock",
+        "source_minus_cut_displacement_px": [
+          2,
+          0
+        ],
+        "normalized_edge_correlation": 0.597
+      },
+      {
+        "landmark": "right_sock",
+        "source_minus_cut_displacement_px": [
+          0,
+          -1
+        ],
+        "normalized_edge_correlation": 0.704
+      }
+    ],
+    "registration_limitations": "Original 1024x1536 canvas and overall pose/placement maintained. Built-in generative extraction may redraw fine hair/linework/knit textures and tiny finger details. Approximate landmark matching, not pixel-identical extraction.",
+    "alpha_note": "Negligible alpha 1\u201319 residue outside visible silhouette. Visible alpha>=20 bbox documented; dark/light composites show no visible surrounding scene or broad halo."
+  },
+  "postprocessing": "Byte-for-byte copy of built-in output only. Python used for metadata/analysis/QA composites only, never to edit final raster."
+}

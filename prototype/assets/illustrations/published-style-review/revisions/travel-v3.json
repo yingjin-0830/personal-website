@@ -1,0 +1,36 @@
+{
+  "scene": 7,
+  "revision": 3,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "travel-v3.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-2874c3be-25e8-4535-91b8-5228cdc03fe6.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "0b72272fca9f7c35a496f68e77bd758833fb14f4858056c58afe4aaa30a23010",
+  "references": [
+    "travel-v2.png"
+  ],
+  "prompt_file": "travel-v3.prompt.txt",
+  "review_recorded_on": "2026-11-23",
+  "user_correction": "这套衣服有点不好看，我需要有点度假感的那种，裙子+帽子",
+  "changes": [
+    "Cream linen square-neck midi sundress with slim brown waist belt",
+    "Woven straw sun hat with cocoa ribbon, same loose chestnut waves",
+    "Simple tan leather sandals instead of sneakers",
+    "Same recognizable face, magnet-placement action, suitcase and hallway setting"
+  ],
+  "status": "revision requested by Ying — heeled mules, longer dress and vacation accessories; not approved or integrated",
+  "approved": false,
+  "website_integrated": false,
+  "visual_qa": "Selected dress/hat direction is visible with natural proportions and recognizable face. Full figure from entire straw hat through both complete sandals, generous margins. Existing fridge/magnets/suitcase interaction retained, no visible text/logos/trees.",
+  "revision_request_quote": "凉鞋换成好看的高跟拖鞋，裙子可以再长一点，饰品可以再多一点休闲度假感",
+  "revision_request": {
+    "user_quote": "凉鞋换成好看的高跟拖鞋，裙子可以再长一点，饰品可以再多一点休闲度假感",
+    "selected_direction": "Replace sandals with attractive heeled mules, lengthen the dress and add more relaxed vacation accessories.",
+    "planned_wardrobe": "Refined tan strappy heeled mules with no heel strap; longer ivory linen ankle-skimming dress with shoes fully visible; gold hoops, delicate layered necklaces and light bangles.",
+    "invariants": "Preserve straw hat, recognizable face, magnet-placement action, cream fridge, suitcase and hallway setting.",
+    "review_state": "Travel v3 is not approved and requires refinement. Scene 7 remains active; keep pending_revision on v3 until the next candidate is saved."
+  }
+}

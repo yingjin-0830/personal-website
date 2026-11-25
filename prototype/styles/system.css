@@ -1,0 +1,277 @@
+/*
+ * Ying Jin — editorial system.
+ * One family per language, one shared page frame, one typographic scale.
+ * The component stylesheet must not define local font stacks or type sizes.
+ */
+@font-face {
+  font-family: "Ying Editorial Han";
+  src: url("../assets/fonts/ying-han-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --paper: #f0ece3;
+  --ink: #272b25;
+  --muted: #73776c;
+  --line: #c8c9bd;
+  --wine: #743c40;
+  --name-ink: #626b59;
+  --name-mask: linear-gradient(180deg, #000c 0%, #0009 48%, #0003 100%);
+
+  --font-latin: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --font-text: var(--font-latin);
+  --font-display: var(--font-latin);
+  --font-label: var(--font-latin);
+  /* Compatibility aliases for component structure. Do not add new stacks. */
+  --sans: var(--font-text);
+  --serif: var(--font-display);
+
+  --type-label: 11px;
+  --type-meta: 12px;
+  --type-ui: 14px;
+  --type-body: 15px;
+  --type-lead: 18px;
+  --type-card: clamp(26px, 2.3vw, 34px);
+  --type-section: clamp(34px, 3.4vw, 48px);
+  --type-detail: clamp(34px, 4.4vw, 56px);
+  --type-name: clamp(180px, calc(var(--frame) * .27), 330px);
+  --type-quote: clamp(24px, 2.1vw, 30px);
+  --type-index: clamp(26px, 2.6vw, 36px);
+  --type-greeting: 18px;
+  --weight-display: 400;
+  --weight-label: 500;
+  --tracking-label: .11em;
+  --tracking-display: -.045em;
+  --tracking-name: -.065em;
+  --leading-body: 1.75;
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --page-max: 1280px;
+  --page-gutter: clamp(24px, 6.25vw, 96px);
+  --frame: min(var(--page-max), calc(100vw - var(--page-gutter) * 2));
+  --edge: calc((100vw - var(--frame)) / 2);
+  --header: 88px;
+  --footer-height: 80px;
+  --view-height: calc(100svh - var(--header) - var(--footer-height));
+  --chapters-height: 0px;
+  --touch-target: 44px;
+}
+
+html:lang(zh-CN) {
+  --font-text: "Microsoft YaHei", "微软雅黑", "PingFang SC", sans-serif;
+  --font-display: "Ying Editorial Han", "Microsoft YaHei", "PingFang SC", sans-serif;
+  --font-label: var(--font-text);
+  --weight-display: 700;
+  --tracking-display: -.025em;
+  --leading-body: 1.85;
+}
+html:lang(zh-CN) em { font-style: normal; }
+
+body {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  font: 400 var(--type-body)/var(--leading-body) var(--font-text);
+}
+main { flex: 1 0 auto; }
+button, input, a { font-family: inherit; }
+button { font-weight: 400; }
+h1, h2, h3, p { margin-block-start: 0; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: var(--weight-display); }
+h2 { font-size: var(--type-section); line-height: 1.14; letter-spacing: var(--tracking-display); }
+h3 { font-size: var(--type-card); line-height: 1.2; letter-spacing: var(--tracking-display); }
+em { font-family: inherit; font-weight: inherit; }
+
+.micro, .edition-label, .case-category, .case-subject,
+.detail-top .micro, .detail-sections h3, .personal-breadcrumb {
+  font: var(--weight-label) var(--type-label)/1.7 var(--font-label);
+  letter-spacing: var(--tracking-label);
+}
+.masthead {
+  padding-inline: var(--edge);
+  gap: var(--space-3);
+  height: var(--header);
+  border-color: var(--line);
+}
+.edition-label { font-size: 10px; letter-spacing: .12em; line-height: 1.85; }
+.edition-label b { font-weight: 400; }
+.monogram { line-height: 1; }
+.masthead nav { gap: var(--space-4); }
+.masthead nav button {
+  font: 400 var(--type-ui)/1.5 var(--font-label);
+  letter-spacing: .01em;
+  padding: 9px 0;
+}
+.lang-switch { font: 400 var(--type-meta)/1.5 var(--font-label); letter-spacing: .04em; }
+
+/* One shared contact line, outside the routed scenes and their transitions. */
+.site-footer {
+  view-transition-name: site-footer;
+  flex: none;
+  width: var(--frame);
+  height: var(--footer-height);
+  margin-inline: auto;
+  border-top: 1px solid var(--line);
+  display: grid;
+  align-items: center;
+  color: var(--muted);
+}
+.site-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+}
+.site-footer a {
+  min-height: var(--touch-target);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font: 400 var(--type-meta)/1.5 var(--font-label);
+  transition: color .2s, opacity .2s;
+}
+.site-footer .footer-email { font-size: var(--type-ui); letter-spacing: .01em; }
+.footer-links { display: flex; align-items: center; gap: var(--space-2); }
+.footer-links a { min-width: var(--touch-target); justify-content: center; }
+.footer-resume { padding-inline: 8px; }
+.footer-resume svg { width: 18px; height: 18px; }
+.footer-social img { display: block; width: 20px; height: 20px; }
+.site-footer a:hover { color: var(--wine); }
+.footer-social:hover img { opacity: .65; }
+
+.chapter-nav > [data-chapter] {
+  font: var(--weight-display) clamp(26px, 2.6vw, 36px)/1.2 var(--font-display);
+  letter-spacing: var(--tracking-display);
+}
+.chapter-nav > [data-chapter] b { font-weight: inherit; }
+.chapter-nav > [data-chapter] span { font: 400 var(--type-label)/1.5 var(--font-label); letter-spacing: .04em; }
+.chapter-intro { font-size: var(--type-body); line-height: var(--leading-body); }
+.stage-skills span { font: 400 var(--type-label)/1.5 var(--font-label); }
+.case-company, .case-meta, .case-explore { font: 400 var(--type-meta)/1.6 var(--font-text); }
+.case-company { font-weight: 500; }
+.case-title { font: var(--weight-display) var(--type-card)/1.2 var(--font-display); letter-spacing: var(--tracking-display); }
+.case-category, .case-subject { font-size: 10px; }
+.case-display { font: var(--weight-display) var(--type-section)/1.1 var(--font-display); letter-spacing: var(--tracking-display); }
+.case-position > span, #journey-count { font: 400 var(--type-label)/1.5 var(--font-label); letter-spacing: .08em; font-variant-numeric: tabular-nums; }
+.scroll-cue { font: 400 var(--type-label)/1.5 var(--font-label); }
+
+.personal { padding: var(--space-4) var(--edge) var(--space-3); }
+.personal-title h2, #personal-overview .personal-title h2 {
+  font: var(--weight-display) var(--type-section)/1.16 var(--font-display);
+  letter-spacing: var(--tracking-display);
+}
+.personal-title > p, .collection-note { font: 400 var(--type-meta)/var(--leading-body) var(--font-text); }
+.collection-index h3 { font: var(--weight-display) 38px/1.1 var(--font-display); letter-spacing: var(--tracking-display); }
+#place-index button { font: 400 var(--type-meta)/1.5 var(--font-text); }
+#place-index button span { font-size: var(--type-label); }
+#place-index button .place-name { font-size: var(--type-meta); }
+#place-index button b { font: 400 17px/1 var(--font-text); }
+.collection-display > p { font: 400 var(--type-label)/1.7 var(--font-label); letter-spacing: .07em; }
+.magnet-tooltip { font: 400 var(--type-label)/1.5 var(--font-label); }
+.book-front > span { font: 400 24px/1 var(--font-latin); letter-spacing: .12em; }
+.object-label { font: 500 var(--type-body)/1.5 var(--font-text); }
+.object-caption { font: 400 var(--type-meta)/1.7 var(--font-text); }
+.portrait-caption { font: 400 var(--type-label)/1.5 var(--font-label); letter-spacing: var(--tracking-label); }
+
+.detail-content h2, .topic-prose h2 {
+  font: var(--weight-display) var(--type-detail)/1.1 var(--font-display);
+  letter-spacing: var(--tracking-display);
+}
+.detail-lead, .topic-story .detail-lead { font: 400 var(--type-lead)/1.7 var(--font-text); }
+.detail-meta, .detail-identity p, .detail-chips span { font: 400 var(--type-meta)/1.7 var(--font-text); }
+.detail-sections p, .detail-sections li, .place-notes p,
+.topic-story .place-notes p { font: 400 var(--type-body)/var(--leading-body) var(--font-text); }
+.detail-sections h3, .place-notes h3, .topic-story .place-notes h3 {
+  font: var(--weight-label) var(--type-label)/1.7 var(--font-label);
+  letter-spacing: .08em;
+}
+.detail-stats strong { font: 400 36px/1.1 var(--font-display); letter-spacing: -.04em; }
+.detail-stats span, .source-note, .draft-note,
+.topic-prose > .micro, .travel-album > p { font: 400 var(--type-meta)/1.7 var(--font-text); }
+.detail-top button,
+.detail-tools #resume-save,
+.detail-paper > footer,
+.detail-paper > footer button,
+.travel-collection-action,
+.company-website { font: 400 var(--type-meta)/1.6 var(--font-label); letter-spacing: 0; }
+.travel-collection-action span { font: 400 22px/1 var(--font-text); }
+.album-space p, .topic-story + .travel-album .album-space p { font: 400 var(--type-lead)/1.5 var(--font-display); letter-spacing: -.025em; }
+
+#detail[data-kind=resume] .detail-top .micro { font: 500 var(--type-ui)/1.5 var(--font-text); letter-spacing: 0; }
+
+@media (max-width: 1100px) and (min-width: 701px) {
+  .chapter-nav > [data-chapter] { font-size: 27px; }
+  .collection-index h3 { font-size: 32px; }
+}
+@media (max-width: 1000px) and (min-width: 701px) {
+  :root { --type-name: calc(var(--frame) * .26); --type-quote: 25px; }
+}
+@media (max-width: 700px) {
+  :root {
+    --header: 72px;
+    --footer-height: 112px;
+    --type-ui: 12px;
+    --type-body: 14px;
+    --type-lead: 16px;
+    --type-card: 23px;
+    --type-section: 30px;
+    --type-detail: 34px;
+    --type-name: clamp(96px, calc(var(--frame) * .34), 155px);
+    --type-quote: 25px;
+    --type-index: 27px;
+    --type-greeting: 16px;
+    --tracking-name: -.06em;
+    --mobile-story-top: 104px;
+    --mobile-story-bottom: 44px;
+  }
+  .masthead { gap: 12px; }
+  .monogram { flex: 0 0 var(--touch-target); width: var(--touch-target); height: var(--touch-target); }
+  .brand-mark { width: var(--touch-target); height: var(--touch-target); }
+  .masthead nav { gap: 14px; }
+  .masthead nav button { font-size: var(--type-ui); }
+  .edition-label { display: none; }
+  .lang-switch { font-size: var(--type-label); }
+  .site-footer-inner { display: grid; gap: 0; }
+  .site-footer .footer-email { font-size: var(--type-body); }
+  .footer-links { gap: var(--space-3); justify-content: flex-start; }
+  .footer-resume { padding-left: 0; }
+  .chapter-nav > [data-chapter] { font-size: 15px; letter-spacing: -.025em; }
+  html:lang(zh-CN) .chapter-nav > [data-chapter] { font-size: 15px; }
+  .chapter-nav > [data-chapter] span { font-size: 9px; }
+  .case-company, .case-meta, .case-explore { font-size: var(--type-meta); }
+  .case-category, .case-subject { font-size: 10px; }
+  .collection-index h3 { font-size: 34px; }
+  .detail-top .micro { font-size: 10px; }
+  .masthead nav button,
+.lang-switch,
+.detail-top button,
+#resume-save,
+.detail-paper > footer button,
+.personal-breadcrumb {
+    min-width: var(--touch-target);
+    min-height: var(--touch-target);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #place-index button { min-height: var(--touch-target); }
+}
+@media (max-width: 359px) {
+  .masthead { gap: 8px; }
+  .masthead nav { gap: 8px; }
+  .masthead nav button { font-size: 11px; }
+  .masthead > .lang-switch { padding-inline: 8px; }
+}
+@media (min-width: 701px) and (max-height: 500px) {
+  .professional .chapter-nav > [data-chapter] { font-size: 26px; }
+  .professional .case-title { font-size: 21px; }
+  .professional .case-company, .professional .case-meta, .professional .case-explore { font-size: 10px; }
+}

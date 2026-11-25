@@ -1,0 +1,144 @@
+/* The cover is a single editorial spread, followed by a normal-flow index. */
+.cover {
+  width: var(--frame);
+  margin-inline: auto;
+  padding: 0 0 var(--space-3);
+  height: var(--view-height);
+  min-height: 544px;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  row-gap: var(--space-3);
+  overflow: visible;
+}
+.cover-spread { position: relative; min-height: 0; isolation: isolate; }
+.cover-title { position: absolute; inset: 0; pointer-events: none; z-index: 1; }
+.cover-title p {
+  position: absolute;
+  left: 0;
+  top: var(--space-4);
+  margin: 0;
+  font: 400 var(--type-greeting)/1.5 var(--font-label);
+  letter-spacing: -.025em;
+}
+.cover-title h1 {
+  position: absolute;
+  top: clamp(48px, 6svh, 80px);
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font: 400 var(--type-name)/.92 var(--font-latin);
+  letter-spacing: var(--tracking-name);
+  text-transform: uppercase;
+  color: var(--name-ink);
+  /* A single opacity field across the full name; never a bevel or letter glow. */
+  -webkit-mask-image: var(--name-mask);
+  mask-image: var(--name-mask);
+}
+.cover-title h1 > span { display: block; white-space: nowrap; }
+.cover-title h1 .period { color: inherit; }
+.hero-letter {
+  display: inline-block;
+  color: inherit;
+  background: none;
+  text-shadow: none;
+  -webkit-text-stroke: 0;
+  filter: none;
+  transform-origin: 50% 100%;
+}
+.cover-person {
+  --hero-size: clamp(384px, calc(var(--view-height) - 168px), 600px);
+  position: absolute;
+  left: 56%;
+  bottom: 16px;
+  width: var(--hero-size);
+  height: var(--hero-size);
+  padding: 0;
+  transform: translateX(-50%);
+  z-index: 2;
+  pointer-events: auto;
+  background: none;
+}
+.cover-person .sprite {
+  background-image: url('../assets/living-edition/hero-poise.webp');
+  background-size: 200% 200%;
+}
+.cover-note {
+  position: absolute;
+  left: 0;
+  bottom: var(--space-4);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  z-index: 3;
+}
+.cover-statement p {
+  font: 400 var(--type-quote)/1.2 var(--font-display);
+  letter-spacing: var(--tracking-display);
+  margin: 0;
+}
+.cover-statement em { font-style: italic; }
+.cover-bio {
+  display: block;
+  margin: 0;
+  font: 400 var(--type-meta)/1.75 var(--font-text);
+  letter-spacing: .01em;
+  color: var(--muted);
+}
+.cover-links {
+  position: static;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+.entry {
+  position: relative;
+  border-top: 1px solid var(--line);
+  padding: 18px 0 0;
+  text-align: left;
+  min-width: 0;
+  z-index: 4;
+}
+.entry strong {
+  display: block;
+  margin: 0 0 10px;
+  font: var(--weight-display) var(--type-index)/1.2 var(--font-display);
+  letter-spacing: var(--tracking-display);
+}
+.entry-bottom { display: block; font: 400 var(--type-meta)/1.7 var(--font-text); color: var(--muted); letter-spacing: .015em; }
+.entry:hover { color: var(--wine); border-color: var(--wine); }
+
+@media (min-width: 701px) and (max-height: 650px) {
+  .cover { height: auto; min-height: 544px; grid-template-rows: 430px auto; }
+  .cover-person { --hero-size: 400px; }
+}
+@media (max-width: 1000px) and (min-width: 701px) {
+  .cover-person { left: 59%; --hero-size: clamp(375px, calc(var(--view-height) - 176px), 560px); }
+  .cover-note { width: 245px; }
+}
+@media (max-width: 700px) {
+  .cover { height: auto; min-height: var(--view-height); grid-template-rows: auto auto; row-gap: var(--space-4); padding-bottom: var(--space-4); }
+  .cover-spread { display: grid; grid-template-rows: 490px auto; }
+  .cover-title { position: relative; grid-row: 1; inset: auto; }
+  .cover-title p { top: var(--space-3); }
+  .cover-title h1 {
+    top: 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.1;
+    gap: 3px;
+  }
+  .cover-title h1 > span + span { align-self: flex-end; }
+  .cover-person { left: 45%; top: 155px; bottom: auto; --hero-size: min(320px, calc(100vw - 32px)); }
+  .cover-note { position: relative; grid-row: 2; inset: auto; width: 100%; padding-top: var(--space-3); gap: 12px; }
+  .cover-statement p { line-height: 1.2; }
+  .cover-bio { display: block; font-size: var(--type-meta); }
+  .cover-links { grid-template-columns: 1fr; gap: var(--space-3); }
+  .entry { padding-top: 18px; }
+  .entry strong { margin-bottom: 9px; }
+}

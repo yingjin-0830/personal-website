@@ -1,0 +1,19 @@
+Use case: identity-preserve.
+Asset: ONE corrected seated-computer Data & Analytics alternative.
+INPUTS: Image1 is the latest seated scene with the monitor BACK visible but the woman looking at the audience. Image2 is the earlier seated WORKING pose, used ONLY for natural computer-focused gaze and arm/hand action, NOT for its visible computer screen.
+
+LATEST USER DIRECTION: she must LOOK AT THE COMPUTER WHILE WORKING, NOT AT THE AUDIENCE. The viewer must NOT see computer-screen contents because the dashboard is already on the wall.
+
+REDRAW HER WORKING ATTENTION:
+Same recognizable woman seated comfortably on the cream chair. Turn her shoulders/torso gently toward her keyboard and monitor, head following naturally about20–30degrees toward the computer on the image right. Her eyes are clearly focused on the actual LCD facing her on the far side of the monitor. Concentrated calm work expression, no eye contact with viewer, no front-facing portrait smile, no looking at viewer over the monitor. Both forearms comfortable at desk height, one hand using mouse and other naturally at keyboard, relaxed low shoulders, neutral neck without extreme twisting. Knees bent comfortably, both feet grounded, natural anatomy.
+This is a candid moment of doing analysis, not posing for a profile portrait.
+
+PHYSICALLY COHERENT WORKSTATION:
+Keep the desktop monitor in the right foreground with its smooth unbranded BACK/REAR STAND facing the illustration viewer. Its front LCD must face inward/back-left TOWARD THE WOMAN'S EYES. We see rear casing/top/side only, NOT its dashboard. Reposition monitor/keyboard slightly or adjust view angle subtly as needed so the woman can actually work at it, rather than looking at the monitor back. Keyboard and mouse between her and monitor, oriented for her use. Table open underneath, no front panel hiding legs. Her full face in natural three-quarter view, hands, knees and both whole shoes clearly readable beside/under desk. Do not put monitor across her face/body.
+Only the WALL behind her shows abstract analytics charts. NO screen content on the monitor back, no duplicate visible LCD, no second computer or tablet.
+
+PRESERVE IDENTITY/OUTFIT/SETTING:
+Same adult East Asian facial identity, brown eyes, warm skin, long loose chestnut waves, white rolled-sleeve blouse, wide-leg light-blue jeans, brown belt/loafers, small gold jewelry/watch. Same approved refined warm illustration style and adult proportions. Same river/bridge window, pale plaster, pale-wood desk, cream chair, light stone floor and existing simple wall dashboard, soft daylight. No trees/plants, new people or clutter.
+Same precise clean contours, gentle shading and subtle paper grain, no heavy black outlines, chibi, photorealism or glossy3D.
+Portrait2:3 at least1024×1536, complete seated figure from hair top to BOTH shoe soles, all hands/chair/monitor intact, at least8%headroom and8%floor below feet. No tight crop.
+No letters, text, numbers, logos, branding, watermark, borders or panels. Output ONE finished illustration.

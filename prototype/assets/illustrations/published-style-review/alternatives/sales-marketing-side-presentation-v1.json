@@ -1,0 +1,30 @@
+{
+  "id": "sales-marketing-side-presentation-v1",
+  "scene_id": 2,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "sales-marketing-side-presentation-v1.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-4d71e31a-eeed-4121-9285-2b6ee33ba6e8.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "603c5282af8cdfedcaa12ac2956a7d3b65bbd21b2d944949ccf943f1a43c139e",
+  "base_approved_revision": "../approved/sales-marketing.png",
+  "references": [
+    "../approved/sales-marketing.png"
+  ],
+  "prompt_file": "sales-marketing-side-presentation-v1.prompt.txt",
+  "requested_on": "2026-11-24",
+  "status": "selected_for_homepage",
+  "approved": true,
+  "selected_for_site": true,
+  "website_integrated": true,
+  "publication_authorized": false,
+  "user_request": "左边第二张新增侧面指向dashboard/report屏幕、正在presentation的备用照片，先生成确认",
+  "visual_qa": "Same face/hair/outfit style; side/three-quarter stance toward screen, pointing with gaze directed to chart, full body/shoes visible. Indoor meeting room, dashboard panels, no readable text or trees. Subsequently approved and selected for local homepage use.",
+  "approval_quote": "确认，保留为备用",
+  "approval_scope": "Approved on 2026-11-24 as an optional asset, then selected by the subsequent user instruction recorded below.",
+  "selection_quote": "你用在封面上吧",
+  "selection_scope": "Selected for local homepage Sales & Marketing tile; publication still requires separate approval.",
+  "integration_scope": "Local homepage Sales & Marketing full/cut pair, verified at 1440x780, 1024x768 and 390x844 browser viewports; not published."
+}

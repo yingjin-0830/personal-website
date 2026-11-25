@@ -1,0 +1,28 @@
+{
+  "scene": 3,
+  "revision": 3,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "data-analytics-v3.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-4eeed13e-1a33-40ea-b960-718339a5724e.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "52e0cabc0127d405e73f7a42b3c63d1bb00d2ca339d9c0ddc270c0701fed12f5",
+  "references": [
+    "data-analytics-v2.png"
+  ],
+  "prompt_file": "data-analytics-v3.prompt.txt",
+  "user_correction": "等等，Data & Analytics 这张你把把树和窗景要换一下吧",
+  "changes": [
+    "Removed left indoor tree, upper-left leaves and right console plant",
+    "Replaced Manhattan/Empire State window view with open river and distant bridge",
+    "Removed leafy shadows, preserved clean window-frame daylight",
+    "Preserved woman, clothing, pose, tablet and dashboard"
+  ],
+  "status": "approved by Ying — not integrated",
+  "approved": true,
+  "website_integrated": false,
+  "visual_qa": "One matching standing woman, full body/shoes and ample margins retained. No trees or indoor plants remain. Window shows open water and low bridge; no Empire State Building. Abstract dashboard retained without text or logos.",
+  "approval_quote": "这张确认，下一张吧"
+}

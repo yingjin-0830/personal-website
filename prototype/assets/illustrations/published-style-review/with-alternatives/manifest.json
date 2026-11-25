@@ -1,0 +1,218 @@
+{
+  "set": "Ying Jin — eight approved originals plus two approved seated options",
+  "packaged_on": "2026-11-23",
+  "generator": "Built-in image_gen.imagegen",
+  "image_count": 10,
+  "original_count": 8,
+  "additional_option_count": 2,
+  "original_pixels_preserved": true,
+  "purpose": "Expanded material selection package; original eight-image archive, gallery and selected revisions are unchanged.",
+  "original_package": "../ying-jin-approved-illustrations-2026-11-23.zip",
+  "original_gallery": "../approved/index.html",
+  "archive": "../ying-jin-illustrations-10-with-alternatives-2026-11-23.zip",
+  "archive_contents": "Exactly the ten PNG files listed below. Prompts, provenance and gallery are available in this folder.",
+  "website_code_modified_by_this_package": false,
+  "publication_authorized": false,
+  "artworks": [
+    {
+      "order": 1,
+      "scene_id": 1,
+      "title": "Marketing Analyst",
+      "kind": "approved_original",
+      "filename": "real-estate.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2631232,
+      "sha256": "b7227220d961c75460d7006701836cd9538a461baec406bef380952291ba6658",
+      "source_image": "../approved/real-estate.png",
+      "source_metadata": "../revisions/real-estate-v3.json",
+      "source_prompt": "../approved/real-estate.prompt.txt",
+      "prompt_file": "real-estate.prompt.txt",
+      "approval_quote": "ok, 这张确认",
+      "approved": true,
+      "original_pixels_preserved": true
+    },
+    {
+      "order": 2,
+      "scene_id": 2,
+      "title": "Sales & Marketing",
+      "kind": "approved_original",
+      "filename": "sales-marketing.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2519062,
+      "sha256": "2e2b644ed66cc58551d7840ae0ab721b3faa2dbad8894ad189db3ea21d22aff1",
+      "source_image": "../approved/sales-marketing.png",
+      "source_metadata": "../revisions/sales-marketing-v2.json",
+      "source_prompt": "../approved/sales-marketing.prompt.txt",
+      "prompt_file": "sales-marketing.prompt.txt",
+      "approval_quote": "ok,这个确定，下一个",
+      "approved": true,
+      "original_pixels_preserved": true
+    },
+    {
+      "order": 3,
+      "scene_id": 3,
+      "title": "Data & Analytics — standing",
+      "kind": "approved_original",
+      "filename": "data-analytics.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2181594,
+      "sha256": "52e0cabc0127d405e73f7a42b3c63d1bb00d2ca339d9c0ddc270c0701fed12f5",
+      "source_image": "../approved/data-analytics.png",
+      "source_metadata": "../revisions/data-analytics-v3.json",
+      "source_prompt": "../approved/data-analytics.prompt.txt",
+      "prompt_file": "data-analytics.prompt.txt",
+      "approval_quote": "这张确认，下一张吧",
+      "approved": true,
+      "original_pixels_preserved": true
+    },
+    {
+      "order": 4,
+      "scene_id": 3,
+      "title": "Data & Analytics — seated",
+      "kind": "approved_additional_option",
+      "filename": "data-analytics-seated.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2007262,
+      "sha256": "fc8430d9eb3b655696da54e0d08a6a751d03b7958a28532c285d7f69ac4d2211",
+      "source_image": "../alternatives/data-analytics-seated-computer-v3.png",
+      "source_metadata": "../alternatives/data-analytics-seated-computer-v3.json",
+      "source_prompt": "../alternatives/data-analytics-seated-computer-v3.prompt.txt",
+      "prompt_file": "data-analytics-seated.prompt.txt",
+      "approval_quote": "这张可以",
+      "approved": true,
+      "original_pixels_preserved": true
+    },
+    {
+      "order": 5,
+      "scene_id": 4,
+      "title": "Education",
+      "kind": "approved_original",
+      "filename": "education.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2839472,
+      "sha256": "01c6955487f6331d29e02abe25a5487c034d28cf9bdb0e402c3ea3473d930ec4",
+      "source_image": "../approved/education.png",
+      "source_metadata": "../revisions/education-v2.json",
+      "source_prompt": "../approved/education.prompt.txt",
+      "prompt_file": "education.prompt.txt",
+      "approval_quote": "这一张可以！",
+      "approved": true,
+      "original_pixels_preserved": true
+    },
+    {
+      "order": 6,
+      "scene_id": 5,
+      "title": "Coffee",
+      "kind": "approved_original",
+      "filename": "coffee.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2274572,
+      "sha256": "fefe32b8e4df0330e1d9ed7086e132354554974b5ab7c3664c7b7523bd4bf374",
+      "source_image": "../approved/coffee.png",
+      "source_metadata": "../revisions/coffee-v5.json",
+      "source_prompt": "../approved/coffee.prompt.txt",
+      "prompt_file": "coffee.prompt.txt",
+      "approval_quote": "ok,这张可以了。下一张",
+      "approved": true,
+      "original_pixels_preserved": true
+    },
+    {
+      "order": 7,
+      "scene_id": 6,
+      "title": "Photography — standing",
+      "kind": "approved_original",
+      "filename": "photography.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2646763,
+      "sha256": "584e8e362ebee8231f0eddad98c4f8e6e47e9db8f9576f2bbbc7ee4dca5dac90",
+      "source_image": "../approved/photography.png",
+      "source_metadata": "../revisions/photography-v2.json",
+      "source_prompt": "../approved/photography.prompt.txt",
+      "prompt_file": "photography.prompt.txt",
+      "approval_quote": "还是你上一张好，就上一个没有帽子的版本",
+      "approved": true,
+      "original_pixels_preserved": true
+    },
+    {
+      "order": 8,
+      "scene_id": 6,
+      "title": "Photography — seated",
+      "kind": "approved_additional_option",
+      "filename": "photography-seated.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2451566,
+      "sha256": "56837f8134294d53a833d4e47a2e15b25fbde7a0c27779670a16ec3d13840997",
+      "source_image": "../alternatives/photography-seated-steps-v2.png",
+      "source_metadata": "../alternatives/photography-seated-steps-v2.json",
+      "source_prompt": "../alternatives/photography-seated-steps-v2.prompt.txt",
+      "prompt_file": "photography-seated.prompt.txt",
+      "approval_quote": "好的，下一张",
+      "approved": true,
+      "original_pixels_preserved": true
+    },
+    {
+      "order": 9,
+      "scene_id": 7,
+      "title": "Travel",
+      "kind": "approved_original",
+      "filename": "travel.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 1978984,
+      "sha256": "54790fb3a11f096453c05e1fd3cff69d9a772f7fb973417c610fa22eb42c340b",
+      "source_image": "../approved/travel.png",
+      "source_metadata": "../revisions/travel-v4.json",
+      "source_prompt": "../approved/travel.prompt.txt",
+      "prompt_file": "travel.prompt.txt",
+      "approval_quote": "可以了，下一张",
+      "approved": true,
+      "original_pixels_preserved": true
+    },
+    {
+      "order": 10,
+      "scene_id": 8,
+      "title": "Cooking",
+      "kind": "approved_original",
+      "filename": "cooking.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2551882,
+      "sha256": "8ba7d8959cb7eb41c23cf34e76c512444d1b5b69b0dadabb252c0a9e144205a2",
+      "source_image": "../approved/cooking.png",
+      "source_metadata": "../revisions/cooking-v2.json",
+      "source_prompt": "../approved/cooking.prompt.txt",
+      "prompt_file": "cooking.prompt.txt",
+      "approval_quote": "这张ok",
+      "approved": true,
+      "original_pixels_preserved": true
+    }
+  ]
+}

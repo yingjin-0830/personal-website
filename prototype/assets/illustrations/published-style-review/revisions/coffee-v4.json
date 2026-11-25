@@ -1,0 +1,35 @@
+{
+  "scene": 5,
+  "revision": 4,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "coffee-v4.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-48978f88-113e-4cad-a1bd-455e0d652961.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "b70f8ea5b07e82f869e159adafdfececb88edaf8657e3d2fff49143997fe7ed8",
+  "references": [
+    "coffee-v3.png",
+    "real-estate-v3.png"
+  ],
+  "prompt_file": "coffee-v4.prompt.txt",
+  "review_recorded_on": "2026-11-23",
+  "user_correction": "我觉得你的姿势有点不自然，布景也有点单调",
+  "changes": [
+    "Recomposed three-quarter body orientation beside the coffee counter",
+    "Head/neck follow body with a light downward gaze, relaxed lower elbows and close working hand positions",
+    "L-shaped stone coffee counter, walnut cabinets, dusty-blue tile, grinder and linen towel",
+    "Side window with nearby brick facade, linen curtain and soft light instead of trees or skyline",
+    "Cream linen trousers and caramel leather ballet flats retained"
+  ],
+  "status": "revision requested by Ying — hairstyle trial pending, not approved or integrated",
+  "approved": false,
+  "website_integrated": false,
+  "visual_qa": {
+    "observed": "One matching woman; full head-to-shoe body visible, plausible connected milk stream and cup support, no denim/trees/text/logos. Diagonal room composition and more natural barista pose achieved.",
+    "framing_note": "Figure is larger than the requested ~70%; both shoes are complete but lower floor margin is roughly 5%, below prompt target. Retained as pose/setting review candidate; no artwork integration."
+  },
+  "revision_request_quote": "或许可以换一个发型试试？",
+  "hairstyle_trial": "User permits a hairstyle trial for the Coffee scene only. Planned next candidate uses a relaxed low bun with a few chestnut wavy face-framing strands, preserving the same face, outfit, pose and room. This does not authorize wholesale character redesign or changes to other approved images."
+}

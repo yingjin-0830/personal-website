@@ -1,0 +1,119 @@
+/* The approved wooden frame and separate souvenirs remain material artwork. */
+.collection-back { margin-bottom: var(--space-7); }
+.collection-heading { padding-bottom: var(--space-7); }
+.collection-heading .section-title { margin-top: var(--space-4); }
+.collection-layout {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(0,.32fr);
+  align-items: start;
+  gap: var(--space-8);
+}
+.collection-display { min-width: 0; }
+.magnet-frame {
+  position: relative;
+  isolation: isolate;
+  aspect-ratio: 1.35;
+  border: var(--wood-frame-width) solid var(--wood-frame);
+  border-radius: var(--wood-frame-radius);
+  background: var(--wood-surface);
+  box-shadow: var(--wood-frame-shadow);
+  outline: 1px solid var(--wood-outline);
+  outline-offset: var(--wood-outline-offset);
+}
+.magnet-frame::before {
+  content: '';
+  position: absolute;
+  inset: calc(var(--wood-frame-width) * -1);
+  z-index: -1;
+  pointer-events: none;
+  background: var(--wood-grain-background);
+  border: 1px solid var(--wood-border);
+  border-radius: var(--wood-frame-radius);
+  box-shadow: var(--wood-grain-shadow);
+}
+.magnet-surface {
+  position: absolute;
+  inset: var(--wood-surface-inset);
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  grid-template-rows: repeat(3,minmax(0,1fr));
+  gap: var(--space-4);
+  padding: var(--space-4);
+  background: var(--wood-surface-background);
+  box-shadow: var(--wood-surface-shadow);
+}
+.magnet {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  filter: var(--magnet-filter);
+  transform: rotate(-4deg);
+  transition: transform var(--duration-medium) var(--ease),filter var(--duration-medium) var(--ease),opacity var(--duration-fast) var(--ease);
+  z-index: 1;
+  outline-offset: var(--space-2);
+}
+.magnet:nth-child(3n) { transform: rotate(4deg); }
+.magnet:nth-child(3n+1) { transform: rotate(-5deg); }
+.magnet:nth-child(4n) { transform: rotate(2deg); }
+.magnet img { display: block; width: 100%; height: 100%; min-width: 0; min-height: 0; object-fit: contain; }
+.magnet:hover, .magnet:focus-visible { transform: translateY(calc(var(--space-2) * -1)) rotate(0deg) scale(1.045); filter: var(--magnet-hover-filter); z-index: 3; }
+.magnet-locked { opacity: var(--magnet-locked-opacity); }
+.magnet-locked:hover, .magnet-locked:focus-visible { opacity: 1; }
+.magnet-tooltip {
+  position: absolute;
+  left: 50%;
+  bottom: calc(var(--space-5) * -1);
+  transform: translateX(-50%);
+  padding: var(--space-2) var(--space-3);
+  color: var(--bg);
+  background: var(--ink);
+  font-size: var(--text-xs);
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--duration-fast) var(--ease);
+}
+.magnet:hover .magnet-tooltip, .magnet:focus-visible .magnet-tooltip { opacity: 1; }
+.collection-imprint { color: var(--muted); font-size: var(--text-xs); margin-top: var(--space-5); }
+.collection-index .kicker { margin-bottom: var(--space-5); }
+.magnet-index button {
+  min-height: var(--touch-target);
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  width: 100%;
+  padding: var(--space-3) 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+  background: none;
+  text-align: left;
+  font-size: var(--text-sm);
+}
+.magnet-index-number { color: var(--muted); font-size: var(--text-xs); }
+.magnet-index button > :last-child { margin-left: auto; color: var(--muted); }
+.magnet-index button:hover, .magnet-index button:focus-visible { color: var(--accent); }
+
+@media (max-width: 1024px) {
+  .collection-layout { gap: var(--space-6); }
+  .magnet-frame { aspect-ratio: 1.05; border-width: var(--wood-frame-width-tablet); }
+  .magnet-frame::before { inset: calc(var(--wood-frame-width-tablet) * -1); }
+  .magnet-surface { padding: var(--space-3); gap: var(--space-3); }
+}
+@media (max-width: 700px) {
+  .collection-back { margin-bottom: var(--space-6); }
+  .collection-heading { padding-bottom: var(--space-6); }
+  .collection-layout { grid-template-columns: minmax(0,1fr); gap: var(--space-7); }
+  .magnet-frame { aspect-ratio: .74; border-width: var(--wood-frame-width-phone); outline-offset: var(--wood-outline-offset-phone); }
+  .magnet-frame::before { inset: calc(var(--wood-frame-width-phone) * -1); }
+  .magnet-surface { grid-template-columns: repeat(3,minmax(0,1fr)); grid-template-rows: repeat(4,minmax(0,1fr)); padding: var(--space-3); gap: var(--space-2); }
+  .magnet-tooltip { white-space: normal; max-width: var(--magnet-tooltip-max); text-align: center; }
+}

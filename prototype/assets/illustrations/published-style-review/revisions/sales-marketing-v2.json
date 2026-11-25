@@ -1,0 +1,28 @@
+{
+  "scene": 2,
+  "revision": 2,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "sales-marketing-v2.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-cf27b16a-8a93-4650-8df6-f079aa37396a.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "2e2b644ed66cc58551d7840ae0ab721b3faa2dbad8894ad189db3ea21d22aff1",
+  "references": [
+    "../sales-marketing.png",
+    "real-estate-v3.png"
+  ],
+  "prompt_file": "sales-marketing-v2.prompt.txt",
+  "changes": [
+    "White blouse and cream tailored wide-leg trousers",
+    "Warm-taupe leather low-heel pumps instead of sneakers",
+    "Narrow leather belt, pearl-drop earrings, delicate gold pendant and watch",
+    "Natural open-palm housing presentation gesture, preserving character and scene concept"
+  ],
+  "status": "approved by Ying — not integrated",
+  "approved": true,
+  "website_integrated": false,
+  "visual_qa": "One woman with consistent face and hair; both complete shoes and full body visible; generous headroom/floor; screen and tablet do not obscure silhouette; no text, logos or construction props.",
+  "approval_quote": "ok,这个确定，下一个"
+}

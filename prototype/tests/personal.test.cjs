@@ -5,7 +5,7 @@ const vm=require('node:vm');
 const path=require('node:path');
 const window={};
 for(const file of ['editorial-content.js','i18n.js','topic-art.js','magnet-art.js','personal-renderers.js'])vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../'+file),'utf8'),{window});
-test('the map opens a travel story with an explicit route to the existing magnet collection',()=>{
+test('the travel narrative retains its collection action and bilingual introduction',()=>{
  for(const lang of ['en','zh']){
   const body=window.YingPersonalView.topicBody('travel',lang);
   assert.match(body,/data-travel-collection/);

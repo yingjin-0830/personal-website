@@ -1,0 +1,28 @@
+{
+  "id": "data-analytics-seated-computer-v2",
+  "scene_id": 3,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "data-analytics-seated-computer-v2.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-da858e69-8a99-4ba6-b770-ca8f2417f045.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "33d4d99476c0f11f846e0aaf1a3ceff01388cbb9e58fe2ccb5fdf7b248734dd6",
+  "base_approved_revision": "../revisions/data-analytics-v3.png",
+  "revises_alternative": "data-analytics-seated-computer-v1.png",
+  "references": [
+    "data-analytics-seated-computer-v1.png",
+    "../revisions/data-analytics-v3.png"
+  ],
+  "prompt_file": "data-analytics-seated-computer-v2.prompt.txt",
+  "requested_on": "2026-11-23",
+  "status": "revision_requested",
+  "approved": false,
+  "selected_for_site": false,
+  "replaces_approved": false,
+  "website_integrated": false,
+  "request_that_generated_this_version": "可以面朝我，不用看到电脑屏幕，和墙上的内容重复了",
+  "latest_user_clarification": "看电脑办公，不用看观众",
+  "revision_note": "Next candidate: gaze/torso/hands directed to actual computer work; monitor back remains visible to viewer, no visible monitor dashboard."
+}

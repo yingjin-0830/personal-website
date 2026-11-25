@@ -1,0 +1,29 @@
+{
+  "scene": 7,
+  "revision": 4,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "travel-v4.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-40ac382d-8544-47bc-90d4-a270c1861873.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "54790fb3a11f096453c05e1fd3cff69d9a772f7fb973417c610fa22eb42c340b",
+  "references": [
+    "travel-v3.png"
+  ],
+  "prompt_file": "travel-v4.prompt.txt",
+  "review_recorded_on": "2026-11-23",
+  "user_correction": "凉鞋换成好看的高跟拖鞋，裙子可以再长一点，饰品可以再多一点休闲度假感",
+  "changes": [
+    "Tan open-back strappy high-heeled mules replace flat sandals",
+    "Ivory linen skirt extended to above-ankle maxi length with full shoes visible",
+    "Gold hoop earrings, delicate layered necklaces and light gold/ivory bracelets",
+    "Same face, straw hat, magnet-placement action, suitcase and hallway retained"
+  ],
+  "status": "approved by Ying — not integrated",
+  "approved": true,
+  "website_integrated": false,
+  "visual_qa": "Open-back heels and longer skirt visibly match request; light layered vacation jewelry present. Full figure from hat through both complete mules with generous margins; no text/logos/trees observed.",
+  "approval_quote": "可以了，下一张"
+}

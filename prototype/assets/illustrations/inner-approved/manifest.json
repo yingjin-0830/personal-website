@@ -1,0 +1,84 @@
+{
+  "purpose": "Individually approved additional illustrations for Life only",
+  "source_set": "../published-style-review/additional/manifest.json",
+  "canvas_dimensions": [
+    1024,
+    1536
+  ],
+  "aspect_ratio": "2:3",
+  "publication_authorized": false,
+  "items": [
+    {
+      "topic": "wellness",
+      "source_id": "wellness-v1",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "full": {
+        "file": "wellness_full.webp",
+        "bytes": 119040,
+        "sha256": "8c2dde51cccf92b7c63e9d0f7df825e5b687e93b7a0b1f0f2b693ea5b6eea217",
+        "approved_source": "../published-style-review/additional/wellness-v1.png",
+        "source_manifest": "../published-style-review/additional/manifest.json",
+        "source_sha256": "eecc3cfa79f9ff9d84b7aae7e798edbc3c3557cce791c7ddc33d3ebb7208ba06",
+        "processing": "WebP quality 92; original resolution; no crop or resampling"
+      },
+      "cut": {
+        "file": "wellness_cut.webp",
+        "source_png": "wellness_cut.png",
+        "source_sha256": "a05c00e53971dea3fe45dee0598b5c607815dac788af1ce497d0619aa8411de7",
+        "sha256": "27efccffc63011fe51d54e2c219e65412d6db676a3784268146195950c6c1de5",
+        "bytes": 327876,
+        "alpha_bbox": [
+          244,
+          73,
+          654,
+          1390
+        ],
+        "alpha_bbox_threshold": 20,
+        "alpha_range": [
+          0,
+          254
+        ],
+        "processing": "Lossless WebP; exact alpha and RGB where alpha>0 verified; hidden alpha=0 RGB discarded; no resizing/repositioning"
+      }
+    },
+    {
+      "topic": "music",
+      "source_id": "music-v2",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "full": {
+        "file": "music_full.webp",
+        "bytes": 257432,
+        "sha256": "900d170ead5dd4ff29615f77376dece284006a95d7e1dc7da64897482f8470e3",
+        "approved_source": "../published-style-review/additional/music-v2.png",
+        "source_manifest": "../published-style-review/additional/manifest.json",
+        "source_sha256": "946435cd6e264a8e010ba6256bc05cf92001197643b57e3b0aa7c48942cbc97c",
+        "processing": "WebP quality 92; original resolution; no crop or resampling"
+      },
+      "cut": {
+        "file": "music_cut.webp",
+        "source_png": "music_cut.png",
+        "source_sha256": "0dd880163910f1a5f2ed2ae07187187fe4e0e58e5e3894be49fc73b86571e7a5",
+        "sha256": "525a088ed04ced1b499fff7d35544d21c4c1c3271c832d73412415ebf8f54ff8",
+        "bytes": 713378,
+        "alpha_bbox": [
+          93,
+          254,
+          915,
+          1396
+        ],
+        "alpha_bbox_threshold": 20,
+        "alpha_range": [
+          0,
+          254
+        ],
+        "processing": "Lossless WebP; exact alpha and RGB where alpha>0 verified; hidden alpha=0 RGB discarded; no resizing/repositioning"
+      }
+    }
+  ]
+}

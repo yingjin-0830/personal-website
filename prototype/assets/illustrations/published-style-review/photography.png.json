@@ -1,0 +1,24 @@
+{
+  "generator": "Built-in image_gen.imagegen",
+  "source_path": "/Users/jinying/.codex/generated_images/01a20645-945a-7d71-974a-4081f402fea0/exec-c4a99b7c-dad0-42d5-9a98-3c4d793c3848.png",
+  "file": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/photography.png",
+  "references": [
+    "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/living-edition/source/hero-fashion.png",
+    "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/real-estate.png"
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "d60be1ff9b387c40f4a0be37e41caf249dca63a227d51020a04cf3a2901c562b",
+  "prompt_file": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/photography.png.prompt.txt",
+  "status": "review_only",
+  "integrated": false,
+  "visual_check": {
+    "full_body_and_both_shoes": true,
+    "generous_head_and_floor_margins": true,
+    "scene_style_consistent_with_references": true,
+    "visible_letters_numerals_logos": false,
+    "hard_failures": []
+  }
+}

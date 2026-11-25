@@ -1,0 +1,72 @@
+/* One long editorial spread; the figure and scene always share an image canvas. */
+.life-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-6);
+  padding-block: var(--space-5);
+  border-block: 1px solid var(--line);
+}
+.life-index a {
+  min-height: var(--touch-target);
+  display: inline-flex;
+  align-items: center;
+  color: var(--muted);
+  font-size: var(--text-sm);
+  text-decoration: none;
+}
+.life-index a:hover, .life-index a:focus-visible { color: var(--accent); }
+.life-list { padding-top: var(--space-8); }
+.life-block {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1fr);
+  column-gap: var(--space-9);
+  align-items: center;
+  padding-block: var(--space-7) var(--space-9);
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: var(--space-9);
+}
+.life-block:nth-child(even) { grid-template-columns: minmax(0,1fr) minmax(0,.85fr); }
+.life-block:nth-child(even) .life-illustration { grid-column: 2; grid-row: 1; }
+.life-block:nth-child(even) .life-copy { grid-column: 1; grid-row: 1; }
+.life-illustration {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  isolation: isolate;
+}
+.life-scene-full {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  clip-path: inset(8% 0 5% 0);
+  z-index: 0;
+}
+.life-scene-cut {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.life-scene-edge { position: absolute; inset: 8% 0 5% 0; z-index: 1; border: 1px solid var(--line); pointer-events: none; }
+.life-scene-cut { z-index: 2; pointer-events: none; }
+.life-copy { min-width: 0; max-width: var(--measure); }
+.life-copy .section-title { margin-block: var(--space-5); }
+.life-copy p { max-width: var(--measure); }
+.life-lead { color: var(--ink); font-size: var(--text-lg); }
+.life-copy p:not(.kicker):not(.life-lead) { color: var(--muted); }
+.life-copy .text-link { margin-top: var(--space-4); }
+
+@media (max-width: 1024px) {
+  .life-block { column-gap: var(--space-7); }
+}
+@media (max-width: 700px) {
+  .life-index { gap: var(--space-1) var(--space-5); }
+  .life-list { padding-top: var(--space-6); }
+  .life-block, .life-block:nth-child(even) { grid-template-columns: minmax(0,1fr); gap: var(--space-6); padding-block: var(--space-5) var(--space-8); }
+  .life-block:nth-child(even) .life-illustration, .life-block:nth-child(even) .life-copy { grid-column: auto; grid-row: auto; }
+  .life-illustration { width: min(100%,var(--life-image-mobile)); margin-inline: auto; }
+  .life-copy .section-title { margin-block: var(--space-4); }
+}

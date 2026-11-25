@@ -1,0 +1,24 @@
+{
+  "generator": "Built-in image_gen.imagegen",
+  "source_path": "/Users/jinying/.codex/generated_images/01a20645-5b99-7f02-8b26-26291944f3cb/exec-dc914b0b-19cf-4797-918f-c9bb7a2e153e.png",
+  "file": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/coffee.png",
+  "reference_paths": [
+    "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/living-edition/source/hero-fashion.png",
+    "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/real-estate.png"
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "sha256": "b233c62a147625cf759ff9166f352949e3bc56ca2934aed8432ad4d50da816f5",
+  "prompt_file": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/coffee.png.prompt.txt",
+  "status": "review_only",
+  "integrated": false,
+  "published": false,
+  "attempts": 2,
+  "visual_check": "Matched published character and Scene 1 rendering. One woman actively pours visible milk into cup. Espresso machine and counter behind her. Full apron, legs and both sneakers visible, no lettering. Figure roughly 68% canvas height; head at 19%, soles at 87%.",
+  "rejected_attempt_source": "/Users/jinying/.codex/generated_images/01a20645-5b99-7f02-8b26-26291944f3cb/exec-a40b3f7f-5aeb-4dad-8c13-595ee750a4c8.png",
+  "rejected_attempt_reason": "Figure too large with inadequate floor margin; targeted wider framing regeneration selected."
+}

@@ -1,0 +1,127 @@
+{
+  "asset": "coffee",
+  "operation": "background-extraction",
+  "mode": "built-in image_gen",
+  "approved_source": {
+    "path": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/approved/coffee.png",
+    "sha256": "fefe32b8e4df0330e1d9ed7086e132354554974b5ab7c3664c7b7523bd4bf374",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  "generated_source_path": "/Users/jinying/.codex/generated_images/01a20b7a-e609-7201-97de-371be1705f99/exec-836231e5-48c3-4291-8818-0df33d39813e.png",
+  "generated_source_sha256": "9c43558fe5d4b57280aa5d60c8a6dc41984228887c60500d09492aec3b43f8c4",
+  "output_path": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/cover-approved/coffee_cut.png",
+  "output_sha256": "9c43558fe5d4b57280aa5d60c8a6dc41984228887c60500d09492aec3b43f8c4",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "alpha_bbox": [
+    0,
+    23,
+    1010,
+    1512
+  ],
+  "alpha_bbox_by_threshold": {
+    "1": [
+      0,
+      23,
+      1010,
+      1512
+    ],
+    "20": [
+      251,
+      212,
+      622,
+      1463
+    ],
+    "100": [
+      252,
+      212,
+      622,
+      1463
+    ],
+    "200": [
+      252,
+      213,
+      621,
+      1462
+    ],
+    "240": [
+      253,
+      213,
+      621,
+      1461
+    ],
+    "250": [
+      254,
+      215,
+      618,
+      1461
+    ]
+  },
+  "prompts": [
+    {
+      "stage": "initial extraction",
+      "prompt": "Use case: background-extraction.\nAsset type: transparent character overlay for an existing illustrated homepage.\nInput image: supplied image is the ONLY EDIT TARGET, an already approved 1024 \u00d7 1536 portrait illustration.\nPrimary request: REMOVE BACKGROUND ONLY. Produce genuine transparent-alpha PNG on EXACT SAME 1024 \u00d7 1536 (2:3) canvas.\nPreserve the approved woman pouring milk from the steel pitcher in her right hand into the cup held in her left hand. Keep her exact face and gaze, chestnut low bun with loose tendrils, gold earrings/necklace, white short sleeve shirt, tan apron, cream wide trousers and BOTH brown bow flats. Retain milk stream, cup, milk pitcher and all jewelry. Source silhouette approximately x252\u2013622, y223\u20131460; keep that exact pose, size and coordinate placement.\nRemove the entire caf\u00e9 room, window, wall, shelving, coffee machines, grinder, counter, cabinetry, curtain, floor and all contact/cast shadows.\nCRITICAL PIXEL REGISTRATION: Do not recompose, center, crop, zoom, enlarge, shrink, shift, rotate, re-pose, reinterpret, redraw, beautify or restyle the approved subject. This output will be placed directly over the original source at the same x/y and dimensions in SVG, so every retained feature must stay at the original source coordinates. The former background pixels become alpha=0; retained person and held props stay as close to original pixels as possible. Keep the whole person including top of hair/hat, fingers, ankles, BOTH shoes and all retained props. Transparent holes between limbs, hair strands and suitcase handle must be truly transparent. No floor, base, contact shadow, cast shadow, backdrop, new decoration, halo, checkerboard artwork, text or watermark. Leave all original empty margins around the subject transparent; do not trim the canvas. Preserve source lighting, warm illustration rendering, all clothing textures and existing colors.",
+      "generated_path": "/Users/jinying/.codex/generated_images/01a20b7a-e609-7201-97de-371be1705f99/exec-e871b389-79c8-4c5b-a6d4-a32a4d46e52a.png",
+      "generated_sha256": "8f1723489bce2d198513243f6c766ad5244c901e7575e3d1e0d0663237ace3e6"
+    },
+    {
+      "stage": "halo removal refinement",
+      "prompt": "Use case: background-extraction.\nEDIT TARGET: the provided 1024 \u00d7 1536 RGBA cutout.\nPrimary request: Remove the entire soft brown/cream glow, bloom, aura and residual translucent background surrounding the character. This image incorrectly has a broad semitransparent warm halo: erase ALL those pixels to alpha=0. The result must be a clean isolated subject silhouette with completely transparent empty canvas and no surrounding glow whatsoever.\nPreserve every character and held/touched prop pixel, pose, size, source x/y coordinates, lighting, face, hair, clothing and shoes. Do not move, scale, redraw, reframe, crop, zoom or center anything. Keep exact 1024 \u00d7 1536 canvas. Keep complete body and every shoe. Keep character/props solid opaque, with only a tight 1\u20132 pixel antialiased contour. Erase background even in all gaps between arms/body/legs and gaps in handle. Keep no cast/contact shadow or floor.\n\nKeep cup, milk stream and pitcher.\n\n\nThe only edit is removing the surrounding translucent HALO. Actual alpha transparency, no black/white/color fill and no checkerboard artwork.",
+      "generated_path": "/Users/jinying/.codex/generated_images/01a20b7a-e609-7201-97de-371be1705f99/exec-836231e5-48c3-4291-8818-0df33d39813e.png",
+      "generated_sha256": "9c43558fe5d4b57280aa5d60c8a6dc41984228887c60500d09492aec3b43f8c4"
+    }
+  ],
+  "verification": {
+    "canvas_matches_source": true,
+    "corners_fully_transparent": true,
+    "visual_review": "Complete figure/footwear and required held/touched props retained. Background and contact/cast shadows absent when alpha-composited on dark/light QA backgrounds. Source and cut reviewed side by side at identical scales.",
+    "registration": "Original 1024x1536 canvas maintained. Selected interior landmark edge-template matching found source-to-cut translations of 0\u20132 pixels. This is an approximate registration check, not proof of pixel-identical rendering. Fine hair edges, linework and textures have generation drift; coffee/cooking top hair differs by several pixels.",
+    "registration_method": "Normalized cross-correlation of Gaussian high-pass grayscale landmark templates, searching \u00b124 pixels in approved source.",
+    "landmark_checks": [
+      {
+        "landmark": "face",
+        "source_minus_cut_displacement_px": [
+          0,
+          0
+        ],
+        "normalized_edge_correlation": 0.697
+      },
+      {
+        "landmark": "apron",
+        "source_minus_cut_displacement_px": [
+          0,
+          -1
+        ],
+        "normalized_edge_correlation": 0.498
+      },
+      {
+        "landmark": "left_shoe",
+        "source_minus_cut_displacement_px": [
+          0,
+          -2
+        ],
+        "normalized_edge_correlation": 0.63
+      },
+      {
+        "landmark": "right_shoe",
+        "source_minus_cut_displacement_px": [
+          -1,
+          -1
+        ],
+        "normalized_edge_correlation": 0.631
+      }
+    ],
+    "alpha_note": "Generated RGBA includes a few negligible alpha 1\u201319 stray pixels outside the visible silhouette. Alpha >=20 bbox documents the visible figure extent; dark/light composited QA is clean. No canvas padding/cropping or thresholding applied."
+  },
+  "postprocessing": "Byte-for-byte copy only. Python used only for metadata/analysis/QA composites, never to edit this final raster."
+}

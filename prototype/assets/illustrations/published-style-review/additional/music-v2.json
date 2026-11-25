@@ -1,0 +1,24 @@
+{
+  "id": "music-v2",
+  "topic": "music",
+  "file": "music-v2.png",
+  "generator": "Built-in image_gen.imagegen",
+  "generated_source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-37c00dea-afa5-45a9-832f-b4a8d7fe8add.png",
+  "reference": "music-v1.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "946435cd6e264a8e010ba6256bc05cf92001197643b57e3b0aa7c48942cbc97c",
+  "prompt_file": "music-v2.prompt.txt",
+  "approved": true,
+  "approval_quote": "确认，使用这张",
+  "status": "approved_for_inner_page",
+  "selected_for_site": true,
+  "website_integrated": true,
+  "publication_authorized": false,
+  "requested_on": "2026-11-24",
+  "user_correction": "盘腿坐在家里的地毯上，比较放松的姿态",
+  "visual_qa": "Same character/outfit style, relaxed cross-legged listening pose on rug at home, headphones, complete hands and socked feet, no readable text/logos.",
+  "integration_scope": "Local Life section; 1024x1536 full/cut pair, desktop/phone browser checked. Not published."
+}

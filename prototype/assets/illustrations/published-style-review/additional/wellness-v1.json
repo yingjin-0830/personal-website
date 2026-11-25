@@ -1,0 +1,23 @@
+{
+  "id": "wellness-v1",
+  "topic": "wellness",
+  "file": "wellness-v1.png",
+  "generator": "Built-in image_gen.imagegen",
+  "generated_source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-b95d39c2-dcec-4363-9ed0-ad22b7487e8f.png",
+  "reference": "../approved/real-estate.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "eecc3cfa79f9ff9d84b7aae7e798edbc3c3557cce791c7ddc33d3ebb7208ba06",
+  "prompt_file": "wellness-v1.prompt.txt",
+  "approved": true,
+  "approval_quote": "确认，保留这张",
+  "status": "approved_for_inner_page",
+  "selected_for_site": true,
+  "website_integrated": true,
+  "publication_authorized": false,
+  "requested_on": "2026-11-24",
+  "visual_qa": "Full body and raised hand/shoes visible, same character/style, sage athletic outfit, taupe cap, natural side stretch, no readable text/logo.",
+  "integration_scope": "Local Life section; 1024x1536 full/cut pair, desktop/phone browser checked. Not published."
+}

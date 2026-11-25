@@ -1,0 +1,16 @@
+{
+  "scene": 1,
+  "file": "real-estate.png",
+  "generator": "Built-in image_gen.imagegen",
+  "source_reference": "../source/real-estate_full.jpg",
+  "generated_source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-462ad8ef-f62e-4893-9298-c7a0e098a12e.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGB",
+  "sha256": "7121ab244f09468047ab52f613f51d4e12a04b8d35f1fd3af1d567c34da9e6fe",
+  "website_integrated": false,
+  "series_identity_reference": "real-estate.png",
+  "prompt_file": "real-estate.prompt.txt"
+}

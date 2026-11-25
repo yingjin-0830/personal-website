@@ -1,0 +1,31 @@
+{
+  "id": "photography-seated-steps-v2",
+  "scene_id": 6,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "photography-seated-steps-v2.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-b360a1bb-857c-429e-a0b6-c23a585a359d.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "56837f8134294d53a833d4e47a2e15b25fbde7a0c27779670a16ec3d13840997",
+  "base_approved_revision": "../revisions/photography-v2.png",
+  "revises_alternative": "photography-seated-steps-v1.png",
+  "references": [
+    "photography-seated-steps-v1.png"
+  ],
+  "prompt_file": "photography-seated-steps-v2.prompt.txt",
+  "requested_on": "2026-11-23",
+  "user_correction": "等等，相机屏幕你再看一下是不是不太对",
+  "changes": [
+    "Camera front lens faces outward/downward; rear LCD faces inward/upward toward woman",
+    "Minimal natural hand adjustments, same seated crossed-leg pose/face/outfit/street"
+  ],
+  "status": "approved_for_consideration",
+  "approved": true,
+  "selected_for_site": false,
+  "replaces_approved": false,
+  "website_integrated": false,
+  "visual_qa": "Front circular lens/top/side visible to viewer, no outward-facing rear LCD; woman can view rear side facing her. Seated pose, crossed legs, full boots, recognizable face and street retained. No text/logos observed.",
+  "approval_quote": "好的，下一张"
+}

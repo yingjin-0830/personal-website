@@ -1,0 +1,45 @@
+{
+  "id": "photography-seated-steps-v1",
+  "scene_id": 6,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "photography-seated-steps-v1.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-e3b1ad48-0088-4e2e-899d-8a90e964eaaf.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "998bc80e2724bf86e5d2c02ea39a977a89c8a67d29fb72756f2ebfdbbc304db9",
+  "base_approved_revision": "../revisions/photography-v2.png",
+  "references": [
+    "../revisions/photography-v2.png"
+  ],
+  "prompt_file": "photography-seated-steps-v1.prompt.txt",
+  "requested_on": "2026-11-23",
+  "user_request": "Photography额外生成坐在街边台阶上、翘着二郎腿看图片的版本，使用时再挑选",
+  "changes": [
+    "Seated naturally on SoHo stone steps with legs crossed at knee",
+    "Reviewing architectural photos on camera rear LCD above lap",
+    "Same no-hat character, trench coat, dark trousers, ankle boots and warm street setting"
+  ],
+  "status": "revision_requested",
+  "approved": false,
+  "selected_for_site": false,
+  "replaces_approved": false,
+  "website_integrated": false,
+  "visual_qa": {
+    "observed": "Full seated figure and both boots visible, legs naturally crossed, camera LCD contains small architectural photo, matching face/outfit/scene, no text/logos/trees observed.",
+    "framing_note": "Lowest boot has about7% bottom margin, slightly below8% target; entire figure retained for optional-pose review."
+  },
+  "revision_request_quote": "等等，相机屏幕你再看一下是不是不太对",
+  "camera_correction": "Rear LCD currently faces the viewer instead of the woman. Reorient only the camera so its rear screen faces her and its lens points outward/down; the viewer should see the front/side/lens rather than a readable rear LCD. Preserve pose, face, outfit and background.",
+  "review_history": [
+    {
+      "quote": "这张很好，正是我喜欢的！",
+      "decision": "Earlier praise for the seated pose and overall image is retained; it does not approve the subsequently identified camera orientation issue."
+    },
+    {
+      "quote": "等等，相机屏幕你再看一下是不是不太对",
+      "decision": "Camera correction requested; v1 is not approved while a corrected candidate is pending."
+    }
+  ]
+}

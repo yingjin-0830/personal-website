@@ -1,0 +1,26 @@
+{
+  "scene": 1,
+  "revision": 2,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "real-estate-v2.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-24037fcc-5700-427d-8994-ae9bde53bc3e.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "19aa0b20d25d1ff27d872f8d50804902dec31987812cb31dc1e1a356a72448d1",
+  "references": [
+    "../real-estate.png",
+    "../../../living-edition/source/hero-fashion.png",
+    "education-v2.png"
+  ],
+  "prompt_file": "real-estate-v2.prompt.txt",
+  "changes": [
+    "Chocolate-brown leather penny loafers instead of sneakers",
+    "Small gold hoop earrings, pendant necklace and slim watch",
+    "Refined natural upright posture"
+  ],
+  "status": "superseded by Marketing Analyst role correction — see real-estate-v3.png",
+  "approved": false,
+  "website_integrated": false
+}

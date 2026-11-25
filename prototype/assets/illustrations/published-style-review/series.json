@@ -1,0 +1,162 @@
+{
+  "status": "Individual image review complete: eight approved selections. Awaiting integration; not integrated or published.",
+  "generator": "Built-in image_gen.imagegen",
+  "identity_reference": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/living-edition/source/hero-fashion.png",
+  "published_reference_url": "https://yingjin-0830.github.io/personal-website/",
+  "common_prompt": "Use case: illustration-story. Create ONE finished full-scene fashion illustration in portrait 2:3, at least 1024×1536 pixels. The supplied original published-site character atlas is the AUTHORITATIVE character identity and drawing-style reference. It shows the SAME woman in several poses; output just ONE woman in ONE environment, not an atlas or collage.\nCHARACTER/STYLE LOCK: preserve the published avatar's exact recognizable soft face, expressive brown eyes, face shape, eye/eyebrow spacing, skin tone, long wavy chestnut-brown hair and side part. Young East Asian adult woman, natural elongated fashion proportions about eight heads tall, calm confident expression and upright open-chested posture. Match the published reference's refined illustrated face/hair/fabric rendering, clean precise contours and gentle soft shading. Retain its natural adult fashion character. Use muted cream, sand, terracotta, dusty blue and sage with subtle paper grain and soft natural daylight. Keep the scene in that same coherent illustration style. No heavy black outlines, chibi proportions, photorealism, glossy 3D, or a redesigned face. When a second reference is supplied it is Scene 1 of this SAME series: use it to keep the rendering, face, body scale and palette consistent, but draw the requested new scene and outfit.\nCOMPOSITION LOCK: full body from top of hair to the bottom of BOTH shoes' soles, all hands/props/shoes intact and uncropped. Center the woman approximately; she occupies about 70–75% of image height, with generous balanced clear space above the head and clear floor below the feet, each NEVER less than 8% of total image height. Do not zoom in. Keep adult anatomy/proportions consistent. The environment and scene equipment sit behind or beside her, never occluding her head, torso, legs or shoes; her complete silhouette should be clean for later extraction. No foreground counter or furniture across her legs. No extra people. No text, letters, numerals, signs, logos, brand marks or watermarks anywhere, including screens, diplomas and fridge magnets. No border, frame or split panels. Only this one requested scene.\nMATCH THE APPARENT PERSON SCALE TO THE SECOND (SCENE1) REFERENCE: roughly70%canvasheight with ampleheadroomandground, not a tight nearly-edge-to-edge portrait.",
+  "scenes": [
+    {
+      "id": 1,
+      "filename": "real-estate.png",
+      "scene_prompt": "Scene 1: Marketing Analyst at a New York real-estate development company. She stands in a finished Manhattan residential neighborhood holding a slim tablet with simple chart shapes. Cream blazer, white tee, wide-leg light-blue jeans, chocolate-brown leather loafers and restrained gold accessories. Same published character and rendering style. NO construction site, crane, exposed building frame, fencing, hard hat or rolled blueprints. No text or logos.",
+      "status": "real-estate v3 approved by Ying — not integrated",
+      "file": "real-estate.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "dd110e331ee947f058e1dcc6de2f9f7f12cbb6e38d360f2df00df56b919567a9",
+      "website_integrated": false,
+      "role_guardrail": "Represent marketing analysis and business insight in real estate; completed residential buildings and tablet. Construction/architect/engineering props are superseded.",
+      "approved_revision": "revisions/real-estate-v3.png",
+      "approval_quote": "ok, 这张确认"
+    },
+    {
+      "id": 2,
+      "filename": "sales-marketing.png",
+      "scene_prompt": "Scene 2: She stands beside a large presentation screen showing a modern New York residential building rendering. She is presenting with an open hand and wears a white blouse with wide-leg cream trousers and white sneakers. Screen is behind/beside her; no readable text.",
+      "status": "sales-marketing v2 approved by Ying — not integrated",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "2b1f9fd97dd5a10ddd70df0aca9d721f53b520c02a0a85e6325a7b63ceb02647",
+      "website_integrated": false,
+      "approved_revision": "revisions/sales-marketing-v2.png",
+      "approval_quote": "ok,这个确定，下一个"
+    },
+    {
+      "id": 3,
+      "filename": "data-analytics.png",
+      "scene_prompt": "Scene 3: She STANDS next to a wall display of abstract charts, tapping a tablet. White blouse, wide-leg light-blue jeans, espresso leather loafers and restrained gold accessories. Calm warm office, pale-wood console, tall window overlooking open river and a distant low bridge. No trees/plants, Empire State Building, repetitive Manhattan skyscrapers, text or logos.",
+      "status": "data-analytics v3 approved by Ying — not integrated",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "7cdbdbc7e8e66bc1c7db63042c6db0c04a498109aacf2919f66c53edcfe3281c",
+      "website_integrated": false,
+      "backdrop_note": "Approved v3 removes indoor trees/plants and replaces the repeated Manhattan/Empire State window scenery with open river and a small distant bridge; v2 remains unapproved and superseded.",
+      "revision_request_quote": "等等，Data & Analytics 这张你把把树和窗景要换一下吧",
+      "approved_revision": "revisions/data-analytics-v3.png",
+      "approval_quote": "这张确认，下一张吧"
+    },
+    {
+      "id": 4,
+      "filename": "education.png",
+      "scene_prompt": "Scene 4: Graduation day. She stands in a dark navy graduation gown and cap holding a rolled diploma, smiling, with gothic stone university architecture behind her. Her shoes are fully visible below the gown. Diploma and gown are unbranded with no text.",
+      "status": "education v2 approved by Ying — not integrated",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "e7528f7c3f90c1a5d9fd8b0b043f1d92ce80b3b5d6c6cf03cb50bc5f5ff14e29",
+      "website_integrated": false,
+      "approved_revision": "revisions/education-v2.png",
+      "approval_quote": "这一张可以！"
+    },
+    {
+      "id": 5,
+      "filename": "coffee.png",
+      "scene_prompt": "Scene 5: Same recognizable character with chestnut hair in a relaxed low bun and a few face-framing curls. She stands naturally in three-quarter view beside an L-shaped coffee counter pouring latte art. White tee, sand apron, cream linen wide-leg trousers (no denim), caramel ballet flats and tiny gold accessories. Stone counter, walnut cabinets, dusty-blue tiles, espresso machine, grinder, linen towel, side window with nearby brick facade. No trees/skyline. Full body, no text/logos.",
+      "status": "coffee v5 approved by Ying — not integrated",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "b233c62a147625cf759ff9166f352949e3bc56ca2934aed8432ad4d50da816f5",
+      "website_integrated": false,
+      "review_note": {
+        "wardrobe": "Keep cream linen wide-leg trousers rather than jeans and the established coffee-making outfit.",
+        "pose": "Use a relaxed, anatomically natural barista pose. Align head and neck with the torso instead of an exaggerated tilt; angle the body toward a side counter with relaxed elbows near the torso and a slight gaze toward the cup.",
+        "backdrop": "Add spatial/environmental variety rather than another frontal wall-and-shelf arrangement. Planned next candidate: L-shaped coffee nook, different window and room depth, no trees or repeated skyline.",
+        "review_state": "Coffee v5 approved by Ying; older Coffee candidates remain unapproved. Continue individual review with Scene 6, Photography.",
+        "user_quote": "或许可以换一个发型试试？",
+        "hairstyle": "Approved Coffee-only low-bun variant with chestnut face-framing curls; recognizable face, outfit, pose and room preserved. This does not authorize wholesale character redesign or changes to other approved images."
+      },
+      "hairstyle_override": "Approved Coffee-only user-requested variant: chestnut hair in a relaxed low bun with face-framing curls, same recognizable facial identity. Does not change other approved scenes.",
+      "approved_revision": "revisions/coffee-v5.png",
+      "approval_quote": "ok,这张可以了。下一张"
+    },
+    {
+      "id": 6,
+      "filename": "photography.png",
+      "scene_prompt": "Scene 6: Same recognizable woman with loose chestnut waves and no hat, wearing an open sand trench over a white tee, charcoal tailored wide-leg trousers and black leather ankle boots, taking a street photograph with a compact camera raised naturally. Upright three-quarter pose and restrained gold accessories. SoHo cast-iron architecture, receding street, crosswalk and distant taxi in warm late-afternoon light. No repeated leafy tree scene or Empire State skyline, no text/logos. Full-body portrait 2:3.",
+      "status": "photography v2 approved by Ying — no hat, raised camera, not integrated",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "d60be1ff9b387c40f4a0be37e41caf249dca63a227d51020a04cf3a2901c562b",
+      "website_integrated": false,
+      "review_note": {
+        "final_selection": "Ying chose photography-v2.png: no hat and the raised-camera action. Photography v3 with charcoal beret and street-observation pose is not selected.",
+        "user_quote": "还是你上一张好，就上一个没有帽子的版本",
+        "prior_trial": "Ying previously requested a charcoal beret and paused street-observation pose for comparison; that v3 candidate is retained as provenance only.",
+        "review_state": "V2 approved; pending cleared. Continue with Scene 7, Travel."
+      },
+      "approved_revision": "revisions/photography-v2.png",
+      "selected_revision": "revisions/photography-v2.png",
+      "approval_quote": "还是你上一张好，就上一个没有帽子的版本"
+    },
+    {
+      "id": 7,
+      "filename": "travel.png",
+      "scene_prompt": "Scene 7: Same recognizable woman in ivory linen ankle-skimming maxi sundress, slim brown belt, straw sun hat with cocoa ribbon, tan open-back strappy high-heeled mules, gold hoops, layered fine necklaces and light gold/ivory bracelets. She places a separate magnet on cream fridge while resting other hand on suitcase handle. Same apartment hallway, oak floor and warm light. No trees/skyline/text/logos. Full-body portrait2:3 including complete hat and both shoes.",
+      "status": "travel v4 approved by Ying — not integrated",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "9f35337272286f7028bb6e2a7baab43ea6fec95cffbb5edf9dffd294e96d3529",
+      "website_integrated": false,
+      "review_note": {
+        "user_quote": "凉鞋换成好看的高跟拖鞋，裙子可以再长一点，饰品可以再多一点休闲度假感",
+        "selected_direction": "Replace sandals with attractive heeled mules, lengthen the dress and add more relaxed vacation accessories.",
+        "planned_wardrobe": "Refined tan strappy heeled mules with no heel strap; longer ivory linen ankle-skimming dress with shoes fully visible; gold hoops, delicate layered necklaces and light bangles.",
+        "invariants": "Preserve straw hat, recognizable face, magnet-placement action, cream fridge, suitcase and hallway setting.",
+        "review_state": "Travel v4 approved by Ying; older Travel candidates remain unapproved. Continue with Scene 8, Cooking."
+      },
+      "approved_revision": "revisions/travel-v4.png",
+      "approval_quote": "可以了，下一张"
+    },
+    {
+      "id": 8,
+      "filename": "cooking.png",
+      "scene_prompt": "Scene 8: Same recognizable adult woman with soft chestnut low ponytail, ivory knit tee, sage linen apron, warm-grey cotton wide-leg trousers and ivory closed-toe flat house mules. She holds a plate of homemade Chinese dumplings naturally with both hands. Pale-oak working kitchen with warm-white tile/terracotta wall, frosted window, vegetables/wrappers/rolling pin on back counter and gently steaming pot on hob. No trees/decorative plants/skyline/text/logos. Full-body portrait2:3.",
+      "status": "cooking v2 approved by Ying — not integrated",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "3fa22c890c6d7c158adf61cc5fc266a777178f91e7f4908843b7999c68e30c33",
+      "website_integrated": false,
+      "approved_revision": "revisions/cooking-v2.png",
+      "approval_quote": "这张ok"
+    }
+  ],
+  "series_reference": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/real-estate.png",
+  "review_preview": "preview.jpg",
+  "review_workflow": "Generate and confirm ONE candidate at a time; wait for Ying before producing the next image. No website integration until approved.",
+  "wardrobe_update": "Footwear may vary (loafers, leather shoes, boots, heels); varied natural poses and tasteful accessories are welcome. Education: graduate/masters regalia over white dress and high heels.",
+  "active_review_scene": null,
+  "backdrop_diversity": "Do not put trees in every image or repeat Manhattan/Empire State window views. Vary room architecture and use neutral walls, shelves or windows only as relevant to the requested scene. Do not add new backdrop concepts beyond the scene needs. Data & Analytics v3 is the approved revision with no indoor trees/plants and an open river/distant bridge window; v2 is superseded.",
+  "review_complete": true,
+  "approved_selection_count": 8,
+  "awaiting_integration": true,
+  "website_integrated": false,
+  "publication_authorized": false,
+  "approved_review_gallery": "approved/index.html",
+  "approved_archive": "ying-jin-approved-illustrations-2026-11-23.zip",
+  "approved_package_manifest": "approved/manifest.json"
+}

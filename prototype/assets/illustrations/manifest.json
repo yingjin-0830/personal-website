@@ -1,0 +1,387 @@
+{
+  "source": "User-supplied home-reference.html",
+  "source_sha256": "11786b53d329a8f706148a195d11e60a6be4dab9ab9cd8678bb64a3f1ac4d2fa",
+  "target_dimensions": [
+    900,
+    1200
+  ],
+  "note": "Native assets are 450x600. The 900x1200 files preserve the supplied reference composition but do not contain newly generated high-resolution detail. The source reuses the Reading cutout for Wellness, Cooking and Travel.",
+  "tiles": [
+    {
+      "name": "real-estate",
+      "title": "Real Estate",
+      "side": "pro",
+      "assets": {
+        "full": {
+          "file": "real-estate_full.webp",
+          "native_file": "source/real-estate_full.jpg",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "232c13d50e6de53f1fc27c5b37bed7992ffbf3bfdf204a8e8c32eb146f243513",
+          "output_sha256": "74a09f261061fa5817f2b998d74e9bc4ca4d4899573a030dea2e33990590165e",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated"
+        },
+        "cut": {
+          "file": "real-estate_cut.png",
+          "native_file": "source/real-estate_cut.png",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "4c521dbcb539726cf203bdcca668c838ea4841301d67366ee7e8d46560e190a5",
+          "output_sha256": "73035dc8baaac73e33d4cc8ad2a835843f1b1ef377af2b73d491e32959319f0b",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated",
+          "native_alpha_bbox": [
+            187,
+            58,
+            341,
+            584
+          ],
+          "has_transparency": true,
+          "duplicate_source_of": null
+        }
+      }
+    },
+    {
+      "name": "sales-marketing",
+      "title": "Sales & Marketing",
+      "side": "pro",
+      "assets": {
+        "full": {
+          "file": "sales-marketing_full.webp",
+          "native_file": "source/sales-marketing_full.jpg",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "09506ac80ac6a1b789f3a6ecf1f950e139671252262a8b1b52380a81f67220df",
+          "output_sha256": "022630fe5cb50f54c4a1e98630f7867bf928313f5cc76a89d67cc166ff1a41d8",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated"
+        },
+        "cut": {
+          "file": "sales-marketing_cut.png",
+          "native_file": "source/sales-marketing_cut.png",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "cafeb1453f76622e9ecf08a04bdb2a2a0cb0aad2bf265248ad0f0f642d324dc6",
+          "output_sha256": "3ae07b6719354e4d5a6b62e8f12493d0950b6711cf7c3274e2ed7e72ae38d5b4",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated",
+          "native_alpha_bbox": [
+            221,
+            40,
+            417,
+            595
+          ],
+          "has_transparency": true,
+          "duplicate_source_of": null
+        }
+      }
+    },
+    {
+      "name": "data-analytics",
+      "title": "Data & Analytics",
+      "side": "pro",
+      "assets": {
+        "full": {
+          "file": "data-analytics_full.webp",
+          "native_file": "source/data-analytics_full.jpg",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "c723c9dd4eb07e880a28665228352b14e504d4cac26ed4187e1e8400f2e5e1e3",
+          "output_sha256": "09c6b5e1bac93f34c2687170728c1df7707c4f0cbfb14a7bef5256c6d6ad8109",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated"
+        },
+        "cut": {
+          "file": "data-analytics_cut.png",
+          "native_file": "source/data-analytics_cut.png",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "16eb27c2bea48405f6e682f7c4dc978d16b3ec54765ee2cd12bc4a0a6bad7d42",
+          "output_sha256": "5842b5817ec2a4556d0da54643f59c766cf6bc003ebf4085ea6a7610803a3bd6",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated",
+          "native_alpha_bbox": [
+            4,
+            34,
+            415,
+            600
+          ],
+          "has_transparency": true,
+          "duplicate_source_of": null
+        }
+      }
+    },
+    {
+      "name": "education",
+      "title": "Education",
+      "side": "pro",
+      "assets": {
+        "full": {
+          "file": "education_full.webp",
+          "native_file": "source/education_full.jpg",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "acf04a0f003e4596229508810f6a3a15151d7ecdf3a6eb7a3140243af1a2cb1b",
+          "output_sha256": "bc3a27333273acbf8e7760779c365cea4e6153f66af215be64a3c7dae22caaac",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated"
+        },
+        "cut": {
+          "file": "education_cut.png",
+          "native_file": "source/education_cut.png",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "993f211eed502b94eb64db6dd2b35065f654c46754ed5a9223205d54f47344bb",
+          "output_sha256": "7b666fff152676c41bd715e08128eabb67dfc834a6e8d6da42838d1964b4b504",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated",
+          "native_alpha_bbox": [
+            116,
+            48,
+            335,
+            600
+          ],
+          "has_transparency": true,
+          "duplicate_source_of": null
+        }
+      }
+    },
+    {
+      "name": "reading",
+      "title": "Reading",
+      "side": "per",
+      "assets": {
+        "full": {
+          "file": "reading_full.webp",
+          "native_file": "source/reading_full.jpg",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "d8ab613422994e11435d37e730016cb1a558514cff875ebda7ec5469aae19f90",
+          "output_sha256": "a306e12f3b39545fcf2bb2c0d68f72b805d030cf1b6783d1bdfeae3a8daf60dd",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated"
+        },
+        "cut": {
+          "file": "reading_cut.png",
+          "native_file": "source/reading_cut.png",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "9441fbcc8b8ee68eab3f2e206156ae8d0d02c02d25692953d05e1621a03a1305",
+          "output_sha256": "3e561705e85317a6e6f9413519b6f2048cd140a9e5b8e18da9b762a75bb86a03",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated",
+          "native_alpha_bbox": [
+            118,
+            72,
+            272,
+            591
+          ],
+          "has_transparency": true,
+          "duplicate_source_of": null
+        }
+      }
+    },
+    {
+      "name": "wellness",
+      "title": "Wellness",
+      "side": "per",
+      "assets": {
+        "full": {
+          "file": "wellness_full.webp",
+          "native_file": "source/wellness_full.jpg",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "c53d5aabc1f19c458b64aaa064dace5b5c931976cf56b153acf0d4804b200a0f",
+          "output_sha256": "56cd5457625fad59f65241622d98221fa14d73b6adac523057b53e64a6e0a98c",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated"
+        },
+        "cut": {
+          "file": "wellness_cut.png",
+          "native_file": "source/wellness_cut.png",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "9441fbcc8b8ee68eab3f2e206156ae8d0d02c02d25692953d05e1621a03a1305",
+          "output_sha256": "3e561705e85317a6e6f9413519b6f2048cd140a9e5b8e18da9b762a75bb86a03",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated",
+          "native_alpha_bbox": [
+            118,
+            72,
+            272,
+            591
+          ],
+          "has_transparency": true,
+          "duplicate_source_of": "reading_cut.png"
+        }
+      }
+    },
+    {
+      "name": "cooking",
+      "title": "Cooking",
+      "side": "per",
+      "assets": {
+        "full": {
+          "file": "cooking_full.webp",
+          "native_file": "source/cooking_full.jpg",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "928961c5ef6905dacd03c5ec179d784b6cea40d7487b27f0be402175b25ef46d",
+          "output_sha256": "c819d9c2791cd11525d275ba286fd779826d7b9ff7e78797323796ddc66386fc",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated"
+        },
+        "cut": {
+          "file": "cooking_cut.png",
+          "native_file": "source/cooking_cut.png",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "9441fbcc8b8ee68eab3f2e206156ae8d0d02c02d25692953d05e1621a03a1305",
+          "output_sha256": "3e561705e85317a6e6f9413519b6f2048cd140a9e5b8e18da9b762a75bb86a03",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated",
+          "native_alpha_bbox": [
+            118,
+            72,
+            272,
+            591
+          ],
+          "has_transparency": true,
+          "duplicate_source_of": "reading_cut.png"
+        }
+      }
+    },
+    {
+      "name": "travel",
+      "title": "Travel",
+      "side": "per",
+      "assets": {
+        "full": {
+          "file": "travel_full.webp",
+          "native_file": "source/travel_full.jpg",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "14cd5d4fc24ce85ac2d1c77e8c97c4568de5b27a1df13f9a83584aa75b2f7aed",
+          "output_sha256": "435ad9726b22e8711180ec8286042e87d7ff7fe375b2b67307ca864e175c192c",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated"
+        },
+        "cut": {
+          "file": "travel_cut.png",
+          "native_file": "source/travel_cut.png",
+          "native_dimensions": [
+            450,
+            600
+          ],
+          "output_dimensions": [
+            900,
+            1200
+          ],
+          "source_sha256": "9441fbcc8b8ee68eab3f2e206156ae8d0d02c02d25692953d05e1621a03a1305",
+          "output_sha256": "3e561705e85317a6e6f9413519b6f2048cd140a9e5b8e18da9b762a75bb86a03",
+          "status": "reference-resolution-placeholder",
+          "processing": "2x Lanczos resampling; no new visual detail generated",
+          "native_alpha_bbox": [
+            118,
+            72,
+            272,
+            591
+          ],
+          "has_transparency": true,
+          "duplicate_source_of": "reading_cut.png"
+        }
+      }
+    }
+  ]
+}

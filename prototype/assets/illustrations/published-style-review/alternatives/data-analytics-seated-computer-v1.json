@@ -1,0 +1,26 @@
+{
+  "id": "data-analytics-seated-computer-v1",
+  "scene_id": 3,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "data-analytics-seated-computer-v1.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-7e591693-fd79-4458-83b0-bdf8fbfe6f99.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "39a793701f128297f6839616dc361269f482f5561a52ae88b46f21611b6ab92f",
+  "base_approved_revision": "../revisions/data-analytics-v3.png",
+  "references": [
+    "../revisions/data-analytics-v3.png"
+  ],
+  "prompt_file": "data-analytics-seated-computer-v1.prompt.txt",
+  "requested_on": "2026-11-23",
+  "scope_note": "Extra seated option explicitly requested by Ying; approved standing original remains unchanged.",
+  "status": "revision_requested",
+  "approved": false,
+  "selected_for_site": false,
+  "replaces_approved": false,
+  "website_integrated": false,
+  "user_correction": "可以面朝我，不用看到电脑屏幕，和墙上的内容重复了",
+  "revision_note": "Next candidate should face viewer and show monitor back, retaining charts only on wall."
+}

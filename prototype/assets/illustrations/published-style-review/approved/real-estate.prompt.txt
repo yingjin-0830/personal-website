@@ -1,0 +1,11 @@
+Use case: identity-preserve.
+Asset: ONE portrait full-body portfolio illustration, revising this exact character scene to represent her actual role as a MARKETING ANALYST at a New York real-estate development company.
+
+Input image 1 is the edit target and the authoritative character/style/composition reference. Preserve the exact recognizable face, long wavy chestnut-brown hair, calm confident expression, adult elongated body proportions, cream blazer, white tee, wide-leg light-blue jeans, dark chocolate leather loafers, small gold hoop earrings, pendant and wristwatch. Keep the gentle warm light, muted palette and refined fashion-illustration rendering of the reference. Do not redesign the character.
+
+CHANGE ONLY THESE ROLE CUES:
+1. Completely REMOVE the construction site, exposed building skeleton, tower crane, scaffolding, green construction fencing, safety barriers and all construction equipment. In their place show finished elegant modern Manhattan residential buildings with clean windows, a welcoming completed lobby/entrance, a few tasteful street trees and tidy stone paving. The distant Manhattan skyline may remain. This is a finished urban residential neighborhood, not a jobsite.
+2. Completely REMOVE every rolled paper / blueprint from her arms and hands. Give her one slim muted dark tablet held naturally at waist height with her left arm, with a few very simple small chart shapes on it and NO readable text. Her other hand can remain casually in her jeans pocket. This cues market analysis and business insight. She stands upright with an open chest and relaxed natural posture.
+
+Keep the same generous portrait 2:3 framing, at least 1024×1536. Show the entire figure from hair top through BOTH shoes and soles; leave at least 8% clear space above the head and below the feet. The person occupies roughly 70% of canvas height and stays centered. Keep clean silhouette and background behind her; nothing obscures her legs or shoes. No extra people.
+No building construction, crane, blueprints, hard hat, bag or sunglasses. No lettering, letters, numbers, signs, logos, branding, watermark, border or panels. Output only ONE finished image.

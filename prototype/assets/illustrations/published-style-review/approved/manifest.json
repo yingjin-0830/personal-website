@@ -1,0 +1,147 @@
+{
+  "set": "Ying Jin — eight individually approved illustrations",
+  "packaged_on": "2026-11-23",
+  "generator": "Built-in image_gen.imagegen",
+  "status": "all eight selected; awaiting final set review",
+  "original_pixels_preserved": true,
+  "website_integrated": false,
+  "publication_authorized": false,
+  "artworks": [
+    {
+      "scene": 1,
+      "title": "Marketing Analyst",
+      "filename": "real-estate.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2631232,
+      "sha256": "b7227220d961c75460d7006701836cd9538a461baec406bef380952291ba6658",
+      "source_revision": "../revisions/real-estate-v3.png",
+      "source_metadata": "../revisions/real-estate-v3.json",
+      "prompt_file": "real-estate.prompt.txt",
+      "approval_quote": "ok, 这张确认",
+      "approved": true,
+      "website_integrated": false
+    },
+    {
+      "scene": 2,
+      "title": "Sales & Marketing",
+      "filename": "sales-marketing.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2519062,
+      "sha256": "2e2b644ed66cc58551d7840ae0ab721b3faa2dbad8894ad189db3ea21d22aff1",
+      "source_revision": "../revisions/sales-marketing-v2.png",
+      "source_metadata": "../revisions/sales-marketing-v2.json",
+      "prompt_file": "sales-marketing.prompt.txt",
+      "approval_quote": "ok,这个确定，下一个",
+      "approved": true,
+      "website_integrated": false
+    },
+    {
+      "scene": 3,
+      "title": "Data & Analytics",
+      "filename": "data-analytics.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2181594,
+      "sha256": "52e0cabc0127d405e73f7a42b3c63d1bb00d2ca339d9c0ddc270c0701fed12f5",
+      "source_revision": "../revisions/data-analytics-v3.png",
+      "source_metadata": "../revisions/data-analytics-v3.json",
+      "prompt_file": "data-analytics.prompt.txt",
+      "approval_quote": "这张确认，下一张吧",
+      "approved": true,
+      "website_integrated": false
+    },
+    {
+      "scene": 4,
+      "title": "Education",
+      "filename": "education.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2839472,
+      "sha256": "01c6955487f6331d29e02abe25a5487c034d28cf9bdb0e402c3ea3473d930ec4",
+      "source_revision": "../revisions/education-v2.png",
+      "source_metadata": "../revisions/education-v2.json",
+      "prompt_file": "education.prompt.txt",
+      "approval_quote": "这一张可以！",
+      "approved": true,
+      "website_integrated": false
+    },
+    {
+      "scene": 5,
+      "title": "Coffee",
+      "filename": "coffee.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2274572,
+      "sha256": "fefe32b8e4df0330e1d9ed7086e132354554974b5ab7c3664c7b7523bd4bf374",
+      "source_revision": "../revisions/coffee-v5.png",
+      "source_metadata": "../revisions/coffee-v5.json",
+      "prompt_file": "coffee.prompt.txt",
+      "approval_quote": "ok,这张可以了。下一张",
+      "approved": true,
+      "website_integrated": false
+    },
+    {
+      "scene": 6,
+      "title": "Photography（无帽版）",
+      "filename": "photography.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2646763,
+      "sha256": "584e8e362ebee8231f0eddad98c4f8e6e47e9db8f9576f2bbbc7ee4dca5dac90",
+      "source_revision": "../revisions/photography-v2.png",
+      "source_metadata": "../revisions/photography-v2.json",
+      "prompt_file": "photography.prompt.txt",
+      "approval_quote": "还是你上一张好，就上一个没有帽子的版本",
+      "approved": true,
+      "website_integrated": false
+    },
+    {
+      "scene": 7,
+      "title": "Travel",
+      "filename": "travel.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 1978984,
+      "sha256": "54790fb3a11f096453c05e1fd3cff69d9a772f7fb973417c610fa22eb42c340b",
+      "source_revision": "../revisions/travel-v4.png",
+      "source_metadata": "../revisions/travel-v4.json",
+      "prompt_file": "travel.prompt.txt",
+      "approval_quote": "可以了，下一张",
+      "approved": true,
+      "website_integrated": false
+    },
+    {
+      "scene": 8,
+      "title": "Cooking",
+      "filename": "cooking.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2551882,
+      "sha256": "8ba7d8959cb7eb41c23cf34e76c512444d1b5b69b0dadabb252c0a9e144205a2",
+      "source_revision": "../revisions/cooking-v2.png",
+      "source_metadata": "../revisions/cooking-v2.json",
+      "prompt_file": "cooking.prompt.txt",
+      "approval_quote": "这张ok",
+      "approved": true,
+      "website_integrated": false
+    }
+  ]
+}

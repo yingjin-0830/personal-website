@@ -46,6 +46,17 @@
       "has_alpha": true,
       "sha256": "4ff05a8455883685a68db282bfdd56cb0a92c50768fe2ae597f2b7b962e5954c",
       "bytes": 1101410
+    },
+    {
+      "asset": "hero-poise.webp",
+      "native_source": "source/hero-poise.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "has_alpha": true,
+      "sha256": "8ee8dbb70dec2f2effe6a1b2bc4409ac9a628bb8b39cc285932829b69666b7d8",
+      "bytes": 220030
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "scene": 8,
+  "revision": 2,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "cooking-v2.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-91cc1d1c-ee3b-4ace-8a99-161a199e1945.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "8ba7d8959cb7eb41c23cf34e76c512444d1b5b69b0dadabb252c0a9e144205a2",
+  "references": [
+    "../cooking.png"
+  ],
+  "prompt_file": "cooking-v2.prompt.txt",
+  "review_recorded_on": "2026-11-23",
+  "changes": [
+    "Soft chestnut low ponytail preserves recognizable face",
+    "Ivory short-sleeve knit top, sage linen apron, warm-grey relaxed trousers and closed-toe house mules",
+    "Both hands naturally support a plate of homemade dumplings",
+    "Working kitchen with pale oak cabinets, terracotta wall, frosted window, ingredients/wrappers/rolling pin and steaming pot; no decorative plants/trees"
+  ],
+  "status": "approved by Ying — not integrated",
+  "approved": true,
+  "website_integrated": false,
+  "visual_qa": "One matching adult woman, full body and both complete shoes with generous headroom/floor. Natural supported dumpling plate; different kitchen and ponytail; vegetables are food ingredients, no decorative foliage or skyline. No text/logos/branding/watermark observed.",
+  "approval_quote": "这张ok"
+}

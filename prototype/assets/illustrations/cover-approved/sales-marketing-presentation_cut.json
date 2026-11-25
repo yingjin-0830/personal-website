@@ -1,0 +1,92 @@
+{
+  "asset": "prototype/assets/illustrations/cover-approved/sales-marketing-presentation_cut.png",
+  "use_case": "background-extraction",
+  "tool": "built-in image_gen.imagegen",
+  "transparent_background": true,
+  "source_approved_artwork": "prototype/assets/illustrations/published-style-review/alternatives/sales-marketing-side-presentation-v1.png",
+  "source_approved_sha256": "603c5282af8cdfedcaa12ac2956a7d3b65bbd21b2d944949ccf943f1a43c139e",
+  "generated_source_path": "/Users/jinying/.codex/generated_images/01a20b7a-a035-7660-a292-c2d2c517164b/exec-971851a5-88de-4f41-9565-f1a250ee9d17.png",
+  "generated_sha256": "4f42f5d6368b6d5e59a9a822bd3e23af966cfc3806a345b31b6f269167814e6d",
+  "output_sha256": "4f42f5d6368b6d5e59a9a822bd3e23af966cfc3806a345b31b6f269167814e6d",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_range": [
+    0,
+    254
+  ],
+  "alpha_bbox": [
+    0,
+    55,
+    972,
+    1426
+  ],
+  "alpha_bbox_by_threshold": {
+    "1": [
+      0,
+      55,
+      972,
+      1426
+    ],
+    "10": [
+      171,
+      187,
+      747,
+      1424
+    ],
+    "128": [
+      172,
+      188,
+      746,
+      1424
+    ],
+    "200": [
+      174,
+      188,
+      746,
+      1423
+    ],
+    "250": [
+      178,
+      190,
+      738,
+      1423
+    ]
+  },
+  "corner_alpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "transparent_pixel_count": 1288798,
+  "prompt": "Use case: background-extraction.\nAsset type: exactly registered transparent foreground layer for an illustrated portfolio homepage.\nInput image 1 is the approved edit target. REMOVE ONLY THE BACKGROUND. Keep the exact same illustrated side-facing woman: unchanged face, expression, right-facing gaze, long wavy brown hair, earrings, necklace, white rolled-sleeve blouse, cream wide-leg trousers and brown belt, gold watch, pointing right hand/arm/fingertips, open left hand at waist, both legs and both brown heels. Preserve her exact approved identity, pose, contours, clothes, shading and line detail; do not redraw, re-pose or change any body parts.\nCanvas registration is critical: output a 1024 × 1536 portrait PNG with exactly the same 2:3 canvas and transparent padding as the input. Keep her at the original pixel position and scale: hair top near y=187; hair left around x=175; pointing fingertip near x=745,y=350; shoe bottoms near y=1422. Do not crop, center, enlarge, shift, rotate, reframe or add padding. Match the original canvas precisely.\nRemove the entire presentation screen and frame, all charts, room, wall art, walls, cabinetry, chairs, table, notebook, carpet, floor, cast/contact shadows, every background object, and every background gap between the woman's arms/body and legs. Keep only the woman; no tablet, screen, pointer, chair, stool or support. All four image corners and all pixels outside the woman's silhouette must be truly transparent alpha.\nPreserve complete fingers, hair edges and both shoe heels with natural antialiased edges. No border, glow, drop shadow, ground plane, checkerboard, white fill or colored backdrop. Output actual RGBA alpha transparency. This is exact background removal from the approved artwork, not a new illustration or a new direction.",
+  "created_utc": "2026-11-24T14:06:36.911679+00:00",
+  "pixel_processing": "Unmodified byte-copy of built-in image_gen PNG. No image postprocessing.",
+  "qa_status": "Accepted after canvas/alpha, light and dark alpha-composite visual inspection, and integer translation registration analysis.",
+  "visual_qa": {
+    "complete_figure_and_both_shoes": true,
+    "pointing_hand_and_pose_preserved": true,
+    "hair_face_outfit_watch_jewelry_preserved": true,
+    "screen_room_chairs_table_floor_shadows_removed": true,
+    "background_gaps_removed": true,
+    "visible_halo": false,
+    "visible_scale_or_position_shift": false,
+    "light_background": "white",
+    "dark_background": "#121b22",
+    "notes": "Minor generative pixel/texture differences remain. Very low-alpha residuals below 10/255 extend beyond the silhouette; no halo is visible on light/dark composites. Original generated PNG retained without editing."
+  },
+  "registration_qa": {
+    "method": "Compare source RGB to generated subject RGB at subsampled alpha>250 interior locations eroded two pixels horizontally and vertically. Mean absolute RGB difference search across integer dx/dy [-5,+5].",
+    "sample_count": 59645,
+    "best_source_sample_offset_px": [
+      0,
+      -1
+    ],
+    "best_mean_absolute_rgb_difference_0_255": 5.502551078796387,
+    "unshifted_mean_absolute_rgb_difference_0_255": 5.661256790161133,
+    "interpretation": "Best source sampling offset y=-1 suggests approximately one-pixel downward registration difference in the generated cut. The same 1024x1536 canvas, scale and pose are preserved; no visible reframe/shift in composites. This checks translation, not pixel identity."
+  }
+}

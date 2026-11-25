@@ -1,0 +1,20 @@
+Use case: identity-preserve.
+Asset: ONE composition revision of the additional seated Data & Analytics illustration.
+INPUTS: Image1 is the seated-computer edit target. Image2 is the approved standing Data portrait, authoritative for the same woman's recognizable FRONT-VIEW FACE, hair, adult proportions and outfit.
+
+USER'S SELECTED CHANGE:
+The seated woman FACES THE ILLUSTRATION VIEWER, and we see the BACK OF THE COMPUTER rather than its screen. Keep analytics charts on the WALL only, to avoid duplicate dashboards.
+
+RECOMPOSE NATURALLY:
+She sits comfortably on the same simple cream armless upholstered chair, her torso mostly front-facing with shoulders level and relaxed. Her head/face look straight toward us with a soft calm confident smile, same recognizable young East Asian adult face, warm brown eyes, skin tone and chestnut waves as Image2. Do not twist the neck sharply away from torso. A natural brief pause from work, not an artificial model pose.
+One forearm rests comfortably on the desk with hand lightly on the mouse; the other hand can rest naturally on her thigh / near the desk edge, whichever gives the most relaxed plausible posture. Knees comfortably bent, both feet grounded and fully visible. No tablet/phone in hands.
+
+COMPUTER/DESK PLACEMENT:
+Pale-wood open-leg desk extends into the right foreground, leaving the woman's torso, hands, knees, legs and shoes clearly visible to its left/below. Place the slim desktop monitor on the right FOREGROUND CORNER, with its FRONT LCD facing HER and its smooth unbranded matte warm-grey/ivory BACK facing the illustration viewer. Only rear casing, a narrow side edge and its connected stand are visible to us. NO visible screen contents, NO charts on the monitor back, NO luminous panel facing viewer, no reversed keyboard or impossible floating monitor. A keyboard and mouse sit naturally on the desk behind/beside that monitor for her use. Monitor never hides her face/body and does not dominate the portrait.
+The single large wall panel BEHIND her retains abstract muted blue/sage/terracotta charts, and is the ONLY visible dashboard. No chart duplication on other objects.
+
+KEEP IDENTICAL CHARACTER/OUTFIT/ROOM:
+Same loose long side-parted wavy chestnut hair, white softly draped blouse with sleeves turned to forearms, wide-leg light-blue jeans, slim dark-brown belt, brown leather loafers, tiny gold earrings, fine pendant and slim watch. Same adult elongated proportions, not chibi. Same calm warm office, river/low bridge through the tall left window, pale plaster/wood and light-stone floor, soft daylight. No trees/plants/repeated landmark skyline or other people. Simple uncluttered office, few neutral notebook/boxes as already present.
+
+STYLE/FRAME: same refined fashion illustration, precise clean contours, gently shaded face/hair/fabric and subtle paper grain. No heavy black outlines, photorealistic person or glossy3D. Portrait2:3 at least1024×1536, FULL SEATED FIGURE from hair top through BOTH COMPLETE SHOE SOLES, hands/chair/monitor intact. At least8%clear above head and below soles; generous full-body framing as Image1, no tight crop.
+No letters, words, numerals, labels, logos, branding, watermark, borders or panels. Output ONE finished illustration.

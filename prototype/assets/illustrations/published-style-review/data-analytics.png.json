@@ -1,0 +1,19 @@
+{
+  "generator": "Built-in image_gen.imagegen",
+  "source_path": "/Users/jinying/.codex/generated_images/01a20645-25ec-7740-af8b-cfd2d46d5966/exec-15a6b98b-f68b-4ec7-bcbf-c406f4800732.png",
+  "file": "data-analytics.png",
+  "references": [
+    "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/living-edition/source/hero-fashion.png",
+    "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/real-estate.png"
+  ],
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "7cdbdbc7e8e66bc1c7db63042c6db0c04a498109aacf2919f66c53edcfe3281c",
+  "prompt_file": "data-analytics.png.prompt.txt",
+  "status": "review_only",
+  "integrated": false,
+  "published": false,
+  "visual_qa": "Passed: one woman; recognizable matching face/hair/style; full standing body and both complete shoes, ample headroom and floor; background equipment does not occlude silhouette; no text, numerals or logos observed."
+}

@@ -1,0 +1,340 @@
+.work-intro {
+  max-width: var(--measure);
+  margin: 0 0 var(--space-7);
+  color: var(--muted);
+  font-size: var(--text-lg);
+}
+
+.work-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-6);
+  padding-block: var(--space-4);
+  border-block: 1px solid var(--line);
+  margin-bottom: var(--space-9);
+}
+
+.work-index a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--touch-target);
+  color: var(--muted);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-label);
+  text-decoration: none;
+}
+
+.work-index a:hover,
+.work-index a:focus-visible {
+  color: var(--accent);
+}
+
+.work-section {
+  position: relative;
+  padding-bottom: var(--space-9);
+}
+
+.section-anchor {
+  position: absolute;
+  top: 0;
+}
+
+.work-section-heading {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-5);
+  margin-bottom: var(--space-7);
+}
+
+.work-section-heading h2 {
+  margin: 0;
+}
+
+.section-index {
+  flex: none;
+}
+
+.work-role {
+  display: grid;
+  grid-template-columns: minmax(150px, .28fr) minmax(0, 1fr);
+  gap: var(--space-7);
+  padding-block: var(--space-7);
+  border-top: 1px solid var(--line);
+}
+
+.role-date p,
+.role-date span {
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.role-date p {
+  margin: 0 0 var(--space-2);
+}
+
+.role-date span {
+  display: block;
+}
+
+.role-content {
+  max-width: var(--measure);
+}
+
+.role-company {
+  margin: 0 0 var(--space-3);
+  color: var(--accent);
+  font-size: var(--text-md);
+  font-weight: var(--weight-label);
+}
+
+.role-heading h3,
+.project-content h3,
+.work-school h3 {
+  font-size: var(--title-sm);
+  font-weight: var(--weight-heading);
+  margin: 0 0 var(--space-5);
+}
+
+.role-results {
+  display: grid;
+  gap: var(--space-3);
+  padding-left: var(--space-5);
+  margin: 0;
+  color: var(--muted);
+}
+
+.role-results li {
+  padding-left: var(--space-1);
+}
+
+.role-results li::marker {
+  color: var(--accent);
+}
+
+.work-source-link,
+.work-project-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--touch-target);
+  gap: var(--space-2);
+  color: var(--ink);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-label);
+  text-decoration: none;
+}
+
+.work-source-link {
+  margin-top: var(--space-4);
+}
+
+.work-source-link:hover,
+.work-project-link:hover {
+  color: var(--accent);
+}
+
+.work-project {
+  display: grid;
+  grid-template-columns: var(--space-7) minmax(0, 1fr) auto;
+  align-items: start;
+  gap: var(--space-5);
+  border-top: 1px solid var(--line);
+  padding-block: var(--space-7);
+}
+
+.project-number {
+  padding-top: var(--space-1);
+}
+
+.project-content .kicker {
+  margin-bottom: var(--space-3);
+}
+
+.project-content > p:not(.kicker) {
+  max-width: var(--measure);
+  margin: 0 0 var(--space-5);
+  color: var(--muted);
+}
+
+.work-project-link {
+  padding: 0;
+  white-space: nowrap;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-tags li {
+  border: 1px solid var(--line);
+  border-radius: var(--pill-radius);
+  padding: var(--space-2) var(--space-4);
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.work-skills {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-7);
+}
+
+.work-skill-group {
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--line);
+}
+
+.work-skill-group h3 {
+  font-size: var(--text-lg);
+  font-weight: var(--weight-heading);
+  margin: 0 0 var(--space-5);
+}
+
+.work-education-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, .34fr);
+  gap: var(--space-8);
+  align-items: center;
+}
+
+.work-school {
+  padding-block: var(--space-6);
+  border-top: 1px solid var(--line);
+}
+
+.work-school .kicker {
+  margin-bottom: var(--space-4);
+}
+
+.work-school h3 {
+  margin-bottom: var(--space-3);
+}
+
+.school-degree {
+  margin: 0 0 var(--space-2);
+  color: var(--ink);
+}
+
+.school-description,
+.school-location {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.work-education-illustration {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 2 / 3;
+  margin: 0;
+  isolation: isolate;
+}
+
+.work-education-scene {
+  position: absolute;
+  inset: 22% 0 0;
+  overflow: hidden;
+}
+
+.work-education-scene::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--line);
+  pointer-events: none;
+}
+
+.work-education-scene img {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.work-education-cut {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+  .work-skills {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .work-project {
+    grid-template-columns: var(--space-6) minmax(0, 1fr);
+  }
+
+  .work-project-link {
+    grid-column: 2;
+  }
+
+  .work-role {
+    gap: var(--space-6);
+    grid-template-columns: minmax(130px, .28fr) minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .work-intro {
+    margin-bottom: var(--space-6);
+  }
+
+  .work-index {
+    gap: var(--space-1) var(--space-5);
+    margin-bottom: var(--space-8);
+  }
+
+  .work-section {
+    padding-bottom: var(--space-8);
+  }
+
+  .work-section-heading {
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+  }
+
+  .work-role {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+    padding-block: var(--space-6);
+  }
+
+  .role-date {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-4);
+  }
+
+  .role-date p {
+    margin: 0;
+  }
+
+  .work-project {
+    gap: var(--space-4);
+    padding-block: var(--space-6);
+  }
+
+  .work-education-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-7);
+  }
+
+  .work-education-illustration {
+    width: 60%;
+    justify-self: center;
+  }
+}

@@ -1,0 +1,21 @@
+INITIAL EXTRACTION PROMPT
+
+Use case: background-extraction.
+Asset type: transparent character overlay for an existing illustrated homepage.
+Input image: supplied image is the ONLY EDIT TARGET, an already approved 1024 × 1536 portrait illustration.
+Primary request: REMOVE BACKGROUND ONLY. Produce genuine transparent-alpha PNG on EXACT SAME 1024 × 1536 (2:3) canvas.
+Preserve the approved woman facing front and holding a white dumpling plate with both hands at chest/waist level. Keep her exact face, gaze, identity, low ponytail with loose tendrils, gold necklace, cream short-sleeve shirt, sage-green apron with waist bow, warm gray wide trousers and BOTH cream flats. Retain the entire held plate of dumplings and garnish. Source silhouette approximately x368–665, y200–1373; keep that exact pose, size and coordinate placement.
+Remove the entire kitchen, counters, cabinets, wall, window, stove, pot/steam/flame, utensils, food ingredients, loose dishes, floor and all contact/cast shadows.
+CRITICAL PIXEL REGISTRATION: Do not recompose, center, crop, zoom, enlarge, shrink, shift, rotate, re-pose, reinterpret, redraw, beautify or restyle the approved subject. This output will be placed directly over the original source at the same x/y and dimensions in SVG, so every retained feature must stay at the original source coordinates. The former background pixels become alpha=0; retained person and held props stay as close to original pixels as possible. Keep the whole person including top of hair/hat, fingers, ankles, BOTH shoes and all retained props. Transparent holes between limbs, hair strands and suitcase handle must be truly transparent. No floor, base, contact shadow, cast shadow, backdrop, new decoration, halo, checkerboard artwork, text or watermark. Leave all original empty margins around the subject transparent; do not trim the canvas. Preserve source lighting, warm illustration rendering, all clothing textures and existing colors.
+
+HALO REMOVAL REFINEMENT PROMPT
+
+Use case: background-extraction.
+EDIT TARGET: the provided 1024 × 1536 RGBA cutout.
+Primary request: Remove the entire soft brown/cream glow, bloom, aura and residual translucent background surrounding the character. This image incorrectly has a broad semitransparent warm halo: erase ALL those pixels to alpha=0. The result must be a clean isolated subject silhouette with completely transparent empty canvas and no surrounding glow whatsoever.
+Preserve every character and held/touched prop pixel, pose, size, source x/y coordinates, lighting, face, hair, clothing and shoes. Do not move, scale, redraw, reframe, crop, zoom or center anything. Keep exact 1024 × 1536 canvas. Keep complete body and every shoe. Keep character/props solid opaque, with only a tight 1–2 pixel antialiased contour. Erase background even in all gaps between arms/body/legs and gaps in handle. Keep no cast/contact shadow or floor.
+
+
+
+Keep dumpling plate with all dumplings and garnish.
+The only edit is removing the surrounding translucent HALO. Actual alpha transparency, no black/white/color fill and no checkerboard artwork.

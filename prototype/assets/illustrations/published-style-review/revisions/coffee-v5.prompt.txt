@@ -1,0 +1,13 @@
+Use case: identity-preserve.
+Asset: ONE hairstyle variation of the supplied Coffee illustration, same character and scene.
+Input image 1 is the exact edit target.
+
+PRIMARY CHANGE — HAIR ONLY:
+Restyle her long chestnut-brown wavy hair into a soft, relaxed LOW CHIGNON / LOW BUN at the nape of the neck, visible in this three-quarter view. Preserve her chestnut color, subtle warm highlights and natural wavy texture. It should feel casually and tastefully pinned up for making coffee, not a slick formal bridal updo or tight high bun. Maintain a gentle side part and a little natural crown softness. Leave two or three light, softly curled face-framing strands around the temples/cheek, with the rest gathered into the low bun so there is no long heavy hair draped down the chest or back. Keep both eyes and the recognizable face clearly visible. No new hair ornament, ribbon, hat or large accessory.
+
+IDENTITY LOCK: the EXACT same young East Asian adult woman's face, face shape, warm skin tone, brown eyes, nose, lips, expression and adult elongated body proportions. Change the hairstyle, not her facial identity or apparent age.
+
+KEEP ALL ELSE CONSISTENT with the supplied image: same natural three-quarter standing barista pose beside the counter, head/neck gently aligned and eyes following the cup; same relaxed arms, hands and connected milk stream into latte art; same white tee, sand apron, cream linen wide-leg trousers (no denim), caramel leather ballet flats, gold stud earrings and fine pendant. Same diagonal L-shaped pale-stone counter, warm walnut cabinets, dusty-blue tile, cream espresso machine, grinder, ceramic cups, folded linen towel, brass wall light, linen-curtained side window and neighboring brick building. Same warm light and refined illustrated rendering, clean precise contours, gentle shading, subtle grain. Do not redesign the room or add clutter, people, plants or trees.
+
+FRAME: portrait 2:3 at least1024×1536, preserve the full-body composition with both complete shoes and soles, hands and coffee tools visible. Allow generous clean floor below the feet, preferably at least8%canvasheight, and at least8%headroom; a very small pullback for these margins is fine but do not change the pose or crop. One woman only.
+No text, lettering, numerals, logos, branding, watermark, border or panels; no photorealism, glossy3D, chibi or heavy black outlines. Output ONE finished image.

@@ -1,0 +1,15 @@
+Use case: identity-preserve.
+Asset: ONE vacation-outfit revision of the supplied full-body Travel illustration.
+Image1 is the exact edit target. Preserve the SAME recognizable adult East Asian woman's face, brown eyes, warm skin tone, long wavy chestnut-brown hair, adult elongated fashion proportions, calm expression and refined illustration style.
+
+CHANGE HER OUTFIT TO FEEL ELEGANTLY ON HOLIDAY:
+Replace the blue overshirt, tee, trousers and sneakers completely with a beautifully cut IVORY/CREAM LINEN SUNDRESS: soft square neckline, comfortable wide shoulder straps, gently fitted bodice, a slim warm-brown leather waist belt, an airy A-line midi skirt falling to mid-calf with natural movement and subtle linen folds. Sophisticated and relaxed, not a formal evening gown, not childish or frilly. No jeans or trousers.
+Add a natural woven STRAW SUN HAT with a tasteful medium brim and a narrow cocoa-brown ribbon, resting slightly back so the face, brows and eyes remain unobstructed. Her same chestnut waves flow naturally underneath. No hat logo, embroidery or flowers.
+Footwear: simple tan leather flat/very-low-heel sandals with two restrained straps and a heel strap, complete feet and soles visible. Keep her small gold earrings, fine pendant and understated wristwatch. No handbag, sunglasses, large jewelry or other new props. The overall vacation palette is ivory linen, natural straw and warm tan leather.
+
+KEEP THE CURRENT ACTION/SCENE: body comfortably angled slightly toward the cream fridge, one hand placing a new separate souvenir magnet, other hand resting naturally on the carry-on suitcase handle, eyes gently observing the magnet, relaxed upright posture and stable feet. Same cream fridge, colorful separate magnets, cream/sage suitcase, apartment hallway, walnut console, runner, oak floor and warm daylight. Keep her recognizable face and natural anatomy; no stiff posing or changed facial identity. Do not change background or add plants/trees/skyline.
+No garment, fridge, suitcase or furniture may obscure her full silhouette, legs or sandals.
+
+STYLE/FRAME: exact same precise clean contours, gentle natural shading, subtle paper grain and warm muted fashion-illustration rendering as target. No heavy black outlines, chibi, photorealism or glossy3D.
+Portrait2:3 at least1024×1536. FULL BODY from the TOP OF THE HAT to BOTH SANDAL SOLES, all hands/magnet/suitcase intact. Person about70%canvasheight, at least8%clear space above hat and at least8%clear floor below soles. One woman, one scene, no cropping or zoom-in.
+No text, letters, numbers, logos, branding, watermark, border or split panels. Output ONE finished illustration.

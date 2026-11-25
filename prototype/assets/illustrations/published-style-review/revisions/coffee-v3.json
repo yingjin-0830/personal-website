@@ -1,0 +1,37 @@
+{
+  "scene": 5,
+  "revision": 3,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "coffee-v3.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-2892a130-ac50-4efc-bae1-bddc858f25fa.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "562a9fb7ba135f4aeff71f326b691fa0b9542b98c1ec350f25c47a371b622c5f",
+  "references": [
+    "coffee-v2.png"
+  ],
+  "prompt_file": "coffee-v3.prompt.txt",
+  "review_recorded_on": "2026-11-23",
+  "user_correction": "裤子不要牛仔裤，可以换一种，头部姿势呢也可也换一下，背景有点单调",
+  "changes": [
+    "Cream linen wide-leg trousers instead of denim jeans",
+    "Three-quarter head angle and gaze lowered toward latte art",
+    "Arched sage-tile coffee alcove, walnut shelving and warm brass lamp",
+    "Layered warm plaster, pale stone and terracotta floor; no trees or skyline",
+    "Same character, sand apron, gold studs/pendant, caramel ballet flats and milk-pouring action"
+  ],
+  "status": "revision requested by Ying — not approved or integrated",
+  "approved": false,
+  "website_integrated": false,
+  "visual_qa": "Full matching adult figure and complete shoes; both legs now cream linen with no denim. Head angle/gaze clearly changed toward cup. Arched coffee nook and warm lamp add background depth. Connected milk stream, no foliage, text, branding or watermark observed.",
+  "revision_request_quote": "我觉得你的姿势有点不自然，布景也有点单调",
+  "revision_request": {
+    "wardrobe": "Keep cream linen wide-leg trousers rather than jeans and the established coffee-making outfit.",
+    "pose": "Use a relaxed, anatomically natural barista pose. Align head and neck with the torso instead of an exaggerated tilt; angle the body toward a side counter with relaxed elbows near the torso and a slight gaze toward the cup.",
+    "backdrop": "Add spatial/environmental variety rather than another frontal wall-and-shelf arrangement. Planned next candidate: L-shaped coffee nook, different window and room depth, no trees or repeated skyline.",
+    "review_state": "Coffee v3 needs revision; Scene 5 remains active. Keep pending_revision on v3 until the new image has been saved.",
+    "user_quote": "我觉得你的姿势有点不自然，布景也有点单调"
+  }
+}

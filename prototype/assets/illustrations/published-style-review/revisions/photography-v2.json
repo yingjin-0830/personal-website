@@ -1,0 +1,38 @@
+{
+  "scene": 6,
+  "revision": 2,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "photography-v2.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-b9955ab1-18c6-474d-b0d0-7c3e2965946c.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "584e8e362ebee8231f0eddad98c4f8e6e47e9db8f9576f2bbbc7ee4dca5dac90",
+  "references": [
+    "../photography.png",
+    "real-estate-v3.png"
+  ],
+  "prompt_file": "photography-v2.prompt.txt",
+  "review_recorded_on": "2026-11-23",
+  "changes": [
+    "Sand trench coat, white tee, charcoal tailored wide-leg trousers and black leather ankle boots",
+    "Natural raised-camera street-photography action in three-quarter view",
+    "SoHo cast-iron architecture, diagonal street depth, crosswalk and distant taxi replace repetitive trees/brownstone/landmark skyline",
+    "Same recognizable face, long chestnut waves and restrained gold accessories"
+  ],
+  "status": "approved by Ying — selected no-hat version, not integrated",
+  "approved": true,
+  "website_integrated": false,
+  "visual_qa": "One matching adult woman, full body and both complete boots, generous headroom/ground. Camera, hands and face visible; architectural street setting without trees/flowers/Empire State Building; no text/logos/branding/watermark observed.",
+  "revision_request_quote": "1. 炭灰色贝雷帽 2. 停步观察街景",
+  "revision_request": {
+    "selected_by_ying": {
+      "hat": "炭灰色贝雷帽",
+      "pose": "停步观察街景"
+    },
+    "planned_composition": "Charcoal beret; pause to observe the street in a slight three-quarter body turn. Camera held naturally at waist in one hand, other hand in trench pocket. Preserve same face, loose chestnut hair, sand trench, dark tailored trousers, ankle boots and SoHo architecture.",
+    "review_state": "Historical trial request; superseded by Ying’s final choice approving v2 without a hat after comparing v3."
+  },
+  "approval_quote": "还是你上一张好，就上一个没有帽子的版本"
+}

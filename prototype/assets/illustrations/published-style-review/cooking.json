@@ -1,0 +1,20 @@
+{
+  "scene": 8,
+  "file": "cooking.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "generator": "Built-in image_gen.imagegen",
+  "references": [
+    "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/living-edition/source/hero-fashion.png",
+    "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/real-estate.png"
+  ],
+  "generated_source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-ab5ccc1e-ec6b-4251-9fe8-f293509a3f5c.png",
+  "sha256": "3fa22c890c6d7c158adf61cc5fc266a777178f91e7f4908843b7999c68e30c33",
+  "website_integrated": false,
+  "status": "review_only",
+  "prompt_file": "cooking.prompt.txt",
+  "composition_refinement": "Pulled camera back slightly; preserved original woman and kitchen. Full body, complete shoes, clear top/bottom space.",
+  "prior_variant": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-1535f2a9-bd06-4f56-bc01-f67c03847caa.png"
+}

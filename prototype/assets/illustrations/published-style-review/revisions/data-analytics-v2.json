@@ -1,0 +1,40 @@
+{
+  "scene": 3,
+  "revision": 2,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "data-analytics-v2.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-294bc80a-ade7-4e51-9739-f319582922a6.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "d232340d6dcd010878761bd0d586164463f736544533abdb7f2c0e7a7c9caee6",
+  "references": [
+    "../data-analytics.png",
+    "sales-marketing-v2.png"
+  ],
+  "prompt_file": "data-analytics-v2.prompt.txt",
+  "changes": [
+    "Standing tablet interaction next to wall dashboards",
+    "Deep-espresso leather low-heel loafers instead of sneakers",
+    "Slim leather belt, gold studs, fine pendant and watch",
+    "Preserved approved character identity, white blouse, wide-leg jeans and office setting"
+  ],
+  "status": "superseded by approved data-analytics v3 — not approved or integrated",
+  "approved": false,
+  "website_integrated": false,
+  "visual_qa": "One standing woman; matching character face and hair; full body and both complete shoes visible with ample headroom and floor; dashboard contains abstract charts only; no text/logos or foreground occlusion.",
+  "backdrop_note": "Ying explicitly requested changing trees and window scenery in this candidate. The next revision should remove indoor trees/plants and replace the repeated Manhattan/Empire State view with an open river and small distant bridge.",
+  "revision_request_quote": "等等，Data & Analytics 这张你把把树和窗景要换一下吧",
+  "review_history": [
+    {
+      "quote": "不错",
+      "interpretation": "Initially recorded as approval; superseded by the explicit revision request."
+    },
+    {
+      "quote": "等等，Data & Analytics 这张你把把树和窗景要换一下吧",
+      "decision": "Revise trees and window view; v2 is not the approved selection."
+    }
+  ],
+  "superseded_by": "data-analytics-v3.png"
+}

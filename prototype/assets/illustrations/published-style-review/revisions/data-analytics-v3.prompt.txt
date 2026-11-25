@@ -1,0 +1,12 @@
+Use case: precise-object-edit.
+Asset: ONE revised Data & Analytics portfolio illustration. The supplied image is the exact edit target.
+ONLY CHANGE THE ENVIRONMENT as requested. Keep the woman, her exact face, long wavy chestnut hair, expression, proportions, posture, tapping-tablet gesture, white blouse, wide-leg jeans, brown leather belt and loafers, gold earrings/necklace/watch and full-body scale UNCHANGED. Keep the wall dashboard and its abstract charts, pale-wood console and the same illustration style, framing, light quality and palette.
+
+BACKGROUND CHANGES:
+1. Remove ALL trees and green plants: the large indoor tree/planter at the left, branches/leaves entering the upper-left, the leafy plant cascading off the right console, and any plant reflections or leaf shadows. Do not replace them with flowers or other plants. Let the empty areas breathe, using the existing warm plaster wall and clear pale stone floor. The console may retain its existing simple stacked boxes; keep it quiet and uncluttered.
+2. Replace the entire view through the tall window. REMOVE the Empire State Building and all existing dense Manhattan skyscraper facades. Through the same tall window show a calm open blue-grey river with a low, distant elegant bridge spanning across it, pale sky and a quiet far riverbank. No prominent skyscrapers, no buildings resembling the Empire State Building, no greenery or trees. The window view should be airy, modest and clearly different from the other approved scenes, supporting the indoor data-analysis setting.
+3. Replace tree/leaf shadows on walls/floor with soft clean daylight and subtle straight window-frame shadows.
+
+KEEP EVERYTHING ELSE EXACTLY CONSISTENT with the supplied Data illustration. Same precise clean contours and gentle shading, subtle paper grain, muted cream/sand/dusty blue/sage/terracotta charts, natural adult elongated fashion proportions. No heavy black outlines, photorealism or glossy 3D.
+Maintain portrait 2:3 at least 1024×1536, complete body from hair top to BOTH shoe soles, complete tablet and hands. Same generous headroom and ground below her shoes, at least 8% each, person about70% canvasheight. Nothing overlaps or obscures her silhouette. One woman only.
+No text, lettering, numerals, labels, logos, watermark, borders, split panels, new people, trees, branches, leaves, plants, flowers or new props. Deliver only ONE finished image.

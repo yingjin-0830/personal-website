@@ -1,0 +1,15 @@
+Use case: identity-preserve.
+Asset type: ONE finished portrait fashion illustration for a personal portfolio, REAL ESTATE scene revision.
+INPUT ROLES:
+Image 1 is the edit target: the existing full-body Manhattan/blueprints illustration. Keep its environment, woman, face, hair, body scale, pose idea and overall framing.
+Image 2 is the authoritative published website character atlas: it shows the SAME adult woman in several poses. Use it for precise face, long wavy chestnut hair, elongated adult proportions and illustration-style identity. Output ONE woman, never a collage/atlas.
+Image 3 is the already approved graduate illustration of this same character: use only for the same recognizable face and polished drawing/rendering quality, NOT its clothes, seated pose or setting.
+
+PRIMARY CHANGE: refine the real-estate outfit with dark chocolate-brown polished leather penny loafers (small elegant low heel, closed toe, no branding), instead of sneakers. Keep the light cream tailored blazer over a plain white tee and wide-leg light-blue jeans. The jeans fall naturally just above the loafers' uppers so both entire shoes and soles are clearly visible. Add small gold hoop earrings, a delicate gold pendant necklace and a slim understated gold wristwatch visible at the blazer cuff; no bag, hat or sunglasses. Keep these accessories realistic in scale and quietly sophisticated.
+She stands naturally tall and poised, shoulders open, head upright, chest lifted without exaggeration, a relaxed three-quarter turn and a subtle weight shift onto one leg. One arm holds two rolled architectural blueprints and the other hand rests casually in a jeans pocket. Calm, confident, warm expression. Keep her face exactly recognizable, soft natural features and expressive brown eyes. Do not redesign or make her younger.
+
+SCENE: Manhattan high-rise buildings, a building frame under construction and tower crane behind her as in Image 1; soft warm daylight, cream/sand stone paving and muted blue sky. Background stays behind/beside her, never across her head/body/feet. Clean full silhouette for later cutout.
+STYLE: match the published atlas and approved graduate image's refined adult fashion illustration, precise clean contours, detailed chestnut waves and gentle soft shading. Coherent muted warm colors with subtle paper texture. No heavy black outlines, chibi body, photorealistic person or glossy 3D.
+
+COMPOSITION LOCK: portrait 2:3, 1024×1536 or larger. Show her ENTIRE body from the top of her hair to the bottom of BOTH shoes, uncropped hands and blueprints. Match Image 1's generous framing: woman about 68–72% of image height, at least 8% clear headroom AND at least 8% clear ground below both shoe soles. Keep the same adult 8-head fashion proportions, approximately centered. No foreground furniture, plants or objects obscuring the woman.
+No other people. No text, letters, numerals, signs, readable blueprint text, logos, brand marks, watermarks, borders, split panels or alternate poses. Deliver only this ONE scene.

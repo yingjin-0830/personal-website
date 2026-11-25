@@ -1,0 +1,140 @@
+{
+  "purpose": "Additional options for later website selection; original eight approved artworks unchanged. Current cover selections are tracked separately in cover-approved/manifest.json.",
+  "created_on": "2026-11-23",
+  "selected_for_site": false,
+  "replaces_approved": false,
+  "website_integrated": false,
+  "publication_authorized": false,
+  "items": [
+    {
+      "id": "photography-seated-steps-v1",
+      "scene_id": 6,
+      "base_approved_revision": "../revisions/photography-v2.png",
+      "file": "photography-seated-steps-v1.png",
+      "metadata_file": "photography-seated-steps-v1.json",
+      "prompt_file": "photography-seated-steps-v1.prompt.txt",
+      "status": "revision_requested",
+      "approved": false,
+      "selected_for_site": false,
+      "replaces_approved": false,
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "998bc80e2724bf86e5d2c02ea39a977a89c8a67d29fb72756f2ebfdbbc304db9",
+      "revision_request_quote": "等等，相机屏幕你再看一下是不是不太对",
+      "review_history": [
+        {
+          "quote": "这张很好，正是我喜欢的！",
+          "decision": "Earlier praise for the seated pose and overall image is retained; it does not approve the subsequently identified camera orientation issue."
+        },
+        {
+          "quote": "等等，相机屏幕你再看一下是不是不太对",
+          "decision": "Camera correction requested; v1 is not approved while a corrected candidate is pending."
+        }
+      ],
+      "revised_by": "photography-seated-steps-v2"
+    },
+    {
+      "id": "data-analytics-seated-computer-v1",
+      "scene_id": 3,
+      "base_approved_revision": "../revisions/data-analytics-v3.png",
+      "status": "revision_requested",
+      "approved": false,
+      "selected_for_site": false,
+      "replaces_approved": false,
+      "user_request": "Data & Analytics额外生成坐在电脑前的版本，使用时再挑选",
+      "scope_note": "Explicit seated option requested by Ying; original standing-only constraint and approved standing image stay unchanged.",
+      "generation_note": "Generated v1; viewer-facing composition revision requested.",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "39a793701f128297f6839616dc361269f482f5561a52ae88b46f21611b6ab92f",
+      "user_correction": "可以面朝我，不用看到电脑屏幕，和墙上的内容重复了",
+      "file": "data-analytics-seated-computer-v1.png",
+      "metadata_file": "data-analytics-seated-computer-v1.json",
+      "prompt_file": "data-analytics-seated-computer-v1.prompt.txt"
+    },
+    {
+      "id": "photography-seated-steps-v2",
+      "scene_id": 6,
+      "base_approved_revision": "../revisions/photography-v2.png",
+      "file": "photography-seated-steps-v2.png",
+      "metadata_file": "photography-seated-steps-v2.json",
+      "prompt_file": "photography-seated-steps-v2.prompt.txt",
+      "status": "approved_for_consideration",
+      "approved": true,
+      "selected_for_site": false,
+      "replaces_approved": false,
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "56837f8134294d53a833d4e47a2e15b25fbde7a0c27779670a16ec3d13840997",
+      "revises_alternative": "photography-seated-steps-v1",
+      "approval_quote": "好的，下一张"
+    },
+    {
+      "id": "data-analytics-seated-computer-v2",
+      "scene_id": 3,
+      "base_approved_revision": "../revisions/data-analytics-v3.png",
+      "file": "data-analytics-seated-computer-v2.png",
+      "prompt_file": "data-analytics-seated-computer-v2.prompt.txt",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "33d4d99476c0f11f846e0aaf1a3ceff01388cbb9e58fe2ccb5fdf7b248734dd6",
+      "status": "revision_requested",
+      "approved": false,
+      "selected_for_site": false,
+      "replaces_approved": false,
+      "latest_user_clarification": "看电脑办公，不用看观众",
+      "metadata_file": "data-analytics-seated-computer-v2.json"
+    },
+    {
+      "id": "data-analytics-seated-computer-v3",
+      "scene_id": 3,
+      "base_approved_revision": "../revisions/data-analytics-v3.png",
+      "file": "data-analytics-seated-computer-v3.png",
+      "prompt_file": "data-analytics-seated-computer-v3.prompt.txt",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "fc8430d9eb3b655696da54e0d08a6a751d03b7958a28532c285d7f69ac4d2211",
+      "status": "approved_for_consideration",
+      "approved": true,
+      "selected_for_site": false,
+      "replaces_approved": false,
+      "latest_user_clarification": "看电脑办公，不用看观众",
+      "metadata_file": "data-analytics-seated-computer-v3.json",
+      "approval_quote": "这张可以"
+    },
+    {
+      "id": "sales-marketing-side-presentation-v1",
+      "scene_id": 2,
+      "file": "sales-marketing-side-presentation-v1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "603c5282af8cdfedcaa12ac2956a7d3b65bbd21b2d944949ccf943f1a43c139e",
+      "base_approved_revision": "../approved/sales-marketing.png",
+      "prompt_file": "sales-marketing-side-presentation-v1.prompt.txt",
+      "requested_on": "2026-11-24",
+      "status": "selected_for_homepage",
+      "approved": true,
+      "selected_for_site": true,
+      "website_integrated": true,
+      "publication_authorized": false,
+      "user_request": "左边第二张新增侧面指向dashboard/report屏幕、正在presentation的备用照片，先生成确认",
+      "approval_quote": "确认，保留为备用",
+      "approval_scope": "Approved on 2026-11-24 as an optional asset, then selected by the subsequent user instruction recorded below.",
+      "selection_quote": "你用在封面上吧",
+      "selection_scope": "Selected for local homepage Sales & Marketing tile; publication still requires separate approval.",
+      "integration_scope": "Local homepage Sales & Marketing full/cut pair, verified at 1440x780, 1024x768 and 390x844 browser viewports; not published."
+    }
+  ]
+}

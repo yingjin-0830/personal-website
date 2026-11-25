@@ -1,0 +1,89 @@
+{
+  "asset": "prototype/assets/illustrations/cover-approved/data-analytics_cut.png",
+  "use_case": "background-extraction",
+  "tool": "built-in image_gen.imagegen",
+  "transparent_background": true,
+  "source_approved_artwork": "prototype/assets/illustrations/published-style-review/approved/data-analytics.png",
+  "source_approved_sha256": "52e0cabc0127d405e73f7a42b3c63d1bb00d2ca339d9c0ddc270c0701fed12f5",
+  "generated_source_path": "/Users/jinying/.codex/generated_images/01a20b7a-a035-7660-a292-c2d2c517164b/exec-aeb38882-e2f4-49d0-98b6-2c12257e0799.png",
+  "generated_sha256": "30df529727345a143f08c706a709a55e4577f725094bb41acd1d2f34d1375ca1",
+  "output_sha256": "30df529727345a143f08c706a709a55e4577f725094bb41acd1d2f34d1375ca1",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_range": [
+    0,
+    254
+  ],
+  "alpha_bbox": [
+    25,
+    79,
+    1004,
+    1520
+  ],
+  "alpha_bbox_by_threshold": {
+    "1": [
+      25,
+      79,
+      1004,
+      1520
+    ],
+    "10": [
+      361,
+      262,
+      636,
+      1361
+    ],
+    "128": [
+      363,
+      263,
+      635,
+      1360
+    ],
+    "200": [
+      363,
+      263,
+      635,
+      1360
+    ],
+    "250": [
+      365,
+      264,
+      634,
+      1359
+    ]
+  },
+  "corner_alpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "transparent_pixel_count": 1333201,
+  "registration_requirement": "Same 1024 x 1536 source canvas and subject placement, scale, pose. No crop/reframe.",
+  "prompt": "Use case: background-extraction.\nAsset type: pixel-registered transparent foreground layer for an illustrated homepage.\nInput image 1 is the approved edit target. REMOVE ONLY THE BACKGROUND. Keep the exact same illustrated woman and gray tablet in her hands: her face, brown wavy hair, jewelry, rolled-sleeve white blouse, blue jeans, brown belt, dark brown loafers, hands and original tablet-tapping pose must remain unchanged.\nCanvas registration is critical: output a 1024 × 1536 portrait PNG with the exact same 2:3 canvas, transparent padding, subject scale and subject location as the input. Do not crop to the subject, center, enlarge, shift, rotate, reframe or redraw her. Her hair begins around y=263 and shoes finish around y=1362; retain those positions and her original narrow centered silhouette. All four image corners must be fully transparent.\nErase the entire chart board, all charts, wall, window and window frames, cabinet, boxes, river, sky, bridge, floor, every background object and all floor/contact shadows. Keep only the complete woman including both loafers and the tablet. Preserve delicate hair edges and full garment contours. No white border, glow, drop shadow, checkerboard or colored backdrop. Output actual RGBA alpha transparency. This is exact background removal, not a new illustration.",
+  "created_utc": "2026-11-24T03:17:37.593059+00:00",
+  "pixel_processing": "Unmodified copy of built-in image_gen PNG. No Python image editing.",
+  "qa_status": "Accepted after canvas/alpha, white-composite visual, and measured integer translation registration QA.",
+  "registration_qa": {
+    "method": "Compare approved RGB source to generated subject RGB at subsampled alpha>250 interior points, eroded by two pixels horizontally and vertically; mean absolute RGB difference search over integer dx/dy in [-5,+5].",
+    "best_source_sample_offset_px": [
+      0,
+      0
+    ],
+    "best_mean_absolute_rgb_difference_0_255": 7.362377643585205,
+    "sample_count": 49499,
+    "interpretation": "Best source match is at unchanged placement. This checks translation, not pixel identity. Visual review found original pose, subject scale, canvas position and full props retained."
+  },
+  "visual_qa": {
+    "inspection": "White-background alpha composite and comparison with approved source.",
+    "complete_figure_and_shoes": true,
+    "required_props_retained": true,
+    "background_objects_removed": true,
+    "visible_halo": false,
+    "visible_scale_or_position_shift": false,
+    "note": "Generated extraction has minor pixel/texture differences from source. Very low alpha residuals (<10/255) extend beyond silhouette, invisible in white composite; original generated PNG preserved without postprocessing."
+  }
+}

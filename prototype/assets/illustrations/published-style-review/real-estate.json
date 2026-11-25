@@ -1,0 +1,20 @@
+{
+  "scene": 1,
+  "file": "real-estate.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "generator": "Built-in image_gen.imagegen",
+  "identity_reference": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/living-edition/source/hero-fashion.png",
+  "generated_source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-b9ca7f1a-2173-4483-92d2-fb5e1bbc3d96.png",
+  "sha256": "dd110e331ee947f058e1dcc6de2f9f7f12cbb6e38d360f2df00df56b919567a9",
+  "website_integrated": false,
+  "composition_note": "Complete full body and shoes, generous top and bottom margins; selected after composition refinement.",
+  "prior_variants": [
+    "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-38f406b1-8f5c-43c4-acb0-add414a09a56.png",
+    "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-8c055a5a-5889-4d36-baee-0b08a36593ab.png"
+  ],
+  "prompt_file": "real-estate.prompt.txt",
+  "refinement_prompt_file": "real-estate.refinements.prompt.txt"
+}

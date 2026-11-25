@@ -1,0 +1,23 @@
+INITIAL EXTRACTION PROMPT
+
+Use case: background-extraction.
+Asset type: registered transparent illustration layer for an existing website.
+Input image: the supplied image is the ONLY APPROVED EDIT TARGET, a 1024 × 1536 portrait illustration.
+Primary request: REMOVE ONLY BACKGROUND. Return genuine transparent-alpha PNG on EXACT SAME 1024 × 1536 (2:3) canvas.
+
+Keep the entire exact approved woman in the same standing side-stretch pose: one arm arcs above her head and the raised hand extends to the left, other hand rests on her hip. Preserve all raised fingertips, arm contours, exact face/identity/upward gaze, beige baseball cap, long chestnut ponytail and all hair strands, gold earrings and necklace, smartwatch, sage-green sleeveless fitted top and leggings, BOTH complete cream athletic shoes and laces. Preserve source rendering, lighting, colors, clothing textures, body proportions and all details. Approximate full subject bounds x250–650, y76–1390; keep the exact original pixel coordinates and original scale, with generous original empty margins.
+
+Erase ALL studio wall, baseboard, wooden floor, window light/shadows, rolled yoga mat, water bottle, background props, cast/contact shadows and every background pixel. Transparent gaps between the raised arm and head, between bent arm and waist, between legs, hair openings and all other background gaps must be real alpha=0. Retain no floor, platform, ground, support or props.
+
+CRITICAL CANVAS REGISTRATION: The result will overlay this approved source at identical x/y and dimensions. Do not crop, trim, reframe, center, zoom, enlarge, shrink, shift, rotate, re-pose, redraw, restyle or beautify the woman. Do not lower or shorten the raised hand/arm, truncate fingers or shoes, alter the stretch or clothing, replace identity or add new elements. Keep the original 1024 × 1536 canvas, original subject position and original pose exactly. Former background becomes alpha=0. Retained subject stays solid opaque with a tight antialiased contour. No halo, aura, glow, bloom, broad feathering, drop shadow, checkerboard artwork, backdrop, opaque black/white/color fill, text or watermark. Actual transparency.
+
+RAISED-HAND REGISTRATION CORRECTION PROMPT
+
+Use case: background-extraction.
+Input image 1: current transparent cutout, the EDIT TARGET.
+Input image 2: original approved 1024 × 1536 illustration, the AUTHORITATIVE SOURCE for exact pose and coordinates.
+Make ONE precise correction to Image 1: restore the raised hand and fingertips to match Image 2 at the exact source coordinates. Image 1 incorrectly extends the raised fingertips about 20 pixels farther left. In approved Image 2 the leftmost fingertips begin near x252, y79; the top of that hand is near y77. In Image 1 they begin near x232, y74. Restore the original shorter hand shape and exact wrist/finger anatomy from Image 2. Do NOT simply shift the whole arm or the body. Preserve the source position of the wrist/forearm and every other feature. Compare both images carefully.
+
+Keep the exact source 1024 × 1536 canvas and original cap, ponytail/hair, face/upward gaze, earrings/necklace, raised arm, bent arm with hand on hip, smartwatch, sage tank/leggings, full legs and BOTH complete cream trainers at current original coordinates and scale. Do not re-center, crop, reframe, zoom, scale, shift, rotate, re-pose, redraw or restyle anything else. Body, face and feet are already correctly registered.
+
+Output the clean character on actual transparent alpha. Retain no studio wall, wood floor, mat, water bottle, cast/contact shadows, background through arm/head/waist/leg/hair gaps, aura, halo, glow, bloom, opaque fill or checkerboard artwork. Retained subject solid opaque with a tight antialiased contour. Change only the raised hand/fingertips to the authoritative original, removing the stray extra length. Nothing else changes.

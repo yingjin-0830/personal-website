@@ -1,0 +1,127 @@
+{
+  "asset": "photography",
+  "operation": "background-extraction",
+  "mode": "built-in image_gen",
+  "approved_source": {
+    "path": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/approved/photography.png",
+    "sha256": "584e8e362ebee8231f0eddad98c4f8e6e47e9db8f9576f2bbbc7ee4dca5dac90",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  "generated_source_path": "/Users/jinying/.codex/generated_images/01a20b7a-e609-7201-97de-371be1705f99/exec-9a7b0a20-8e4d-4fea-8d6b-803be755f056.png",
+  "generated_source_sha256": "be5d68cd8aab2795ec359ac94fa1a37bdac0011daf404176d40c0a9d7f911c3e",
+  "output_path": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/cover-approved/photography_cut.png",
+  "output_sha256": "be5d68cd8aab2795ec359ac94fa1a37bdac0011daf404176d40c0a9d7f911c3e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "alpha_bbox": [
+    0,
+    55,
+    976,
+    1464
+  ],
+  "alpha_bbox_by_threshold": {
+    "1": [
+      0,
+      55,
+      976,
+      1464
+    ],
+    "20": [
+      306,
+      264,
+      698,
+      1387
+    ],
+    "100": [
+      306,
+      265,
+      697,
+      1387
+    ],
+    "200": [
+      307,
+      265,
+      697,
+      1386
+    ],
+    "240": [
+      307,
+      266,
+      696,
+      1386
+    ],
+    "250": [
+      307,
+      267,
+      696,
+      1386
+    ]
+  },
+  "prompts": [
+    {
+      "stage": "initial extraction",
+      "prompt": "Use case: background-extraction.\nAsset type: transparent character overlay for an existing illustrated homepage.\nInput image: supplied image is the ONLY EDIT TARGET, an already approved 1024 \u00d7 1536 portrait illustration.\nPrimary request: REMOVE BACKGROUND ONLY. Produce genuine transparent-alpha PNG on EXACT SAME 1024 \u00d7 1536 (2:3) canvas.\nPreserve the ONE approved STANDING NO-HAT woman with long loose wavy chestnut hair holding her camera RAISED to eye level, both hands on it, facing slightly left. Preserve exact face, identity, pose, camera, camera strap, cream trench coat, white top, gray wide trousers, wristwatch, jewelry and BOTH black ankle boots. Source silhouette approximately x306\u2013698, y264\u20131388; keep that exact size and coordinate placement. THIS IS THE STANDING NO-HAT SOURCE. Never add a beret, hat, seat, stool, or seated pose.\nRemove the entire city street, buildings, columns, storefronts, pedestrians, distant taxi, pavement, steps, sky, ground and all contact/cast shadows.\nCRITICAL PIXEL REGISTRATION: Do not recompose, center, crop, zoom, enlarge, shrink, shift, rotate, re-pose, reinterpret, redraw, beautify or restyle the approved subject. This output will be placed directly over the original source at the same x/y and dimensions in SVG, so every retained feature must stay at the original source coordinates. The former background pixels become alpha=0; retained person and held props stay as close to original pixels as possible. Keep the whole person including top of hair/hat, fingers, ankles, BOTH shoes and all retained props. Transparent holes between limbs, hair strands and suitcase handle must be truly transparent. No floor, base, contact shadow, cast shadow, backdrop, new decoration, halo, checkerboard artwork, text or watermark. Leave all original empty margins around the subject transparent; do not trim the canvas. Preserve source lighting, warm illustration rendering, all clothing textures and existing colors.",
+      "generated_path": "/Users/jinying/.codex/generated_images/01a20b7a-e609-7201-97de-371be1705f99/exec-cde85aff-2139-4dc9-a89b-872738e98402.png",
+      "generated_sha256": "1695679546a6d01da6e5bf6a403a7764a4b927fd9d54b439340613bf12bacf5b"
+    },
+    {
+      "stage": "halo removal refinement",
+      "prompt": "Use case: background-extraction.\nEDIT TARGET: the provided 1024 \u00d7 1536 RGBA cutout.\nPrimary request: Remove the entire soft brown/cream glow, bloom, aura and residual translucent background surrounding the character. This image incorrectly has a broad semitransparent warm halo: erase ALL those pixels to alpha=0. The result must be a clean isolated subject silhouette with completely transparent empty canvas and no surrounding glow whatsoever.\nPreserve every character and held/touched prop pixel, pose, size, source x/y coordinates, lighting, face, hair, clothing and shoes. Do not move, scale, redraw, reframe, crop, zoom or center anything. Keep exact 1024 \u00d7 1536 canvas. Keep complete body and every shoe. Keep character/props solid opaque, with only a tight 1\u20132 pixel antialiased contour. Erase background even in all gaps between arms/body/legs and gaps in handle. Keep no cast/contact shadow or floor.\n\n\nKeep standing no-hat raised-camera pose and full camera strap.\n\nThe only edit is removing the surrounding translucent HALO. Actual alpha transparency, no black/white/color fill and no checkerboard artwork.",
+      "generated_path": "/Users/jinying/.codex/generated_images/01a20b7a-e609-7201-97de-371be1705f99/exec-9a7b0a20-8e4d-4fea-8d6b-803be755f056.png",
+      "generated_sha256": "be5d68cd8aab2795ec359ac94fa1a37bdac0011daf404176d40c0a9d7f911c3e"
+    }
+  ],
+  "verification": {
+    "canvas_matches_source": true,
+    "corners_fully_transparent": true,
+    "visual_review": "Complete figure/footwear and required held/touched props retained. Background and contact/cast shadows absent when alpha-composited on dark/light QA backgrounds. Source and cut reviewed side by side at identical scales.",
+    "registration": "Original 1024x1536 canvas maintained. Selected interior landmark edge-template matching found source-to-cut translations of 0\u20132 pixels. This is an approximate registration check, not proof of pixel-identical rendering. Fine hair edges, linework and textures have generation drift; coffee/cooking top hair differs by several pixels.",
+    "registration_method": "Normalized cross-correlation of Gaussian high-pass grayscale landmark templates, searching \u00b124 pixels in approved source.",
+    "landmark_checks": [
+      {
+        "landmark": "face",
+        "source_minus_cut_displacement_px": [
+          0,
+          0
+        ],
+        "normalized_edge_correlation": 0.818
+      },
+      {
+        "landmark": "camera",
+        "source_minus_cut_displacement_px": [
+          0,
+          0
+        ],
+        "normalized_edge_correlation": 0.648
+      },
+      {
+        "landmark": "coat",
+        "source_minus_cut_displacement_px": [
+          0,
+          -2
+        ],
+        "normalized_edge_correlation": 0.834
+      },
+      {
+        "landmark": "left_boot",
+        "source_minus_cut_displacement_px": [
+          0,
+          0
+        ],
+        "normalized_edge_correlation": 0.639
+      }
+    ],
+    "alpha_note": "Generated RGBA includes a few negligible alpha 1\u201319 stray pixels outside the visible silhouette. Alpha >=20 bbox documents the visible figure extent; dark/light composited QA is clean. No canvas padding/cropping or thresholding applied."
+  },
+  "postprocessing": "Byte-for-byte copy only. Python used only for metadata/analysis/QA composites, never to edit this final raster."
+}

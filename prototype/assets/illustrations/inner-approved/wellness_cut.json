@@ -1,0 +1,143 @@
+{
+  "asset": "wellness",
+  "operation": "background-extraction",
+  "mode": "built-in image_gen",
+  "approved_source": {
+    "path": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/published-style-review/additional/wellness-v1.png",
+    "sha256": "eecc3cfa79f9ff9d84b7aae7e798edbc3c3557cce791c7ddc33d3ebb7208ba06",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  "generated_source_path": "/Users/jinying/.codex/generated_images/01a20b7a-e609-7201-97de-371be1705f99/exec-9bfd208d-46b5-4df3-9875-ba8782ca64c4.png",
+  "generated_source_sha256": "a05c00e53971dea3fe45dee0598b5c607815dac788af1ce497d0619aa8411de7",
+  "output_path": "/Users/jinying/.codex/worktrees/editorial-flat/Personal Website/prototype/assets/illustrations/inner-approved/wellness_cut.png",
+  "output_sha256": "a05c00e53971dea3fe45dee0598b5c607815dac788af1ce497d0619aa8411de7",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "alpha_bbox": [
+    33,
+    61,
+    1004,
+    1522
+  ],
+  "alpha_bbox_by_threshold": {
+    "1": [
+      33,
+      61,
+      1004,
+      1522
+    ],
+    "20": [
+      244,
+      73,
+      654,
+      1390
+    ],
+    "100": [
+      244,
+      73,
+      654,
+      1390
+    ],
+    "200": [
+      245,
+      74,
+      653,
+      1389
+    ],
+    "240": [
+      245,
+      74,
+      653,
+      1389
+    ],
+    "250": [
+      247,
+      77,
+      653,
+      1389
+    ]
+  },
+  "prompts": [
+    {
+      "stage": "initial extraction",
+      "prompt": "Use case: background-extraction.\nAsset type: registered transparent illustration layer for an existing website.\nInput image: the supplied image is the ONLY APPROVED EDIT TARGET, a 1024 \u00d7 1536 portrait illustration.\nPrimary request: REMOVE ONLY BACKGROUND. Return genuine transparent-alpha PNG on EXACT SAME 1024 \u00d7 1536 (2:3) canvas.\n\nKeep the entire exact approved woman in the same standing side-stretch pose: one arm arcs above her head and the raised hand extends to the left, other hand rests on her hip. Preserve all raised fingertips, arm contours, exact face/identity/upward gaze, beige baseball cap, long chestnut ponytail and all hair strands, gold earrings and necklace, smartwatch, sage-green sleeveless fitted top and leggings, BOTH complete cream athletic shoes and laces. Preserve source rendering, lighting, colors, clothing textures, body proportions and all details. Approximate full subject bounds x250\u2013650, y76\u20131390; keep the exact original pixel coordinates and original scale, with generous original empty margins.\n\nErase ALL studio wall, baseboard, wooden floor, window light/shadows, rolled yoga mat, water bottle, background props, cast/contact shadows and every background pixel. Transparent gaps between the raised arm and head, between bent arm and waist, between legs, hair openings and all other background gaps must be real alpha=0. Retain no floor, platform, ground, support or props.\n\nCRITICAL CANVAS REGISTRATION: The result will overlay this approved source at identical x/y and dimensions. Do not crop, trim, reframe, center, zoom, enlarge, shrink, shift, rotate, re-pose, redraw, restyle or beautify the woman. Do not lower or shorten the raised hand/arm, truncate fingers or shoes, alter the stretch or clothing, replace identity or add new elements. Keep the original 1024 \u00d7 1536 canvas, original subject position and original pose exactly. Former background becomes alpha=0. Retained subject stays solid opaque with a tight antialiased contour. No halo, aura, glow, bloom, broad feathering, drop shadow, checkerboard artwork, backdrop, opaque black/white/color fill, text or watermark. Actual transparency.",
+      "generated_path": "/Users/jinying/.codex/generated_images/01a20b7a-e609-7201-97de-371be1705f99/exec-4f2b65f4-4e3a-44af-a4d2-e1fee13bd919.png",
+      "generated_sha256": "92af81f371985ac29815dfe3fef563dc0a5ee04aa1f7738aadb03925a0193475"
+    },
+    {
+      "stage": "raised-hand registration correction",
+      "prompt": "Use case: background-extraction.\nInput image 1: current transparent cutout, the EDIT TARGET.\nInput image 2: original approved 1024 \u00d7 1536 illustration, the AUTHORITATIVE SOURCE for exact pose and coordinates.\nMake ONE precise correction to Image 1: restore the raised hand and fingertips to match Image 2 at the exact source coordinates. Image 1 incorrectly extends the raised fingertips about 20 pixels farther left. In approved Image 2 the leftmost fingertips begin near x252, y79; the top of that hand is near y77. In Image 1 they begin near x232, y74. Restore the original shorter hand shape and exact wrist/finger anatomy from Image 2. Do NOT simply shift the whole arm or the body. Preserve the source position of the wrist/forearm and every other feature. Compare both images carefully.\n\nKeep the exact source 1024 \u00d7 1536 canvas and original cap, ponytail/hair, face/upward gaze, earrings/necklace, raised arm, bent arm with hand on hip, smartwatch, sage tank/leggings, full legs and BOTH complete cream trainers at current original coordinates and scale. Do not re-center, crop, reframe, zoom, scale, shift, rotate, re-pose, redraw or restyle anything else. Body, face and feet are already correctly registered.\n\nOutput the clean character on actual transparent alpha. Retain no studio wall, wood floor, mat, water bottle, cast/contact shadows, background through arm/head/waist/leg/hair gaps, aura, halo, glow, bloom, opaque fill or checkerboard artwork. Retained subject solid opaque with a tight antialiased contour. Change only the raised hand/fingertips to the authoritative original, removing the stray extra length. Nothing else changes.",
+      "generated_path": "/Users/jinying/.codex/generated_images/01a20b7a-e609-7201-97de-371be1705f99/exec-9bfd208d-46b5-4df3-9875-ba8782ca64c4.png",
+      "generated_sha256": "a05c00e53971dea3fe45dee0598b5c607815dac788af1ce497d0619aa8411de7"
+    }
+  ],
+  "verification": {
+    "canvas_matches_source": true,
+    "corners_fully_transparent": true,
+    "visual_review": "Complete standing side-stretch figure, raised hand/fingers, cap/ponytail/hair, face/outfit/watch/jewelry, legs and both trainers retained. Studio wall/floor/mat/bottle, shadows and background gaps absent. Inspected actual alpha composites on dark/light backgrounds.",
+    "registration_method": "Normalized cross-correlation of Gaussian high-pass grayscale landmark templates searching \u00b124 pixels in approved source.",
+    "landmark_checks": [
+      {
+        "landmark": "raised_hand",
+        "source_minus_cut_displacement_px": [
+          5,
+          0
+        ],
+        "normalized_edge_correlation": 0.708
+      },
+      {
+        "landmark": "face",
+        "source_minus_cut_displacement_px": [
+          0,
+          0
+        ],
+        "normalized_edge_correlation": 0.768
+      },
+      {
+        "landmark": "watch",
+        "source_minus_cut_displacement_px": [
+          2,
+          0
+        ],
+        "normalized_edge_correlation": 0.87
+      },
+      {
+        "landmark": "top",
+        "source_minus_cut_displacement_px": [
+          -1,
+          0
+        ],
+        "normalized_edge_correlation": 0.586
+      },
+      {
+        "landmark": "left_shoe",
+        "source_minus_cut_displacement_px": [
+          0,
+          -1
+        ],
+        "normalized_edge_correlation": 0.719
+      },
+      {
+        "landmark": "right_shoe",
+        "source_minus_cut_displacement_px": [
+          -2,
+          -1
+        ],
+        "normalized_edge_correlation": 0.586
+      }
+    ],
+    "registration_limitations": "Canvas/overall pose and body placement maintained; extraction is generative, not pixel-identical. Initial hand extended about 20px farther left; correction improved it, with leftmost visible fingertips now about 8px left of source (cut alpha>=20 x244 vs source visually ~252), and a few pixels higher. Fine contours/texture also have generative drift. Do not claim exact pixel registration.",
+    "alpha_note": "Negligible alpha 1\u201319 residue outside visible silhouette. Visible alpha>=20 bbox documented; no visible surrounding halo on actual dark/light composites."
+  },
+  "postprocessing": "Byte-for-byte copy of built-in output only. Python used for metadata/analysis/QA composites only, never to edit final raster."
+}

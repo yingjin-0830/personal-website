@@ -1,0 +1,28 @@
+{
+  "scene": 1,
+  "revision": 3,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "real-estate-v3.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-4f9a4f28-4526-4193-a353-93a220ca85d2.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "b7227220d961c75460d7006701836cd9538a461baec406bef380952291ba6658",
+  "references": [
+    "real-estate-v2.png"
+  ],
+  "prompt_file": "real-estate-v3.prompt.txt",
+  "role": "Marketing Analyst at a New York real-estate development company",
+  "user_correction": "去掉背后的建筑工地和手里的图纸。我是marketing analyst，要复合我的角色",
+  "changes": [
+    "Removed construction site, building skeleton, crane, construction fencing and barriers",
+    "Replaced backdrop with completed Manhattan residential buildings and streetscape",
+    "Replaced rolled blueprints with a tablet showing simple charts",
+    "Preserved character identity, outfit, loafers and accessories"
+  ],
+  "status": "approved by Ying — not integrated",
+  "approved": true,
+  "website_integrated": false,
+  "approval_quote": "ok, 这张确认"
+}

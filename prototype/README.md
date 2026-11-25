@@ -1,35 +1,59 @@
-# Ying Jin — living editorial edition
+# Ying Jin — Arc edition v10
 
-The `editorial-flat` edition is a buildless bilingual portfolio, published by the repository’s GitHub Pages workflow. Preview it with `python3 -m http.server 4174 --bind 127.0.0.1 --directory prototype`. See the root README for publication and content maintenance.
+This edition reimplements Ying’s supplied `home-reference.html` in the existing static HTML/CSS/JavaScript project. It replaces the old cover, pinned Professional stage and Personal book with an SVG arc homepage and coherent Work/Life pages. No framework or heavy library is added. See [the design system](../DESIGN_SYSTEM.md) for the maintenance contract.
 
-## Runtime
+## Run locally
 
-`index.html` loads `editorial-content.js`, `i18n.js`, `magnet-art.js`, `topic-art.js`, `personal-renderers.js`, `journey.js`, `motion.js`, `personal-book.js` and `editorial.js`. Styling is layered through `editorial.css`, `editorial-refinements.css`, `personal.css` and `living-edition.css`. The older illustrated files remain as archived reference and are not loaded by the current entry.
+From the repository root:
 
-## Cover and typography
+```sh
+python3 -m http.server 4174 --bind 127.0.0.1 --directory prototype
+```
 
-The cover retains the approved adult character identity, with a checked taupe blazer, chocolate knit, blue shirt, wide-leg jeans and loafers. The new transparent four-pose atlas is `assets/living-edition/hero-fashion.webp`: standing, blinking, greeting and thinking. Its native canvas is 1254 × 1254 (four 627 × 627 cells); no 4K resolution is claimed. Original generated PNGs remain in `source/`. Letter-by-letter entrances preserve complete screen-reader text. The translucent Merriweather name remains behind the figure.
+Open [http://127.0.0.1:4174/](http://127.0.0.1:4174/). Retain the server while reviewing. The project is a local preview; publication needs Ying’s explicit approval of the current visual result.
 
-English uses local Merriweather-derived webfonts, internally renamed **Ying Editorial Serif** for the licensed subset. Chinese display text uses a Bold Source Han Sans SC-derived webfont, internally named **Ying Editorial Han**. Chinese body text requests installed Microsoft YaHei, then system Chinese sans fonts; YaHei is not redistributed. Font licenses, upstream URLs and source hashes are in `assets/fonts/`. Optional `scripts/prepare-editorial-fonts.py` regenerates subsets from the ignored original font cache; it is not needed to run or deploy the site. The Chinese subset includes GB2312 and all current source characters, with system fallback for any future character outside that coverage.
+## Runtime map
 
-## Professional
+`index.html` restores `yj-mode` through the synchronous `components/mode.js` script before stylesheet paint, preloads Montserrat and loads `editorial.js` as an ES module. Storage reads/writes are guarded. `editorial.css` imports `tokens.css`, `base.css`, and the Chrome/Home/Work/Life/Magnets/Dialog component stylesheets.
 
-The ten résumé / LinkedIn stories remain: four Work, four Projects and two Education. A pinned stage uses native vertical scrolling to slide horizontally through stories within a chapter. The side chapter rail rolls into the next chapter after the current chapter’s last story. Only the active card is interactive; its adjacent visual handoff is inert and hidden from assistive technology. Reading intervals hold a card at its center, and chapter boundaries use a short vertical fade. Reverse scrolling, PageUp/PageDown/Home/End and direct `#professional/chapter/entry` links follow the same model in `journey.js`.
+`editorial.js` imports the retained global content/localization/magnet files and composes the page modules. `components/routes.mjs` parses fragment routes; `components/site-chrome.js` renders the small wordmark, mode/language controls and one contact footer. Work/Life enter with the shared fade/upward-slide motion. Resume, project and destination details use the shared semantic dialog with focus return. Contact is direct email in the footer; the old Contact popup is removed.
 
-The scroll coordinator keeps layout-induced scroll events from changing the selected record during viewport restoration. Language switches retain the current story; detail close returns to its anchor. Work / Projects / Education characters keep the approved 887-pixel-per-pose HD outfit sheets in `assets/editorial-hd/`. Their short slide/fade handoff follows the card transition. There is no jump or walking exit.
+The active routes are `#home`, `#work/<section>`, `#life/<hobby>` and `#life/travel/collection`. Examples: `#work/real-estate`, `#work/projects`, `#work/skills`, `#work/education`, `#life/reading`, `#life/wellness`. Legacy `professional` and `personal` fragments are accepted as aliases. Native browser back/forward and deep links remain part of verification.
 
-Résumé / LinkedIn / Contact remain grouped above the stage. The résumé download is the exact user-supplied PDF at `assets/docs/Ying-Jin-Resume.pdf`; Contact uses the résumé’s `ying.jin0830@gmail.com`, mailto and clipboard actions. Company logos, photo licensing and résumé source mapping are in `content-sources.md`, `assets/logos/sources.json` and `assets/covers/sources.json`. Duke’s cover is an actual campus photograph; other stock images are identified as illustrative.
+## Homepage
 
-## Personal
+`home.js` builds one fixed-viewBox SVG. `components/arc-model.mjs` provides the eight touching annular sectors, their scene rectangles/centers, and the distance-based Dock formula. Clipped scene backgrounds and unclipped matching figure cutouts use the same coordinate transforms. Left-half tiles represent Real Estate, Sales & Marketing, Data & Analytics and Education; right-half tiles represent Coffee, Cooking, Photography and Travel. Sales & Marketing uses the approved side-facing dashboard presentation, and Photography uses the seated-on-steps alternative. Figures paint from the outer edge toward the center on both sides; interaction temporarily promotes the closest figure and restores this resting order afterward without moving the keyboard-focused link.
 
-Six themes emerge from a CSS 3D book: coffee, wellness, cooking, music, travel and photography. Music replaces the previous social-media theme at Ying’s request. Each independently clickable object scales on hover/focus and opens a zooming themed story. The book can replay its opening. Touch layouts retain large targets and native page scrolling.
+Pointer/focus interactions activate a half, dim the opposite half and show a compact tooltip. Empty-space activation locks a half for touch use. Keyboard-focusable tiles navigate to the corresponding content. `components/typewriter.js` animates the homepage greeting and Work/Life accent lines, cancels stale timers on route replacement, and immediately shows final text for reduced motion.
 
-The details contain Ying’s supplied coffee, wellness, cooking and travel views, with English / Chinese counterparts. Music and photography have restrained interest copy rather than invented listening history or photographs. Each theme has two generated character poses, stored in two 3 × 2 atlases (`personal-a.webp` and `personal-b.webp`); the 1536 × 1024 native atlases provide 512 × 512 cells. The object atlas uses the same six-cell format. The source PNGs, dimensions, transparency checks and generation notes are in `assets/living-edition/`.
+## Work and Life
 
-Travel first opens its story, then an explicit button opens `#personal/travel`: the retained walnut display and twelve original vector magnets (eleven places and one exploring state). Browser back/forward and direct Travel links are preserved. Personal photo areas remain labeled placeholders for Ying’s real photos and notes.
+`components/work.js` presents four sourced roles with concise result-focused bullets, four academic projects, three skill groups and both degrees. Dates/metrics come from the existing résumé/LinkedIn content. Keep Deloitte’s retention result qualified as estimated and distinguish Kuaishou’s two GMV-growth contexts.
 
-The shared transition runner cancels superseded or closing animations and protects replacement ownership. The modal’s close control stays in a fixed location while the story content zooms. System reduced-motion preferences shorten entrances and remove continuous floating; no extra motion toggle is displayed.
+`components/life.js` presents six blocks: Wellness, Cooking, Travel, Coffee, Music and Photography. Reading has been removed from navigation, content and allowed anchors; old Reading links open Life without an anchor. The existing six narratives are retained. Scene/cut pairs preserve a consistent fashion-illustration identity. No personal photographs, listening records, recipes, fitness results or credentials should be invented.
 
-## Verification
+Travel still opens the approved walnut frame with eleven individual destination magnets and one exploring state. `magnet-art.js` retains the original artwork; the surrounding collection UI and destination dialogs adopt the global typography/palette. The footer preserves `ying.jin0830@gmail.com`, Resume, GitHub and LinkedIn. Resume opens the rendered preview of the exact supplied PDF, with a top-right download; regenerate the preview if the source PDF changes.
 
-Run `node --test` from the repository root (Node.js 24 in CI). Tests cover chapter order, horizontal / vertical boundaries, reversals, resized anchors, scroll restoration scheduling, animation replacement/cancel, bilingual narratives, escaping and Travel’s collection action. Visual QA covers wide, narrow and short windows, six topic details, recruiting resources, translations and modal focus. QA captures and responsive test pages are ignored under `prototype/qa/`.
+## Fonts and illustrations
+
+All interface type uses the Montserrat stack defined once in `tokens.css`. The self-hosted Latin variable WOFF2 is about 35 KB, comes from the official Google Fonts distribution and retains its OFL license. It is preloaded and uses `font-display: swap`. Do not request the old serif/Chinese display assets as independent site families.
+
+The homepage uses paired `_full.webp` and `_cut.webp` files under `assets/illustrations/cover-approved/`, registered on identical 1024 × 1536 canvases. Six source PNGs come from the unchanged `published-style-review/approved/` set. Sales & Marketing selects the approved `sales-marketing-side-presentation-v1.png` and serves the `sales-marketing-presentation` full/cut pair. Photography selects `photography-seated-steps-v2.png` and serves the `photography-seated` pair. Both selected alternatives live under `published-style-review/alternatives/`. Data & Analytics keeps its original standing artwork. The original eight-scene gallery, front-facing Sales & Marketing assets, standing Photography assets and seated Data alternative remain unchanged and available.
+
+Backgrounds use quality-92 WebP without resizing; cutouts use lossless WebP, with exact alpha and visible RGB verified against the generated PNG derivatives. The generated extraction can differ slightly in hair/texture from the scene. See the cover directory’s README and manifest for selected-source provenance and regeneration.
+
+Work’s Education and Life’s Coffee, Cooking, seated Photography and Travel share the corresponding approved 1024 × 1536 WebP pairs. Their dimensions reserve layout space and keep the full/cut layers registered; Life uses the image’s intrinsic aspect ratio. Wellness and Music use individually confirmed additional scenes from `published-style-review/additional/`, encoded to `inner-approved/` by `scripts/prepare-inner-art.py`. The encoder validates approval flags, source hashes, dimensions and visible RGBA. Wellness uses the approved standing stretch scene, and Music uses the approved cross-legged rug scene; unapproved drafts remain outside the runtime. Old reference files and Travel’s wooden frame/magnets remain intact.
+
+Interface colors, type, spacing and general motion durations belong only in `tokens.css`. Component styles reference custom properties. Preserved illustration/magnet pigments are artwork rather than separate UI themes. No inline base64 images or rounded/shadowed interface cards.
+
+## Validation and publication
+
+```sh
+node --test prototype/tests/*.test.cjs
+```
+
+Keep existing content/localization tests and the new arc geometry/routing tests. Browser QA must include 1440, 1024 and 390 px widths, dark/light modes, no horizontal overflow, name readability, hover/focus/touch activation, keyboard routing, mode persistence, reduced motion, bilingual content and Travel. Reserve image dimensions and the SVG viewBox; verify layout shift after font loading.
+
+WCAG AA contrast in both modes and Lighthouse accessibility ≥95 are requirements to measure. Do not state a Lighthouse score without running the audit, and do not equate viewport simulation with real-phone or Safari testing. Store local screenshots/harnesses under ignored `qa/`; the pre-arc snapshot is `qa/archives/editorial-before-arc/` and is not loaded by the site.
+
+Do not push to the auto-deploying branch or publish until Ying approves the local effect. The existing GitHub Actions workflow deploys `prototype/` from `editorial-flat` only after its checks pass.

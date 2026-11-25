@@ -1,0 +1,30 @@
+{
+  "scene": 5,
+  "revision": 5,
+  "generator": "Built-in image_gen.imagegen",
+  "file": "coffee-v5.png",
+  "source": "/Users/jinying/.codex/generated_images/01a1b819-7186-75f1-8c5a-34095022365e/exec-50b8e047-6117-439e-999a-381325747494.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "fefe32b8e4df0330e1d9ed7086e132354554974b5ab7c3664c7b7523bd4bf374",
+  "references": [
+    "coffee-v4.png"
+  ],
+  "prompt_file": "coffee-v5.prompt.txt",
+  "review_recorded_on": "2026-11-23",
+  "user_correction": "或许可以换一个发型试试？",
+  "changes": [
+    "Soft chestnut low chignon at nape with a few face-framing curls",
+    "Preserved recognizable face, outfit, barista action and diagonal coffee-room setting"
+  ],
+  "status": "approved by Ying — not integrated",
+  "approved": true,
+  "website_integrated": false,
+  "visual_qa": {
+    "observed": "Low bun clearly replaces long loose hair; same adult character, full body and both shoes shown, connected milk stream, no text/logos/trees.",
+    "framing_note": "Lower ground margin remains roughly5%, less than original8% target; retained as hairstyle review candidate, not integrated."
+  },
+  "approval_quote": "ok,这张可以了。下一张"
+}
