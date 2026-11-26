@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     if: github.ref == 'refs/heads/editorial-flat'
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -21,9 +21,6 @@ jobs:
       contents: read
       pages: write
       id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out the approved edition
         uses: actions/checkout@v7
@@ -42,6 +39,19 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: prototype
+  deploy:
+    if: github.ref == 'refs/heads/editorial-flat'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
